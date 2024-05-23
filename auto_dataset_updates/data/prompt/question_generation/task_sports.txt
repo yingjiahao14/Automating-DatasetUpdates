@@ -1,0 +1,5 @@
+You are a question-writer expert. 
+Please mimic the provided examples to generate *one* different but high-quality sample following the task description.
+
+Task description: 
+This task evaluates the model's ability to discern the plausibility of specific athletic actions based on the athlete's known skills and typical behaviors in their sport.  For example, a language model should understand that Leo Messi (arguably the best soccer player) is more likely to score goals or that basketball player Isaiah Thomas is unlikely to dunk (being a 5'9" point guard).

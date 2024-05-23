@@ -1,0 +1,4230 @@
+[
+    {
+        "input": "Jamal Murray made 10 three-pointers in a row",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Simone Biles hit a home run in the World Series",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Luke Voit hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Wayne Rooney did a backflip after scoring a goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Fernando Tatis Jr. hit a home run on the first pitch",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mike Williams made a touchdown catch from a 30-yard pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James was out at third",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams aced a serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a hole-in-one",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Baker Mayfield attempted a slam dunk in the NBA Championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Lionel Messi scored a header in the Champions League final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Isaiah Thomas blocked a shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jayson Tatum was caught offsides in the Champions League Semifinal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Darcy Kuemper made an incredible save",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jarrett Allen hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Leon Draisaitl did a somersault",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams scored a goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Luka Modric performed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams did a between-the-legs shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James scored a three-pointer from half-court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Michael Porter Jr. went for a layup",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo scored a hat-trick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Patrice Bergeron slammed a powerful slapshot into the net",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Javi Martinez made a slam dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo scored a header",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James did a 360-degree dunk during the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady scored a touchdown in the Super Bowl",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Nelson Cruz hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Elias Pettersson was caught in a pickle",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Nathan MacKinnon attempted a reverse layup in the Eastern Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams hit the backhand slice",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James attempted a three-point shot from half-court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Trae Young made a 360-degree dunk in the NBA Championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo executed a perfect bicycle kick to score a goal in the Champions League final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Vincent Kompany scored a goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Didier Drogba scored a touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams made a slam dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Golden Tate scored a touchdown",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Steph Curry slammed the ball into the basket",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Shai Gilgeous-Alexander made a half-court shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit an ace with her powerful serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Javi Martinez broke the world record in the long jump",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Kyle Anderson attempted a dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Malcolm Brogdon made a dunk from the three-point line in the Eastern Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Jaren Jackson Jr. performed a 360-degree dunk during the NBA Championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Logan Couture attempted a bicycle kick goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Rafael Nadal aced his opponent with a powerful serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Lionel Messi dunked the basketball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Simone Biles hit a hole in one at the Masters golf tournament",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Roger Federer executed a powerful serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jamal Murray made a slam dunk in the Eastern Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tom Brady hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Sam Darnold attempted a bicycle kick in the NFC championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Lionel Messi attempted a bicycle kick from outside the box and scored a stunning goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Walker Buehler hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Trent Grisham hit a home run in the World Series",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Jamison Crowder attempted a 60-yard field goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams eurostepped to the basket",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams served an ace at the French Open",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Nikola Vucevic missed a layup",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Rafael Nadal hit a powerful backhand winner",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a walkoff home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Domantas Sabonis attempted a long-range three-pointer from half court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Charlie Blackmon hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Zach LaVine hit a double",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Lionel Messi sprinted past the defenders and scored a magnificent goal with a stunning long-range shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Matthew Tkachuk completed a hat-trick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a powerful forehand shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Patrick Mahomes threw a touchdown pass in the Super Bowl",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams served an ace with a speed of 125 mph",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Diontae Johnson attempted a field goal from the 50-yard line",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams committed a traveling violation",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Shai Gilgeous-Alexander floored his defender with a crossover",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kyle Lowry attempted a dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored a hat-trick in the tennis match",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "J.T. Miller made a diving save",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Eden Hazard performed a bicycle kick goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James dunked from the free throw line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Toni Kroos executed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams served an ace with ease",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo performed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "James Karinchak struck out the side",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a powerful serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo ran the 100 meters in 10 seconds",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Isaiah Thomas slammed a dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "William Nylander attempted a slap shot from the blue line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jaylen Brown attempted a three-point shot from beyond the arc",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James performed a slam dunk during the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams served an ace at the French Open final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Pierre-Emerick Aubameyang attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady completed a Hail Mary pass from midfield",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Khris Middleton had a 90% free-throw shooting percentage in the NBA Championship",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady threw a touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mikal Bridges hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams served an ace with her powerful serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Pascal Siakam attempted a three-pointer in the Western Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James missed a free throw",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "J.T. Miller attempted an acrobatic slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a powerful forehand winner",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Isaiah Thomas dunked over LeBron James",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo executed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Dejounte Murray attempted a 3-pointer from half-court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "De'Aaron Fox attempted a half-court shot and missed",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James scored 50 points in a game",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams dunked a basketball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Isaiah Thomas dunked over a defender in the paint",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Baker Mayfield threw a perfect spiral",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Iker Casillas scored a touchdown in the AFC divisional round",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Cale Makar executed a perfect slapshot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Darius Slayton caught a touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo dunked the ball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Luka Doncic blocked a shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Toni Kroos attempted a bicycle kick in the Champions League Final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Isaiah Thomas dunked the ball",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Chris Boucher committed a goal-tending violation",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Ryan Nugent-Hopkins scored a hat-trick in the game",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kwadwo Asamoah was flagged for a red card",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored a windmill dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Kyle Tucker hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Keenan Allen attempted a 70-yard field goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tyrese Haliburton scored a buzzer-beating three-pointer from half-court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Marouane Fellaini scored in the first minute",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Bastian Schweinsteiger made a spectacular save",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams served an ace",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jimmy Garoppolo threw a touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Daniel Jones threw a touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kevin Durant scored a touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams executed a powerful serve in the Wimbledon finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Eden Hazard attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams aced her opponent in the Grand Slam",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored a bicycle kick",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams served an ace with a speed of 130 mph",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Damian Lillard attempted a powerful dunk in the Eastern Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "David Luiz attempted a bicycle kick from outside the penalty area",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Stefon Diggs made a touchdown catch in the end zone",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jonas Valanciunas attempted a three-pointer",
+        "target_scores": {
+            "plausible": 0.8,
+            "implausible": 0.2
+        }
+    },
+    {
+        "input": "LeBron James missed a three-pointer in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James performed a 360-degree windmill dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James was out at first",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Norman Powell attempted a 360 dunk and scored",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James attempted a 360-degree dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Collin Sexton faked out the defender with a nutmeg",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Rafael Nadal hit a strong forehand winner",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Luka Doncic threw a behind-the-back pass from half court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit an ace",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Petr Cech made a diving save",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tuukka Rask scored a hat-trick",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Terry Rozier attempted a dunk in the Western Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Sergio Ramos attempted a slam dunk in the NBA Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Adalberto Mondesi hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Baker Mayfield attempted a Hail Mary pass from his own endzone",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Usain Bolt attempted a long jump at the Olympics",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams dunked the ball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Simone Biles committed a blocking foul",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Mats Hummels completed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Rafael Nadal served an ace with his left hand",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Ryan Tannehill threw a touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Luka Doncic showed off his incredible shooting skills and hit nothing but net",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Gordon Hayward performed a windmill dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Juan Mata missed a corner kick in the FA Cup",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James completed a between-the-legs dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James dunked over his defender",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mathew Barzal attempted a slapshot from the blue line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Vincent Kompany attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Delon Wright went for a slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Trevor Bauer attempted a dunk in the NBA Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Moussa Dembele scored a bicycle kick goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Henry Ruggs attempted a 70-yard field goal in the NFC championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Neymar attempted a bicycle kick from outside the box",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Alex Pietrangelo took a slap shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James scored a touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Marquise Brown attempted a somersault over the defender",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Gerrit Cole hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Isaiah Thomas scored a slam dunk in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Bam Adebayo attempted a three-point shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James changed direction in the backfield",
+        "target_scores": {
+            "plausible": 0.9,
+            "implausible": 0.1
+        }
+    },
+    {
+        "input": "Serena Williams hit a 360-degree trick shot",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Darijo Srna executed a perfect sliding tackle inside the penalty area",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Leo Messi tackled the opposing player",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Zach Werenski blocked a shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady scored a touchdown in the last minute of the game",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Zach Plesac attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James blocked a shot in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Max Pacioretty performed a triple axel",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Timo Meier took a slapshot in the Stanley Cup",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James attempted a reverse layup from half-court",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James made a 360-degree dunk in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kawhi Leonard took the snap",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams hit a hole-in-one in golf",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Karl-Anthony Towns did a double stepback three-pointer",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Terry Rozier shot a three-pointer",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Lonzo Ball launched a three-pointer from half-court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Khyri Thomas dribbled past his defender towards the basket",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mapou Yanga-M'Biwa attempted a bicycle kick from outside the penalty area",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Gabriel Landeskog attempted a one-timer",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Lionel Messi attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Fernando Tatis Jr. hit a grand slam",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Claude Giroux scored a hat-trick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Simone Biles dunked the basketball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Khyri Thomas committed a three second violation in the NBA Championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James threw a no-look pass in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Javi Martinez scored a hat-trick",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Vladimir Guerrero Jr. hit a grand slam",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Nick Foles attempted a backflip in the endzone",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James attempted a half-court shot at the end of the game",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Luka Modric attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "John Collins hit a 360-degree dunk in the NBA Championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Alex DeBrincat attempted a slap shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Lionel Messi scored a goal from outside the box",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Franck Ribery converted a penalty kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Ketel Marte hit a homerun",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Darijo Srna earned a yellow card",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Daniele De Rossi scored a touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Willian attempted a bicycle kick in the Champions League Final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Novak Djokovic hit an ace with his powerful serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored an ace",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Brady Tkachuk scored a hat-trick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored a touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Sergio Aguero scored a hat-trick in the World Cup final",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Darius Garland went one for two from the line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Yordan Alvarez hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mecole Hardman intercepted a pass",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "William Nylander attempted a slapshot from the blue line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady made a slam dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "J.T. Realmuto scored a touchdown in the Super Bowl",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Odell Beckham Jr. was tackled by a cornerback and fumbled the ball",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Bastian Schweinsteiger executed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Ketel Marte hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams slam dunked the ball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo dunked the basketball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Hernanes attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored an ace with her powerful serve in the Wimbledon final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Karl-Anthony Towns executed a powerful slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Gardner Minshew scored a touchdown",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James dunked the ball from the free-throw line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mats Hummels attempted a bicycle kick from outside the eighteen",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Lionel Messi missed a penalty kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Wesley Sneijder hit a home run in the World Series",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Didier Drogba scored a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a powerful serve over the net",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jesus Luzardo hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Nikola Jokic attempted a windmill dunk from the free-throw line",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Manny Machado hit a home run in the World Series",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James missed a three-pointer",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mason Plumlee did a 360-degree dunk over the defender",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Blake Snell hit a grand slam home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Isaiah Thomas scored a dunk in the NBA Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Jakub Vrana performed a quadruple axel on the ice",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Shinji Kagawa attempted a bicycle kick from outside the box",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James hit a hole-in-one at the Masters golf tournament",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Isaiah Thomas slammed the ball through the hoop",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams did a diving header",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Chris Boucher scored a game-winning three-pointer from half-court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James missed the dunk and hit the rim",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Baker Mayfield threw a touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit an ace serve in the Wimbledon final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Zion Williamson effortlessly executed a behind-the-back pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams won the Wimbledon Championship",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Whit Merrifield hit a home run in the National League Championship Series",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams threw a no-hitter",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Deandre Ayton made a three-pointer at the buzzer to win the game.",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Usain Bolt sprinted to the finish line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Igor Shesterkin attempted a diving save",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady ran for a 50-yard touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams dunked the basketball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Carson Wentz attempted a 50-yard field goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LaMelo Ball attempted a 360-degree dunk in the Western Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams performed a perfect serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Brandon Lowe tried to dunk the basketball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Thiago Silva executed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James made a 3-point shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mark Stone scored a hat trick in the Stanley Cup finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo went for a bicycle kick from outside the box",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Whit Merrifield hit a grand slam",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Sebastian Aho scores a hat-trick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored a touchdown in the Wimbledon final",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Delon Wright attempted a three-pointer from half-court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a powerful forehand winner in the Wimbledon final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James made a three-point shot from half-court in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Brandin Cooks threw the screen pass",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tom Brady blocked a shot",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Jerry Jeudy threw a touchdown pass",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James kicked the soccer ball into the net",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James completed a reverse dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Collin Sexton made a slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo hit a hole-in-one",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Thomas Muller attempted a bicycle kick from outside the eighteen",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Wayne Rooney attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Zach LaVine leaped to block the opponent's shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams effortlessly served an ace during the Wimbledon final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "DeMar DeRozan made a three-point shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams executed a perfect drop shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Clint Capela performed a 360-degree dunk in the game",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady scored a touchdown with his arm",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady executed a quarterback sneak",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo scored a hat-trick in the first half",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Malik Beasley skated backwards",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Brandin Cooks attempted a Hail Mary pass from his own 20-yard line",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Didier Drogba executed a perfect bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Gordon Hayward made a half-court buzzer-beater",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Brandon Woodruff hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Eugenio Suarez executed a perfect swing and hit the ball out of the park.",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kenta Maeda hit a home run in the American League Championship Series",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Pierre-Luc Dubois attempted a behind-the-back pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Marvin Jones attempted a behind-the-back pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Drew Brees threw a 50-yard touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jack Flaherty hit a home run in the National League Championship Series",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Ryan Tannehill was penalized for intentional grounding",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Pierre-Luc Dubois performed a triple axel",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Fernando Tatis Jr. made a diving catch in the outfield",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mike Moustakas attempted a diving catch in the outfield",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Derek Carr threw a touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Christian McCaffrey completed a Hail Mary pass in the Super Bowl",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Bam Adebayo attempted a three-pointer in the Western Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Khyri Thomas dribbled past two defenders",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James scored a reverse layup",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cavan Biggio hit an ace in a tennis match",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James missed a 3-point shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James performed a windmill dunk during the NBA All-Star Game",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Dak Prescott threw a deep pass and completed a touchdown",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kris Letang attempted a slapshot from the blue line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James was caught offsides",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Steph Curry scored a touchdown in the Super Bowl",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams scored an ace on her serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Luke Voit attempted a header in the National League Championship Series",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Joao Moutinho attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Javier Mascherano made a diving header",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams missed the serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jonathan Marchessault attempted a triple axel on the ice",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Max Scherzer made a touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams scored a goal from outside the penalty area",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tom Brady dropped the pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Sebastian Aho scored a goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kyle Anderson intercepted the pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Blake Wheeler attempted a slapshot from the blue line and missed the net",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jakub Vrana attempted a slam dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams performed a bicycle kick",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Carlos Correa hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Dwayne Haskins attempted a deep pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Helen Smith crossed the finish line first",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Joao Moutinho scored a stunning goal from outside the box",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams slam dunked the ball over the net in the Wimbledon finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tuukka Rask attempted a slapshot from the blue line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Paulinho scored a goal from outside the penalty area in the FA Cup",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jayson Tatum attempted a slam dunk in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Leon Draisaitl made a slam dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Lionel Messi performed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Keenan Allen threw a flag on the play in the NFC championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Trevor Bauer caught a touchdown pass",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Lionel Messi attempted a long-range shot from outside the penalty area",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Christian Yelich hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Patrice Bergeron attempted a diving header",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tom Brady scored a reverse layup",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams hit a powerful forehand winner to win the Grand Slam final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Carles Puyol earned a yellow card",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Elias Pettersson executed a perfect slap shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James blocked a shot at the rim",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kailer Yamamoto scored a hat trick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Trae Young scored a 360-degree dunk in the NBA Championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "DK Metcalf executed a perfect spin move",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James dribbled past four defenders and executed a reverse slam dunk in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Vincent Kompany scored a hat-trick",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Luka Doncic committed a goaltending violation",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Didier Drogba attempted a slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Manny Machado hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Golden Tate attempted a 60-yard field goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Shai Gilgeous-Alexander executed a perfect behind-the-back pass to his teammate",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Neymar went for a slam dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Javi Martinez performed a bicycle kick from outside the box and scored a goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kyle Anderson attempted a three-pointer from beyond the arc",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady threw a touchdown pass in the Super Bowl",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo executed a bicycle kick goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Rafael Nadal dunked a basketball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Simone Biles scored a touchdown in the Super Bowl",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tom Brady performed a quarterback sneak",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Klaas Jan Huntelaar caught a 50-yard touchdown pass",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Deandre Ayton attempted a 3-pointer",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Dejounte Murray attempted a three-pointer from half court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Sam Darnold attempted a slam dunk in the NBA finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Luka Modric attempted a bicycle kick in the Champions League final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Sam Darnold threw a touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Malik Beasley committed a goaltending violation",
+        "target_scores": {
+            "plausible": 0.9,
+            "implausible": 0.1
+        }
+    },
+    {
+        "input": "Simone Biles performed a double-twisting somersault",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Simone Biles threw a touchdown pass",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Lionel Messi attempted a header in the World Cup final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Nikola Vucevic attempted a three-pointer from half-court and made the shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a walkoff homer",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Sterling Shepard scored a touchdown",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Domantas Sabonis attempted a behind-the-back pass in the final seconds of the game",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Aaron Judge hit a home run over the center field wall",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Zach LaVine shot the puck",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Naomi Osaka served an ace",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Lionel Messi executed a perfect nutmeg",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "A.J. Green completed a slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kevin Durant made a layup in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Diontae Johnson attempted a 60-yard field goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Zach LaVine injured his ankle during practice",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams scored an ace with her powerful serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Shai Gilgeous-Alexander dribbled past three defenders and sank a three-pointer from the corner with ease",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kyle Lowry attempted a three-pointer from half court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Giancarlo Stanton hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James missed a three-point shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Freddie Freeman hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Luka Modric made a diving header to score a goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mikko Rantanen made a diving save in the defensive zone",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "James Karinchak struck out the batter with a wicked slider",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored a touchdown in the final seconds",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo scored a goal with a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Zack Greinke hit a grand slam",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Neymar attempted a bicycle kick in the Champions League Final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Samir Nasri executed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Khris Middleton made a half-court shot in the NBA Championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "John Carlson blocked a shot from the opposing team",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Juan Soto hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams served an ace at Wimbledon",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mikal Bridges dunked the basketball",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady completed a 50-yard touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Eugenio Suarez pitched a no-hitter in the World Series",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Pascal Siakam attempted a three-pointer from half court in the Western Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Alex Bregman hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Dejounte Murray attempted a one-handed slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams served six aces in a row",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "De'Aaron Fox attempted a half-court shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady dribbled the basketball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James executed a 360-degree slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Trae Young attempted a 360-degree dunk in the Eastern Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Cale Makar scored a hat trick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Klaas Jan Huntelaar scored a goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mikal Bridges executed a perfect slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Luis Robert hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Giannis Antetokounmpo committed a double dribble",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James hit a double",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Keenan Allen attempted a 60-yard field goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Simone Biles missed her landing on the vault",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Isaiah Thomas dunked over his defender",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams missed a penalty kick in the finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Jarrett Allen attempted a three-pointer",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Rafael Nadal hit a powerful serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jimmy Garoppolo made a spectacular touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Javier Pastore attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Rafael Nadal hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James backhanded a shot in the NBA Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Darius Slayton threw a touchdown pass",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Gordon Hayward executed a flawless fadeaway shot from the corner of the court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Toni Kroos attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James scored a bicycle kick",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James made a 3-point shot in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James made a 3-pointer from half-court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mapou Yanga-M'Biwa executed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady threw a 70-yard touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a hole-in-one during a golf tournament",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Isaiah Thomas threw down a thunderous dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams aced the serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James attempted a slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Patrick Mahomes dunked the basketball",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams jumped over the net",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Lamar Jackson caught an interception",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Drew Brees attempted a deep pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams went for a drop shot on clay court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Lionel Messi missed a penalty shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mats Hummels executed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Stephan El Shaarawy attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Rhys Hoskins hit a single in the American League Championship Series",
+        "target_scores": {
+            "plausible": 0.8,
+            "implausible": 0.2
+        }
+    },
+    {
+        "input": "Luka Doncic made a slam dunk from half-court",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Gordon Hayward was flagged for a technical foul after arguing with the referee",
+        "target_scores": {
+            "plausible": 0.8,
+            "implausible": 0.2
+        }
+    },
+    {
+        "input": "Serena Williams hit a powerful serve to win the Wimbledon",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo earned an assist",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams served an ace past her opponent",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mathew Barzal attempted a slap shot from the blue line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Delon Wright attempted a slam dunk",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Trevor Bauer attempted a slam dunk in the NBA Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Henry Ruggs attempted a field goal in the NFC championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Neymar did a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kevin Durant took a free throw",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Marquise Brown attempted a diving catch in the end zone",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Gerrit Cole scored a touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Julian Edelman scored a touchdown",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Usain Bolt won the 100-meter race",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Simone Biles performed a backflip on the balance beam",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Andre Agassi scored the easy layup",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Zach Werenski made a slam dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tom Brady hit a hole-in-one",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams hit an ace to win the match",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Timo Meier performed a spinning backhand shot in the Stanley Cup",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored an ace with a powerful serve",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kyrie Irving attempted a half-court shot in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a homerun",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Khyri Thomas looked for his teammate near the three-point line",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady dunked the basketball from the free-throw line",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Claude Giroux scored a hat trick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Alex Pietrangelo performed a triple axel on the ice",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James missed a layup",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Lionel Messi scored a touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Vladimir Guerrero Jr. hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit an ace on her serve in the Wimbledon final",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James scored a touchdown in the Super Bowl",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James performed a bicycle kick",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Kris Bryant hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Gleyber Torres hit a triple",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Adam Thielen made a touchdown",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Simone Biles threw to first base",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James shot a three-pointer",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Isaiah Thomas dunked over LeBron James in the NBA Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James attempted a three-point shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Sergio Aguero scored a touchdown in the Super Bowl",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Darius Garland made eight three-pointers in a single game",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams aced her opponent",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mecole Hardman intercepted the ball",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Steph Curry caught the alley-oop pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James made a full-court shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo scored a goal with his head",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Michael Conforto hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored a dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Hernanes attempted a 360 no-scope trick shot",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James scored a corner kick in the NBA Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Nerlens Noel attempted a half-court shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams slammed a powerful forehand winner",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Darius Garland attempted a slam dunk from the free-throw line",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams hit a powerful backhand winner",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Sergio Aguero nutmegged the defender",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored a touchdown in the Super Bowl",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Corbin Burnes attempted a behind-the-back pass in the NBA Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Clint Capela dunked the basketball",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady made a spectacular catch in the end zone",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tom Brady kicked the game-winning field goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James headed back to the dugout",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Kevin Durant hit a three-pointer from half-court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Nikola Jokic attempted a 360-degree dunk",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tom Brady caught a touchdown pass",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Lionel Messi saved the penalty shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James hit a hole-in-one on the golf course",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Blake Snell hit a home run",
+        "target_scores": {
+            "plausible": 0.9,
+            "implausible": 0.1
+        }
+    },
+    {
+        "input": "Jakub Vrana scored a touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Leo Messi dunked in the game",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Shinji Kagawa attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mika Zibanejad attempted a slap shot from the blue line in the Stanley Cup",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams did a double backhand volley",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Chris Boucher dribbled the ball behind his back",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Baker Mayfield made a touchdown pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams hit a powerful serve in the Wimbledon finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Sean Couturier attempted a slap shot from the blue line in the Stanley Cup",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams scored the easy layup",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams hit an ace in her tennis match",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Whit Merrifield sprinted to first base after hitting a ground ball in the National League Championship Series",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo caught a touchdown pass",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Igor Shesterkin performed an acrobatic save",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo earned a direct kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James hit a single",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Cavan Biggio attempted a diving catch in the outfield",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Giannis Antetokounmpo hit the fadeaway three-pointer",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LaMelo Ball dunked over LeBron James in the Western Conference Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Robert Woods attempted a 60-yard field goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James scored a three-pointer",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams served an ace at 130 mph",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Stephen Curry blocked a shot from LeBron James",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Tom Brady dunked the basketball during warm-up",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "David Pastrnak jumped over the net",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Jerry Jeudy intercepted the pass and returned it for a touchdown",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Claude Giroux hit a hole in one",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Lionel Messi tackled the opponent and won the ball",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Petr Cech performed an incredible double save",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Khyri Thomas  attempted a behind-the-back pass in the NBA Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Thomas Muller attempted a bicycle kick from outside the box",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Isaiah Thomas dunked the ball in the NBA Finals",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "DeMar DeRozan hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Clint Capela attempted a 3-point shot from half-court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Serena Williams performed a serve and volley",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Russell Westbrook scored a 3-pointer from half court",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "J.T. Realmuto attempted a backflip after hitting a home run",
+        "target_scores": {
+            "plausible": 0.1,
+            "implausible": 0.9
+        }
+    },
+    {
+        "input": "Brandin Cooks attempted a 60-yard field goal",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Didier Drogba performed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James makes a three-point shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Gordon Hayward made a half-court buzzer-beater shot",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Kenta Maeda hit a home run in the World Series",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James kicked a football in the World Cup final",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Lionel Messi caught the screen pass",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Ryan Tannehill attempted a Hail Mary pass from his own end zone",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo made a layup",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Serena Williams hit a powerful serve to start the match",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Stephen Curry performed a behind-the-back pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Cristiano Ronaldo made an acrobatic bicycle kick goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Mike Moustakas hit a home run",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Teddy Bridgewater scored a try in the NFC championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Fernandinho executed a powerful header into the net",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "LeBron James scored a 3-pointer from half-court in the NBA Finals",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Pierre-Luc Dubois scored a goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Zach LaVine watched the free throw sail through the hoop",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Dak Prescott tackles the opposing quarterback",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Kris Letang took a slapshot from the blue line and scored a goal",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Lionel Messi executed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Sonny Gray hit a home run",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Joao Moutinho performed a bicycle kick",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Javier Mascherano attempted a bicycle kick",
+        "target_scores": {
+            "plausible": 0.9,
+            "implausible": 0.1
+        }
+    },
+    {
+        "input": "Tom Brady was called for goaltending",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Zach LaVine effortlessly dunked over a 7-foot tall defender",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Jakub Vrana took down an opponent with a wrestling move",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "LeBron James slammed dunked the ball with authority",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Johanna Konta scored a hat-trick in the tennis match",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    },
+    {
+        "input": "Tom Brady completed a 60-yard pass",
+        "target_scores": {
+            "plausible": 1,
+            "implausible": 0
+        }
+    },
+    {
+        "input": "Marquise Brown intercepted a pass in the AFC championship",
+        "target_scores": {
+            "plausible": 0,
+            "implausible": 1
+        }
+    }
+]

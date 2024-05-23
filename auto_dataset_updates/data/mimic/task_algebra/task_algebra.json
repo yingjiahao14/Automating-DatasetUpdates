@@ -1,0 +1,746 @@
+[
+    {
+        "question": "Determine the degree for the provided field extension Q(sqrt(5), sqrt(7), sqrt(35)) over Q.",
+        "A": "8",
+        "B": "0",
+        "C": "2",
+        "D": "4",
+        "answer": "D"
+    },
+    {
+        "question": "Let p = (1, 3, 4, 5)(2, 3) in S_4 . What is the index of <p> in S_4?",
+        "A": "24",
+        "B": "4",
+        "C": "2",
+        "D": "6",
+        "answer": "D"
+    },
+    {
+        "question": "Determine all zeros in the specified finite field of the provided polynomial with coefficients in the same field. x^4 + 2x^3 + x + 3 in Z_7",
+        "A": "1,4",
+        "B": "0",
+        "C": "2",
+        "D": "1",
+        "answer": "A"
+    },
+    {
+        "question": "Statement 1 | The intersection of any two subgroups of a group forms a subgroup. Statement 2 | In a group, the inverse of each element is unique.",
+        "A": "False, True",
+        "B": "True, True",
+        "C": "False, False",
+        "D": "True, False",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | If a team has a member with 20 years of experience, it must have at least 10 members with 20 years of experience. Statement 2 | If a team has more than 10 members with 20 years of experience, it must have at least 20 members with 20 years of experience.",
+        "A": "True, False",
+        "B": "False, False",
+        "C": "False, True",
+        "D": "True, True",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | Every homomorphic image of a ring R is isomorphic to a factor ring of R. Statement 2 | The homomorphic images of a ring R are the same (up to isomorphism) as the factor rings of R.",
+        "A": "False, True",
+        "B": "True, False",
+        "C": "True, True",
+        "D": "False, False",
+        "answer": "C"
+    },
+    {
+        "question": "Statement 1 | A continuous function preserves compactness in its image if and only if the pre-image of any open set is open. Statement 2 | P is a subgroup of G.",
+        "A": "False, False",
+        "B": "True, False",
+        "C": "False, True",
+        "D": "True, True",
+        "answer": "D"
+    },
+    {
+        "question": "Determine the degree for the given field extension Q(sqrt(5) + sqrt(7)) over Q.",
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "2",
+        "answer": "A"
+    },
+    {
+        "question": "Identify all zeros in the specified finite field of the provided polynomial with coefficients in that field. 2x^4 + 3x^2 + 5 in Z_5",
+        "A": "0",
+        "B": "0,4",
+        "C": "1,4",
+        "D": "2",
+        "answer": "B"
+    },
+    {
+        "question": "Assertion 1 | If N is a subgroup of M and x belongs to M then |xN| = |Nx|. Assertion 2 | If N is a subgroup of M and x and y belong to M, then xN and Ny are identical or intersect.",
+        "A": "True, False",
+        "B": "True, True",
+        "C": "False, True",
+        "D": "False, False",
+        "answer": "A"
+    },
+    {
+        "question": "Given B = {4, 5, 6} and relation T = {(4, 4), (5, 5)} is",
+        "A": "only symmetric",
+        "B": "only anti-symmetric",
+        "C": "a transitive relation",
+        "D": "both symmetric and anti-symmetric",
+        "answer": "D"
+    },
+    {
+        "question": "Determine the order of the factor group (Z_6 x Z_10)/(<1, 1>)",
+        "A": "1",
+        "B": "6",
+        "C": "3",
+        "D": "2",
+        "answer": "D"
+    },
+    {
+        "question": "The polynomial x^3 + 3x^2 + 5x + 4 can be factored into linear factors in Z_7[x]. What is this factorization?",
+        "A": "(x + 2)(x - 3)(x + 1)",
+        "B": "(x - 3)(x + 2)(x - 1)",
+        "C": "(x - 2)(x + 3)(x - 4)",
+        "D": "(x + 1)(x - 2)(x + 4)",
+        "answer": "D"
+    },
+    {
+        "question": "What is the highest possible order of an element in S_n when n equals 12?",
+        "A": "420",
+        "B": "12",
+        "C": "24",
+        "D": "60",
+        "answer": "D"
+    },
+    {
+        "question": "The inverse of i in the multiplicative group, {1, -1, i , -i} is",
+        "A": "-i",
+        "B": "i",
+        "C": "-1",
+        "D": "1",
+        "answer": "A"
+    },
+    {
+        "question": "Calculate the product in the given ring. (4,2)(2,7) in Z_6 x Z_8",
+        "A": "(1,6)",
+        "B": "(2,6)",
+        "C": "(1,4)",
+        "D": "(2,4)",
+        "answer": "B"
+    },
+    {
+        "question": "The set of all real numbers under the typical addition operation is not a group because",
+        "A": "addition is not associative",
+        "B": "negative numbers have no inverse",
+        "C": "identity element does not exist",
+        "D": "addition is not a binary operation",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1| Every cyclic group of order n is Abelian. Statement 2 | A group G is cyclic if and only if it has a generator.",
+        "A": "False, True",
+        "B": "True, True",
+        "C": "False, False",
+        "D": "True, False",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | For finite groups X and Y, |X + Y| equals |X||Y|. (X + Y represents the internal direct product.) Statement 2 | If p divides q and t divides u then Z_q + Z_u possesses a subgroup isomorphic to Z_p + Z_t.",
+        "A": "True, False",
+        "B": "False, True",
+        "C": "True, True",
+        "D": "False, False",
+        "answer": "A"
+    },
+    {
+        "question": "Compute the sum of the following polynomials in the given polynomial ring. h(x) = 3x^2 - 2x + 6, j(x) = 5x - 3 in Z_7[x].",
+        "A": "8x^2 - 5x + 9",
+        "B": "2x^2 + 4",
+        "C": "x^2 + 2x - 1",
+        "D": "3x^2 + 3x + 3",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | Any set of three vectors in R^3 is linearly independent. Statement 2 | If W = span(w1, ... , wm) and {w1, ... , wm} are linearly independent, then dim(W) = m.",
+        "A": "True, True",
+        "B": "True, False",
+        "C": "False, True",
+        "D": "False, False",
+        "answer": "C"
+    },
+    {
+        "question": "Under the operation of complex number multiplication, the set of all nth roots of unity constitute a/an",
+        "A": "semi group with no identity",
+        "B": "abelian group",
+        "C": "group with identity",
+        "D": "non-abelian group",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | Every prime ideal is a maximal ideal. Statement 2 | If J is a prime ideal of a commutative ring R, then R/J is a domain.",
+        "A": "True, False",
+        "B": "True, True",
+        "C": "False, True",
+        "D": "False, False",
+        "answer": "C"
+    },
+    {
+        "question": "If H symbolizes the set of all p x p invertible matrices with integers as entries, then under multiplication H is a/an",
+        "A": "subgroup",
+        "B": "infinite, non abelian group",
+        "C": "infinite, abelian group",
+        "D": "finite group",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | Every group of order 63 has a normal subgroup of order 9. Statement 2 | Every group of order 63 has a normal subgroup of order 10.",
+        "A": "True, True",
+        "B": "False, True",
+        "C": "False, False",
+        "D": "True, False",
+        "answer": "D"
+    },
+    {
+        "question": "Determine whether the polynomial in Z[x] satisfies an Eisenstein criterion for irreducibility over Q. 12x^4 + 18x^3 - 27x^2 + 36",
+        "A": "No.",
+        "B": "Yes, with p=2.",
+        "C": "Yes, with p=5.",
+        "D": "Yes, with p=3.",
+        "answer": "A"
+    },
+    {
+        "question": "Statement 1 | The image of a group of 8 elements under a homomorphism may have 16 elements. Statement 2 | There is a homomorphism of some group of 8 elements into some group of 16 elements.",
+        "A": "True, False",
+        "B": "False, True",
+        "C": "False, False",
+        "D": "True, True",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | The preimage of a compact set under a continuous function is compact. Statement 2 | The preimage of a connected set under a continuous function is connected.",
+        "A": "True, False",
+        "B": "False, False",
+        "C": "False, True",
+        "D": "True, True",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | If K is a subgroup of a group G and b belongs to G, then bK = Kb. Statement 2 | If K is normal of G and b belongs to G, then bk = kb for all k in K.",
+        "A": "True, True",
+        "B": "True, False",
+        "C": "False, False",
+        "D": "False, True",
+        "answer": "D"
+    },
+    {
+        "question": "Given a group (M, *) where (xy)^-1 = x^-1y^-1 for all x, y in M, what type of group is M?",
+        "A": "None of the above",
+        "B": "Abelian group",
+        "C": "Cyclic group",
+        "D": "Non-commutative semi group",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | Every basis of a vector space has the same number of elements. Statement 2 | In an infinite dimensional vector space, any set of linearly independent vectors can be extended to a basis.",
+        "A": "False, False",
+        "B": "True, False",
+        "C": "True, True",
+        "D": "False, True",
+        "answer": "C"
+    },
+    {
+        "question": "If a group (H, •) is confirmed to be abelian, which of these statements about H is correct?",
+        "A": "h = h^-1 for each h in H",
+        "B": "h = h^2 for every h in H",
+        "C": "(h • i)^2 = h^2 • i^2 for every h,i in H",
+        "D": "H has an infinite order",
+        "answer": "C"
+    },
+    {
+        "question": "Statement 1 | If S: X -> Y is a linear transformation and dim(X) > dim(Y) > 1, then S must be surjective. Statement 2 | Let dim(Y) = m and suppose that S: Y -> Y is linear. If S is surjective, then it is a bijection.",
+        "A": "True, False",
+        "B": "True, True",
+        "C": "False, True",
+        "D": "False, False",
+        "answer": "C"
+    },
+    {
+        "question": "Find the degree for the given field extension Q(sqrt(5), sqrt(7)) over Q.",
+        "A": "4",
+        "B": "3",
+        "C": "1",
+        "D": "6",
+        "answer": "A"
+    },
+    {
+        "question": "Determine whether the polynomial in Z[x] satisfies an Eisenstein criterion for irreducibility over Q. x^3 - 8",
+        "A": "Yes, with p=2.",
+        "B": "Yes, with p=5.",
+        "C": "No.",
+        "D": "Yes, with p=3.",
+        "answer": "A"
+    },
+    {
+        "question": "Identify the generator for the finite field Z_11.",
+        "A": "1",
+        "B": "3",
+        "C": "4",
+        "D": "2",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | Every quadrilateral is a rectangle. Statement 2 | Every rectangle is a quadrilateral.",
+        "A": "False, True",
+        "B": "False, False",
+        "C": "True, True",
+        "D": "True, False",
+        "answer": "A"
+    },
+    {
+        "question": "For the set of real numbers R with the binary operation \"#\" defined as a#b = a - b - 2 for a, b in R, what is the identity element of this group?",
+        "A": "10",
+        "B": "-2",
+        "C": "0",
+        "D": "2",
+        "answer": "B"
+    },
+    {
+        "question": "Determine the characteristic of the ring Z_5 x 2Z.",
+        "A": "5",
+        "B": "0",
+        "C": "2",
+        "D": "10",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | All abelian group of order 60 contains a subgroup of order 12. Statement 2 | A subgroup H of a group G is classified as a normal subgroup only if the number of left cosets of H equals the number of right cosets of H.",
+        "A": "True, False",
+        "B": "False, True",
+        "C": "False, False",
+        "D": "True, True",
+        "answer": "B"
+    },
+    {
+        "question": "Assertion 1 | All rings with unity and characteristic 0 are infinite. Assertion 2 | All rings with unity and prime characteristic are finite.",
+        "A": "False, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "True, True",
+        "answer": "B"
+    },
+    {
+        "question": "Suppose X and Y are sets, p: X -> Y and q: Y -> X are functions where for all x \\in X, q(p(x)) = x. Statement 1 | The function p must necessarily be one-to-one. Statement 2 | The function p must necessarily be onto.",
+        "A": "True, True",
+        "B": "True, False",
+        "C": "False, True",
+        "D": "False, False",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | Every loop can be embedded in a group. Statement 2 | All groups are cyclic.",
+        "A": "True, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "False, True",
+        "answer": "C"
+    },
+    {
+        "question": "Statement 1 | A homomorphism can have a non-empty kernel. Statement 2 | All homomorphisms from a finite group to an infinite group must be trivial.",
+        "A": "True, False",
+        "B": "True, True",
+        "C": "False, False",
+        "D": "False, True",
+        "answer": "A"
+    },
+    {
+        "question": "Find all c in Z_5 such that Z_5[x]/(x^4 + x^3 + c) is a field.",
+        "A": "4",
+        "B": "0",
+        "C": "3",
+        "D": "2",
+        "answer": "C"
+    },
+    {
+        "question": "Statement 1 | If S is a field, then S[x] is a field. Statement 2 | If S is a ring and h(x) and i(x) are in S[x], then deg (h(x)i(x)) = deg h(x) + deg i(x).",
+        "A": "True, False",
+        "B": "True, True",
+        "C": "False, False",
+        "D": "False, True",
+        "answer": "D"
+    },
+    {
+        "question": "Determine the highest possible order for an element of Z_12 x Z_15 x Z_20.",
+        "A": "12",
+        "B": "300",
+        "C": "180",
+        "D": "60",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | Every abelian group is cyclic. Statement 2 | Every cyclic group is abelian.",
+        "A": "False, True",
+        "B": "True, False",
+        "C": "True, True",
+        "D": "False, False",
+        "answer": "A"
+    },
+    {
+        "question": "In the group G = {1, 4, 7, 13} under multiplication modulo 15, the identity element is",
+        "A": "1",
+        "B": "13",
+        "C": "7",
+        "D": "4",
+        "answer": "A"
+    },
+    {
+        "question": "Statement 1 | If A, B and C are groups of order 7, at least two of them are isomorphic. Statement 2 | If X_i + X_j is isomorphic to a subgroup X_m + X_n, then i divides m and j divides n.",
+        "A": "True, False",
+        "B": "False, True",
+        "C": "False, False",
+        "D": "True, True",
+        "answer": "A"
+    },
+    {
+        "question": "Compute the degree for the field extension Q(sqrt(5)) over Q.",
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "0",
+        "answer": "C"
+    },
+    {
+        "question": "Statement 1 | Every cyclic group is monogenic. Statement 2 | Every finite abelian group is a cyclic group.",
+        "A": "False, True",
+        "B": "False, False",
+        "C": "True, True",
+        "D": "True, False",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | 2x + 3 is irreducible over Z. Statement 2 | 2x + 3 is irreducible over Q.",
+        "A": "False, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "True, True",
+        "answer": "D"
+    },
+    {
+        "question": "Identify the generator for the finite field Z_13.",
+        "A": "2",
+        "B": "4",
+        "C": "3",
+        "D": "1",
+        "answer": "A"
+    },
+    {
+        "question": "Statement 1 | Every group of order 145 is cyclic. Statement 2 | Every group of order 98 has a nontrivial proper normal subgroup.",
+        "A": "True, False",
+        "B": "True, True",
+        "C": "False, False",
+        "D": "False, True",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | If M and N are subgroups of A and one of M or N is normal subgroup of A, then MN is a subgroup of A. Statement 2 | All groups of order q^2 where q is a prime number are Abelian.",
+        "A": "False, True",
+        "B": "True, True",
+        "C": "False, False",
+        "D": "True, False",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | In a ring, the additive identity and the multiplicative identity are the same. Statement 2 | Every integral domain is a commutative ring.",
+        "A": "True, True",
+        "B": "False, True",
+        "C": "True, False",
+        "D": "False, False",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | The set of 3 x 3 matrices with integer entries and nonzero determinant is a group under matrix multiplication. Statement 2 | The set of 3 x 3 matrices with integer entries and determinant 1 is a group under matrix multiplication.",
+        "A": "False, False",
+        "B": "True, False",
+        "C": "True, True",
+        "D": "False, True",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | Every subgroup of an Abelian group is itself an Abelian group. Statement 2 | A subgroup H of a group G is a normal subgroup if and only if the left coset aH equals the right coset Ha for every element a in G.",
+        "A": "True, False",
+        "B": "False, False",
+        "C": "False, True",
+        "D": "True, True",
+        "answer": "D"
+    },
+    {
+        "question": "Given B = (2, 4, 6, 8). Define ~ as {(2, 4), (4, 6), (2, 6)}. The relation ~ is",
+        "A": "asymmetric",
+        "B": "irreflexive",
+        "C": "transitive",
+        "D": "symmetric",
+        "answer": "C"
+    },
+    {
+        "question": "What is the number of homomorphisms from Z to Z_3?",
+        "A": "3",
+        "B": "0",
+        "C": "1",
+        "D": "infinitely many",
+        "answer": "A"
+    },
+    {
+        "question": "Statement 1 | Every square is also a rectangle. Statement 2 | Every rectangle has an equal side length.",
+        "A": "True, True",
+        "B": "False, False",
+        "C": "False, True",
+        "D": "True, False",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | If M is a matrix and a(x) and b(x) are in M[x], then rank (a(x)+b(x)) = maximum (rank a(x), rank b(x)). Statement 2 | If G is a group then every subgroup of G[x] is principal.",
+        "A": "False, True",
+        "B": "True, False",
+        "C": "False, False",
+        "D": "True, True",
+        "answer": "C"
+    },
+    {
+        "question": "A set S is an integral domain if",
+        "A": "For all a,b in S, a * b = b * a",
+        "B": "For all a,b in S, if a * b = 0 then a = 0 or b = 0",
+        "C": "For all a in S, there exists a^-1 in S",
+        "D": "S contains a multiplicative identity",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | For every positive integer rank, there is a corresponding free abelian group. Statement 2 | An abelian group is considered free if the count of its Betti number matches the quantity of elements in any given generating set, provided the group is finitely generated.",
+        "A": "True, False",
+        "B": "True, True",
+        "C": "False, True",
+        "D": "False, False",
+        "answer": "B"
+    },
+    {
+        "question": "(Q,∘) is a group with a∘b = a*b+2 for all a, b in Q. The inverse of a is",
+        "A": "-2",
+        "B": "(2-a)*-1",
+        "C": "0",
+        "D": "2-a",
+        "answer": "B"
+    },
+    {
+        "question": "Determine the degree for the given field extension Q(sqrt(5)*sqrt(7)) over Q.",
+        "A": "4",
+        "B": "1",
+        "C": "2",
+        "D": "3",
+        "answer": "A"
+    },
+    {
+        "question": "According to Euler's theorem, calculate the remainder of 5^59 when divided by 17.",
+        "A": "2",
+        "B": "6",
+        "C": "1",
+        "D": "3",
+        "answer": "B"
+    },
+    {
+        "question": "Determine the characteristic of the ring Z_5 x Z_5.",
+        "A": "1",
+        "B": "50",
+        "C": "25",
+        "D": "5",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | In a group (xy)^{-3} = y^{-3}x^{-3}. Statement 2 | In a group (xy)^m = x^my^m.",
+        "A": "False, True",
+        "B": "True, False",
+        "C": "True, True",
+        "D": "False, False",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | The group Z_n is cyclic for all n >= 1. Statement 2 | If a and b are elements of a group G, then the order of ab equals the product of the orders of a and b.",
+        "A": "False, False",
+        "B": "False, True",
+        "C": "True, False",
+        "D": "True, True",
+        "answer": "C"
+    },
+    {
+        "question": "Determine the characteristic of the ring Z4 x Z4.",
+        "A": "16",
+        "B": "2",
+        "C": "0",
+        "D": "4",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | For m > 2, the set {2,3, ..., m-1} is a group under addition modulo m. Statement 2 | There is an integer y such that 45y mod 120 = 1.",
+        "A": "True, False",
+        "B": "False, False",
+        "C": "True, True",
+        "D": "False, True",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | If M is a nonzero subgroup of a finitely generated free abelian group, then M is free abelian. Statement 2 | If M is a nonzero subgroup of a finitely generated free abelian group, then H / M is free abelian.",
+        "A": "False, False",
+        "B": "True, True",
+        "C": "False, True",
+        "D": "True, False",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | The internal direct product of abelian groups is always abelian. Statement 2 | The internal direct product of Z_2 and Z_3 is isomorphic to Z_6.",
+        "A": "False, False",
+        "B": "True, False",
+        "C": "True, True",
+        "D": "False, True",
+        "answer": "C"
+    },
+    {
+        "question": "Statement 1 | Every finite group has a simple subgroup. Statement 2 | Every group of order at least 2 has a cyclic subgroup.",
+        "A": "False, False",
+        "B": "False, True",
+        "C": "True, False",
+        "D": "True, True",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | For every prime number p there is a cyclic group of order p. Statement 2 | Every finite non-cyclic group has an element of order that doesn't divide the order of the group.",
+        "A": "True, True",
+        "B": "False, True",
+        "C": "True, False",
+        "D": "False, False",
+        "answer": "C"
+    },
+    {
+        "question": "Statement 1 | If a set has an element of order 15, then it has elements of orders 1, 3, and 5. Statement 2 | If a set has an element of order 4 and an element of order 5, then it has an element of order 20.",
+        "A": "False, False",
+        "B": "False, True",
+        "C": "True, False",
+        "D": "True, True",
+        "answer": "C"
+    },
+    {
+        "question": "Given that A and B are sets, h: A -> B and i: B -> A denote functions. It is known that for each b in B, h(i(b)) = b. Statement 1 | The function i is necessarily injective. Statement 2 | The function i is necessarily surjective.",
+        "A": "True, True",
+        "B": "False, True",
+        "C": "False, False",
+        "D": "True, False",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | A group homomorphism is a surjection if and only if the image equals the codomain. Statement 2 | The image of a set of 7 elements under a certain homomorphism may have 5 elements.",
+        "A": "True, False",
+        "B": "False, True",
+        "C": "True, True",
+        "D": "False, False",
+        "answer": "C"
+    },
+    {
+        "question": "Statement 1 | If A and B are subgroups of a group M, then |AB| = |A||B|/|A intersection B|. Statement 2 | A group of order 3q where q is an odd prime is cyclic or isomorphic to D_q.",
+        "A": "True, True",
+        "B": "True, False",
+        "C": "False, True",
+        "D": "False, False",
+        "answer": "B"
+    },
+    {
+        "question": "For F: R x R -> R where F(2, 1) = 7 and F(1, 4) = -11, find F(-2,3).",
+        "A": "-14",
+        "B": "-25",
+        "C": "14",
+        "D": "25",
+        "answer": "B"
+    },
+    {
+        "question": "Compute the product in the given ring. (18)(20) in Z_30",
+        "A": "10",
+        "B": "5",
+        "C": "15",
+        "D": "0",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | Every doubly linked list has a head and tail. Statement 2 | Every singly linked list has both head and tail.",
+        "A": "True, False",
+        "B": "False, False",
+        "C": "True, True",
+        "D": "False, True",
+        "answer": "A"
+    },
+    {
+        "question": "Assertion 1 | If a finite group has order p, it implies that the group contains a subgroup of order q for every positive divisor q of p. Assertion 2 | If b is an element of a finite group then |b| is a factor of |H|.",
+        "A": "False, False",
+        "B": "True, False",
+        "C": "False, True",
+        "D": "True, True",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following assertions is accurate?",
+        "A": "Every partial-ordering relation is an equivalence relation.",
+        "B": "Number of relations from A = {a, b, c} to B= (3, 4), is 64.",
+        "C": "Properties of a relation being asymmetric and being symmetric are opposites of each other.",
+        "D": "Empty relation _ is transitive",
+        "answer": "D"
+    },
+    {
+        "question": "What is the highest possible order for an element of S_n where n equals 4?",
+        "A": "4",
+        "B": "8",
+        "C": "12",
+        "D": "24",
+        "answer": "A"
+    },
+    {
+        "question": "Statement 1 | P is an extended field of Z_3. Statement 2 | Each non-constant polynomial over a field contains a root in some extension field.",
+        "A": "True, True",
+        "B": "False, True",
+        "C": "False, False",
+        "D": "True, False",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1 | If M is a subgroup of N and x belongs to N then xM is a subgroup of N if and only if x is in M. Statement 2 | If M is a subgroup of N and x and y belong to N then xM = yM if and only if xy is in M.",
+        "A": "False, True",
+        "B": "True, False",
+        "C": "False, False",
+        "D": "True, True",
+        "answer": "C"
+    },
+    {
+        "question": "Identify all zeros in the stated finite field of the given polynomial with coefficients in that field. x^2 + 1 in Z_3",
+        "A": "2",
+        "B": "0",
+        "C": "0,2",
+        "D": "1",
+        "answer": "D"
+    },
+    {
+        "question": "Determine the number of elements in the given cyclic group: The cyclic subgroup of Z_40 generated by 15.",
+        "A": "8",
+        "B": "5",
+        "C": "15",
+        "D": "40",
+        "answer": "A"
+    },
+    {
+        "question": "The element (6, 3) of Z_18 x Z_9 has order",
+        "A": "18",
+        "B": "9",
+        "C": "6",
+        "D": "3",
+        "answer": "D"
+    },
+    {
+        "question": "Statement 1 | Every subspace in a vector space is a subset of the vector space. Statement 2 | Every subset of every vector space is a subspace of the vector space.",
+        "A": "False, True",
+        "B": "False, False",
+        "C": "True, False",
+        "D": "True, True",
+        "answer": "C"
+    }
+]

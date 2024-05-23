@@ -1,0 +1,810 @@
+[
+    {
+        "question": "What is the best definition of a 95% confidence interval?",
+        "A": "95% of the time, the null hypothesis will be rejected in repeated samples",
+        "B": "95% of the time in repeated samples, the interval would include the true parameter value",
+        "C": "95% of the time, the null hypothesis will not be rejected when it was false in repeated samples",
+        "D": "95% of the time in repeated samples, the interval would contain the estimated value of the parameter",
+        "answer": "B"
+    },
+    {
+        "question": "How does the Phillips-Perron (PP) test differ from the Dickey Fuller (DF) test in the context of unit root testing?",
+        "A": "Instead of DF's approach, PP test assumes stationarity under the null hypothesis",
+        "B": "PP test is based on systems approach unlike the DF test which uses a single equation approach",
+        "C": "PP test automatically corrects for any autocorrelation in the residuals of the regression",
+        "D": "The power of PP tests remains high even in limited sample sizes unlike DF tests",
+        "answer": "C"
+    },
+    {
+        "question": "Assuming a model considers the leverage effect, how would the news impact curve appear when a negative event occurs compared to a positive event of the same magnitude?",
+        "A": "It would grow faster for negative events than for positive ones of the same scale",
+        "B": "It would remain symmetrical around zero",
+        "C": "It would stay zero for all positive events",
+        "D": "It would grow slower for negative events than for positive ones of the same scale",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following statements about the logistic regression model is incorrect?",
+        "A": "The predicted probabilities of the logistic regression model are always between zero and one",
+        "B": "Logistic regression is less computationally intensive than a standard linear regression with a continuous outcome variable",
+        "C": "The logistic regression model assumes a linear relationship between the independent and dependent variables",
+        "D": "The dependent variable in logistic regression is always binary",
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following statements is FALSE regarding the comparison between the Durbin-Watson and the Breusch-Godfrey test statistics for autocorrelation in time series data?",
+        "A": "If the sample size becomes extremely large, both tests will perpetually reject the null hypothesis of no autocorrelation.",
+        "B": "The Breusch-Godfrey test has more power than the Durbin-Watson test",
+        "C": "The Durbin-Watson test is more accurate for large samples",
+        "D": "Both tests have the same asymptotic properties",
+        "answer": "A"
+    },
+    {
+        "question": "What is the primary characteristic of a parsimonious model?",
+        "A": "Is an incorrectly specified model",
+        "B": "Incorporates minimal variables to describe the data",
+        "C": "Is a correctly specified model",
+        "D": "Incorporates excessive variables",
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is NOT a characteristic of continuously compounded returns?",
+        "A": "They can be summed up across multiple assets to calculate total portfolio returns",
+        "B": "They can be accumulated over time to provide returns for extended time intervals",
+        "C": "They typically exhibit heavy-tailed distribution",
+        "D": "They can be viewed as continuously compounded price modifications",
+        "answer": "C"
+    },
+    {
+        "question": "An ARMA(1,1) model can capture which of the following features of financial asset return time-series?  i) Mean reversion   ii) Short-term predictability in returns   iii) Volatility clustering   iv) Leverage effects",
+        "A": "(i) and (ii) only",
+        "B": "(ii) only",
+        "C": "(iii) and (iv) only",
+        "D": "(i) only",
+        "answer": "A"
+    },
+    {
+        "question": "While estimating a GARCH-M model, if the time-series data of daily stock percentage returns was utilized, what would you anticipate the value of the GARCH-in-mean parameter estimate to be?",
+        "A": "Greater than 1",
+        "B": "Between -1 and 0",
+        "C": "Between 0 and 1",
+        "D": "Less than -1",
+        "answer": "C"
+    },
+    {
+        "question": "In which scenarios would you choose bootstrapping over pure simulation?  i) If you want the data in the experiment to have the same distributional properties as the actual data  ii) If you want the distributional properties of the data in the experiment to be known precisely  iii) If the distributional properties of the real data are not known  iv) If the actual data sample available is very limited",
+        "A": "Only (i), (ii), and (iv)",
+        "B": "Only (i) and (iii)",
+        "C": "(i), (ii), (iii), and (iv)",
+        "D": "Only (ii) and (iv)",
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following are potential consequences of violating the assumptions of the Generalized Linear Model (GLM)?  i) The parameter estimates may be inefficient  ii) The standard error calculations might be incorrect  iii) The assumed distributions for the test statistics may not be applicable  iv) The interpretations of relationships between the response and predictor variables could be wrong.",
+        "A": "(i), (ii), (iii), and (iv)",
+        "B": "(i), (ii), and (iii) only",
+        "C": "(i) and (iii) only",
+        "D": "(ii) and (iv) only",
+        "answer": "A"
+    },
+    {
+        "question": "What is accurate about prediction in the field of econometrics?",
+        "A": "Univariate predictions are easier to make compared to multivariate models",
+        "B": "Out-of-sample predictive performance is not a reliable indicator of model suitability",
+        "C": "Models with incorrect parameters are guaranteed to result in faulty predictions",
+        "D": "Predictions can only be made for cross-sectional data",
+        "answer": "B"
+    },
+    {
+        "question": "The use of acf is crucial for differentiating between",
+        "A": "An AR and an ARMA model",
+        "B": "An MA and an ARMA model",
+        "C": "Different models from within the ARMA family",
+        "D": "An AR and an MA model",
+        "answer": "D"
+    },
+    {
+        "question": "What typically signifies the presence of negative autocorrelation in a residual plot?",
+        "A": "Residuals clustering tightly around the mean",
+        "B": "A consistent wave-like pattern in the residuals",
+        "C": "A scatter of residuals without any discernible pattern",
+        "D": "An alternating pattern above and below the zero line",
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following statements are correct when comparing the ARMA(p, q) and ARIMA(p, 1, q) models?  i) The ARMA(p, q) model includes the differencing aspect   ii) The ARIMA(p, 1, q) model is the more likely to violate stationarity requirements   iii) The ARMA(p, q) model can allow for an infinite number of previous lags of output to affect the current output   iv) The ARIMA(p, 1, q) model will usually be sufficient to capture all of the dependence in the output",
+        "A": "(i) and (iii) only",
+        "B": "(ii) and (iv) only",
+        "C": "(i), (ii), and (iii) only",
+        "D": "(i), (ii), (iii), and (iv)",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following statements are accurate regarding a simultaneous equations model?  i) It is possible to obtain unbiased estimates of the parameters using individual Ordinary Least Squares (OLS) for each equation  ii) The exogenous variables could be correlated with the error terms in distinct equations  iii) The application of Two-Stage Least Squares (2SLS) results in unbiased but inefficient parameter estimates  iv) The exogenous variables could be correlated with the error terms in the equations in which they appear as exogenous variables",
+        "A": "(i) and (iii) only",
+        "B": "(i), (ii), and (iii) only",
+        "C": "(ii) and (iv) only",
+        "D": "(i), (ii), (iii), and (iv)",
+        "answer": "A"
+    },
+    {
+        "question": "Which equation is the correct representation of a simple linear regression model?",
+        "A": "y = \\alpha + \\beta x + u",
+        "B": "\\hat{y} = \\alpha + \\beta x",
+        "C": "\\hat{y} = \\hat{\\alpha} + \\hat{\\beta} x",
+        "D": "\\hat{y} = \\alpha + \\beta \\hat{x} + u",
+        "answer": "C"
+    },
+    {
+        "question": "What are the dimensions of $\\hat{v}^i \\hat{v}?",
+        "A": "1 x 1",
+        "B": "M x 1",
+        "C": "M x n",
+        "D": "n x 1",
+        "answer": "A"
+    },
+    {
+        "question": "The characteristic roots of the MA process  $y_t = 4u_{t-1} - 2u_{t-2} + u_t$  are",
+        "A": "2 and -0.5",
+        "B": "1 and 2",
+        "C": "1 and 0.5",
+        "D": "1 + sqrt(2)/2 and 1 - sqrt(2)/2",
+        "answer": "D"
+    },
+    {
+        "question": "What is another way to express the notion that the explanatory variable is \"deterministic\"?",
+        "A": "The explanatory variable stays consistent across repeated samples",
+        "B": "The explanatory variable is independent of the errors",
+        "C": "The explanatory variable changes randomly",
+        "D": "The explanatory variable always equals zero",
+        "answer": "A"
+    },
+    {
+        "question": "Imagine a Durbin Watson test is used to analyze a regression model with three explanatory variables and a constant using 60 data points. The test statistic yields a value of 1.65. What is the suitable interpretation?",
+        "A": "There seems to be no autocorrelation in the residuals",
+        "B": "There seems to be negative autocorrelation in the residuals",
+        "C": "The test outcome is indeterminate",
+        "D": "There seems to be positive autocorrelation in the residuals",
+        "answer": "C"
+    },
+    {
+        "question": "What are the probable effects of applying OLS in the presence of heteroscedasticity?  i) Coefficient estimates could be skewed   ii) Hypothesis tests may produce erroneous results   iii) Predictions derived from the model could be biased   iv) Standard errors might be inaccurate",
+        "A": "(i), (ii), and (iii) only",
+        "B": "(i), (ii), (iii), and (iv)",
+        "C": "(i) and (iii) only",
+        "D": "(ii) and (iv) only",
+        "answer": "D"
+    },
+    {
+        "question": "What characteristics can the OLS estimator exhibit when multicollinearity is present?",
+        "A": "It will be consistent and unbiased but not efficient",
+        "B": "It will be consistent but not unbiased",
+        "C": "It will not be consistent",
+        "D": "It will be consistent, unbiased and efficient",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following outcomes would NOT result from utilizing non-stationary data in level format?",
+        "A": "Test statistics might not conform to common distributions",
+        "B": "Inferences drawn from statistical data may be incorrect",
+        "C": "The value of the regression coefficient $R^2$ could misleadingly be too high",
+        "D": "Biased estimates of parameters might occur",
+        "answer": "D"
+    },
+    {
+        "question": "If a sequence, z, obeys a random walk, what is the best single-step ahead prediction of z?",
+        "A": "The present value of z",
+        "B": "The mean value of z over the within-sample period",
+        "C": "Zero",
+        "D": "One",
+        "answer": "A"
+    },
+    {
+        "question": "The rank condition is",
+        "A": "A required and adequate condition for identification",
+        "B": "A condition that is neither essential nor adequate for identification",
+        "C": "An adequate but not essential condition for identification",
+        "D": "An essential but not adequate condition for identification",
+        "answer": "A"
+    },
+    {
+        "question": "If an estimator is defined to have minimum variance, which of these statements is NOT necessarily accurate?",
+        "A": "The likelihood of the estimate being significantly distinct from the actual value is minimized",
+        "B": "The estimator is deemed efficient",
+        "C": "This type of estimator is often labelled as \"optimal\"",
+        "D": "This estimator is always unbiased",
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following are the limitations of using the Phillips-Ouliaris method for cointegration testing and modelling cointegrating relationships?  i) Allows only one cointegrating relationship to be estimated  ii) Especially in smaller samples, the tests have a high risk of indicating variables as non-cointegrated when they are  iii) Inferences cannot be made on the cointegrating regression  iv) The procedure compels the researcher to identify the dependent variable and the independent ones.",
+        "A": "(i), (ii), and (iii) only",
+        "B": "(ii) only",
+        "C": "(i), (ii), (iii), and (iv)",
+        "D": "(i) and (iii) only",
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following assertions is accurate regarding the population regression function (PRF) and the sample regression function (SRF)?",
+        "A": "The PRF is an explanation of the system presumed to be producing the data.",
+        "B": "The model's effectiveness can be assessed by equating the SRF and the PRF",
+        "C": "The SRF is the factual model",
+        "D": "The PRF is employed to predict possible values of the SRF",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following can be seen as a downside of the 'Hendry' or 'LSE' method in building econometric models compared to the general to specific approach?",
+        "A": "Initial variables might be ignored resulting in skewed coefficients",
+        "B": "The end model might not have a theoretical explanation",
+        "C": "In case the starting model is wrongly defined, all following stages will be invalidated.",
+        "D": "The end model might be statistically inappropriate",
+        "answer": "C"
+    },
+    {
+        "question": "What might be the possible outcome when incorporating significant lagged variables of the dependent variable into a regression equation?",
+        "A": "Biased and inconsistent coefficient estimates",
+        "B": "Unbiased and consistent but inefficient coefficient estimates.",
+        "C": "Biased but consistent coefficient estimates",
+        "D": "Unbiased but inconsistent coefficient estimates",
+        "answer": "C"
+    },
+    {
+        "question": "What aspect would likely contribute to a greater level of accuracy in out-of-sample forecasts?",
+        "A": "A model including a large number of variables",
+        "B": "A model with a recently altered dependent variable",
+        "C": "A model grounded on economic principles",
+        "D": "A model purely based on statistics without any allowance for judgement-based forecast adjustments",
+        "answer": "C"
+    },
+    {
+        "question": "What condition must the roots of the characteristic equation satisfy for an autoregressive process to be stationary?",
+        "A": "The roots must all lie inside the unit circle",
+        "B": "The roots must all be equal to one in absolute value",
+        "C": "The roots must all lie on the unit circle",
+        "D": "The roots must all lie outside the unit circle",
+        "answer": "A"
+    },
+    {
+        "question": "What does the 'between transform' usually entail?",
+        "A": "Adding the mean of each entity to each observation on that entity",
+        "B": "Subtracting the median of each entity from each observation on that entity",
+        "C": "Summarizing all values of variables in each entity",
+        "D": "Estimating a cross-sectional data model using least squares dummy variables",
+        "answer": "C"
+    },
+    {
+        "question": "What is the main aim of \"enhancing\" the Dickey-Fuller test regression?",
+        "A": "To ensure that the test regression residuals are devoid of heteroscedasticity.",
+        "B": "To ensure that the test regression residuals are free from autocorrelation",
+        "C": "To ensure that the test regression residuals follow a normal distribution",
+        "D": "To ensure that all of the non-stationarity is accounted for.",
+        "answer": "B"
+    },
+    {
+        "question": "If a time series data, z, adheres to a random movement with a drift of d, what is the best forecast for a single-step advance in the change of z?",
+        "A": "Nil",
+        "B": "The present value of z",
+        "C": "Unity",
+        "D": "The drift term d",
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following assertions is accurate in relation to Vector Autoregressions (VARs)?",
+        "A": "The coefficient estimates usually have the same sign for all the lags of a particular variable in a given equation",
+        "B": "The coefficient estimates are often theoretically intuitive",
+        "C": "All components of a VAR must be non-stationary for its application in forecasting",
+        "D": "VARs typically yield superior projections than concurrent equation structural patterns",
+        "answer": "D"
+    },
+    {
+        "question": "An ARIMA(p, d, q) (p, d, q are integers bigger than zero) model will have",
+        "A": "An acf that cuts off after q lags and a pacf that declines gradually",
+        "B": "An acf and pacf that both decline gradually without a clear cutoff",
+        "C": "An acf that declines gradually and a pacf that cuts off after p lags",
+        "D": "An acf that cuts off after d lags and a pacf that cuts off after p lags",
+        "answer": "A"
+    },
+    {
+        "question": "Assume that the subsequent regression is calculated utilizing 46 monthly observations:  $y_t = \\alpha_1 + \\alpha_2 x_2 + \\alpha_3 x_{3t} + u_t$  What is the proper critical value for a 2-sided 5% size of test of $H_0: \\alpha_3 = 0$?",
+        "A": "2.04",
+        "B": "2.02",
+        "C": "1.98",
+        "D": "2.01",
+        "answer": "B"
+    },
+    {
+        "question": "Imagine that two analysts, using identical 4 variables and the same 300 observations for each variable, estimate a VAR. One calculates a VAR(5), while the other computes a VAR(3). The determinants of the variance-covariance matrices of the residuals for each VAR are 0.0025 and 0.0037 respectively. What is the values of the test statistic for conducting a test of whether the VAR(5) can be constrained to a VAR(3)?",
+        "A": "0.35",
+        "B": "0.42",
+        "C": "117.6",
+        "D": "5.87",
+        "answer": "C"
+    },
+    {
+        "question": "What is a DRAWBACK of utilizing pure time-series models in comparison to structural models?",
+        "A": "There is no theoretical premise behind them",
+        "B": "Producing forecasts is challenging with them",
+        "C": "They are incapable of handling extremely high frequency data",
+        "D": "Identifying the suitable explanatory variables for them is complex",
+        "answer": "A"
+    },
+    {
+        "question": "In the context of linear regression, what are the other terms used for the independent variable (commonly symbolized by x)?  (i) The predictor  (ii) The predictand  (iii) The explanatory variable  (iv) The explained variable",
+        "A": "(i), (ii), and (iii) only",
+        "B": "(i) and (iii) only",
+        "C": "(ii) and (iv) only",
+        "D": "(i), (ii), (iii), and (iv)",
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following are benefits of the SWOT analysis method in business strategy formulation?  i) SWOT analysis helps identify opportunities and threats in the external environment   ii) SWOT technique is highly expensive to implement   iii) SWOT analysis allows for the identification of strengths and weaknesses internally   iv) SWOT can be conducted without extensive data collection",
+        "A": "(i), (ii), and (iii) only",
+        "B": "(ii) and (iv) only",
+        "C": "(i), (iii), and (iv)",
+        "D": "(i) and (iii) only",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following assertions is CORRECT regarding the assumptions of the classical linear regression model?",
+        "A": "The explanatory variables (x's) are random variables with a probability distribution",
+        "B": "The residuals (u-hat) will always sum up to zero across all observations",
+        "C": "The error term (u) is normally distributed",
+        "D": "The coefficients of the regression are assumed to be correlated with the error term (u)",
+        "answer": "B"
+    },
+    {
+        "question": "Consider the given equation for $x_t$:  $x_t = \\alpha + \\beta t + v_t$  Which option most precisely characterizes the process for $x_t$?",
+        "A": "A stochastic source",
+        "B": "A stationary process",
+        "C": "A random walk with drift",
+        "D": "A deterministic trend process",
+        "answer": "D"
+    },
+    {
+        "question": "What is accurate regarding the logit and probit models?",
+        "A": "The probit model utilizes a cumulative logistic function",
+        "B": "Both models transform the data so that probabilities fall between zero and one, but they use different methods",
+        "C": "The probit model often leads to too many observations being exactly zero or one",
+        "D": "In the logit model, the effect of changing one of the explanatory variables is simply the estimated parameter of that variable, a feature not observed in the probit model",
+        "answer": "B"
+    },
+    {
+        "question": "What critical limitation of the diagonal VECH method in constructing multivariate GARCH models is solved by the BEKK model?",
+        "A": "The diagonal VECH method is complex to understand",
+        "B": "The diagonal VECH method has an overwhelming number of parameters",
+        "C": "The diagonal VECH method does not guarantee a positive-definite variance-covariance matrix",
+        "D": "The BEKK method resolves the dimensional issue that arises when multiple series are modeled simultaneously.",
+        "answer": "C"
+    },
+    {
+        "question": "In the context of regression analysis, which of the following terms can also refer to the dependent variable (commonly labelled as y)?  (i) The predicted variable  (ii) The response variable  (iii) The explanatory variable  (iv) The regressor",
+        "A": "(i) and (ii) only",
+        "B": "(ii) and (iv) only",
+        "C": "(i), (ii), and (iv) only",
+        "D": "(i), (ii), (iii), and (iv)",
+        "answer": "A"
+    },
+    {
+        "question": "Think about the OLS estimator when calculating the standard error of the intercept coefficient. Which of the following statement(s) is (are) accurate?  (i) The standard error is directly proportional to the residual variance  (ii) The standard error is inversely proportional to the spread of the observations on the independent variable around their average value  (iii) The standard error is inversely proportional to the number of samples in the study  (iv) The standard error provides an understanding of the accuracy of the coefficient estimate.",
+        "A": "(i), (ii), and (iii) only",
+        "B": "(ii) and (iv) only",
+        "C": "(i), (ii), (iii), and (iv)",
+        "D": "(i) and (iii) only",
+        "answer": "C"
+    },
+    {
+        "question": "Can you explain the term \"multicollinearity\"?",
+        "A": "It refers to the non-linearity between independent and dependent variables",
+        "B": "It refers to the high correlation between independent variables",
+        "C": "It refers to the zero mean of errors",
+        "D": "It refers to the high correlation between dependent variables",
+        "answer": "B"
+    },
+    {
+        "question": "What does a Durbin Watson statistic value near zero indicate about the first order autocorrelation coefficient?",
+        "A": "Approximately minus one or plus one",
+        "B": "Approximately zero",
+        "C": "Approximately minus one",
+        "D": "Approximately plus one",
+        "answer": "C"
+    },
+    {
+        "question": "What does the null hypothesis of a Jarque-Bera test assume about the distribution?",
+        "A": "Skewness of one and an excess kurtosis of three",
+        "B": "Zero skewness and zero excess kurtosis",
+        "C": "Zero skewness and an excess kurtosis of three",
+        "D": "Skewness of one and zero excess kurtosis",
+        "answer": "B"
+    },
+    {
+        "question": "What does it mean when a statistic is referred to as being unbiased?",
+        "A": "The statistic's expected value is equal to the true population parameter",
+        "B": "The statistic's value will approach the true population parameter as the sample size increases",
+        "C": "The statistic will be close to the true population parameter regardless of sample size",
+        "D": "The statistic will always equal the true population parameter",
+        "answer": "A"
+    },
+    {
+        "question": "What is a common feature of return series for financial assets?",
+        "A": "They are not moderately stationary",
+        "B": "They do not exhibit a trend",
+        "C": "They manifest low volatility",
+        "D": "They have a significant auto-correlation",
+        "answer": "B"
+    },
+    {
+        "question": "To establish the OLS estimator as unbiased, consistent and efficient, which of the following assumptions need to be made?  i) $E(u_i) = 0$   ii) $\\text{Var}(u_i) = \\sigma^2$   iii) $\\text{Cov}(u_i, u_{i-j}) = 0 \\forall j$   iv) $u_i \\sim N(0, \\sigma^2)$",
+        "A": "(i), (ii), (iii), and (iv)",
+        "B": "(i), (ii), and (iii) only",
+        "C": "(i) and (iv) only",
+        "D": "(ii) and (iii) only",
+        "answer": "B"
+    },
+    {
+        "question": "What is a potential downside of using the random effects model in panel data estimation?",
+        "A": "The model is inherently difficult to estimate",
+        "B": "The random effects model can only capture within-individual variation, not between-individual differences.",
+        "C": "The model results in an abundance of parameters to estimate, leading to a reduction in degrees of freedom",
+        "D": "The method becomes invalid if the individual-specific error component is correlated with the regressors",
+        "answer": "D"
+    },
+    {
+        "question": "Imagine a situation exactly like question 34, but now a 2-sided alternative hypothesis is being utilized. What would be the suitable decision to make?",
+        "A": "Reject H1",
+        "B": "Do not reject H0",
+        "C": "Not enough details provided to make a conclusion",
+        "D": "Reject H0",
+        "answer": "D"
+    },
+    {
+        "question": "What kind of number best describes the cost of a car?",
+        "A": "Nominal",
+        "B": "Ordinal",
+        "C": "Cardinal",
+        "D": "Discrete",
+        "answer": "D"
+    },
+    {
+        "question": "If a Johansen \"trace\" test for a null hypothesis of 3 cointegrating vectors is carried out in a system containing 5 variables, which eigenvalues would be utilized in the test?",
+        "A": "The largest 2",
+        "B": "All of them",
+        "C": "The second smallest",
+        "D": "The largest 3",
+        "answer": "A"
+    },
+    {
+        "question": "Imagine we have evaluated a GARCH model for the daily returns on stocks, and our aim is to create a 5-day forecast of the volatility (expressed as the standard deviation of returns) to be used in a value at risk model. What would be the most reliable method to compute such a prediction?",
+        "A": "Generate 1, 2, 3, 4, 5 step ahead conditional variance forecasts, add them up and find the square root",
+        "B": "Generate 1, 2, 3, 4, 5 step ahead conditional variance forecasts and sum them",
+        "C": "Generate a 1-step ahead conditional variance forecast, find its square root and multiply it by the square root of 5",
+        "D": "Generate 1, 2, 3, 4, 5 step ahead conditional variance forecasts, obtain the square roots of each one and add them together",
+        "answer": "A"
+    },
+    {
+        "question": "A random walk process will have  (i) A time-dependent mean  (ii) A time-dependent variance  (iii) Autocovariances that increase with the time lag  (iv) Autocovariances that are zero except at lag one",
+        "A": "(i) and (iii) only",
+        "B": "(i), (ii), (iii), and (iv)",
+        "C": "(i), (ii), and (iii) only",
+        "D": "(i) and (ii) only",
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following statements are accurate regarding the Durbin-Watson statistic in diagnosing autocorrelation in regression models?  (i) The statistic is typically in the range of 0 to 4  (ii) A value close to 2 suggests no autocorrelation  (iii) A value closer to 0 indicates positive autocorrelation while a value closer to 4 indicates negative autocorrelation  (iv) The Durbin-Watson statistic is only applicable for time series data",
+        "A": "(ii) and (iv) only",
+        "B": "(i), (ii), (iii), and (iv)",
+        "C": "(i), (ii), and (iii) only",
+        "D": "(i) and (iii) only",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following could be a reasonable reaction to the discovery of remaining heteroscedasticity?",
+        "A": "Exclude high leverage points from the dataset.",
+        "B": "Try transforming the dependent variable using a logarithmic function",
+        "C": "Change the estimation of the model to its log-differenced form",
+        "D": "Integrate interaction terms into the regression model",
+        "answer": "B"
+    },
+    {
+        "question": "Another term often used to refer to the fixed effects panel model is",
+        "A": "The lagged dependent variable model",
+        "B": "The autoregressive conditional heteroskedasticity model",
+        "C": "The generalized least squares regression",
+        "D": "The least squares dummy variables method",
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following accurately describes the objective of OLS estimation?",
+        "A": "OLS aims to reduce the sum of the horizontal distances from the points to the line",
+        "B": "OLS aims to reduce the sum of the squares of the perpendicular distances from the points to the line",
+        "C": "OLS aims to reduce the sum of the vertical distances from the points to the line",
+        "D": "OLS aims to reduce the sum of the squares of the vertical distances from the points to the line",
+        "answer": "D"
+    },
+    {
+        "question": "If the conventional methods for time-series analysis, like determining the acf, pacf, and spectral analysis, detect no structure within the data, this signifies that the data are what?",
+        "A": "Heavy-tailed",
+        "B": "Independent",
+        "C": "Uncorrelated",
+        "D": "Normally distributed",
+        "answer": "C"
+    },
+    {
+        "question": "Regarding the concept of cointegration for two series $p_t$ and $q_t$, which of these options are accurate?   i) $p_t$ and $q_t$ must both be stationary  ii) Only a specific linear combination of $p_t$ and $q_t$ will be stationary  iii) The cointegrating equation for $p_t$ and $q_t$ illustrates the short-run association between the two series  iv) The residuals of a regression of $q_t$ on $p_t$ have to be stationary",
+        "A": "(i), (ii), (iii), and (iv)",
+        "B": "(i), (ii), and (iii) only",
+        "C": "(ii) and (iv) only",
+        "D": "(i) and (iii) only",
+        "answer": "C"
+    },
+    {
+        "question": "What term is used to define a dependent variable that cannot be observed beyond a specified limit, even though the related independent variable values can still be accessed?",
+        "A": "Multiple regression",
+        "B": "Bounded",
+        "C": "Censored",
+        "D": "Categorical variable",
+        "answer": "C"
+    },
+    {
+        "question": "The purpose of a Durbin-Watson test is",
+        "A": "Determining whether there is serial correlation in the residuals",
+        "B": "Determining which variable in a regression model is the most significant",
+        "C": "Determining whether the number of observations is sufficient for a regression analysis",
+        "D": "Determining whether there is heteroscedasticity in the residuals",
+        "answer": "A"
+    },
+    {
+        "question": "Given the notation for a standard linear regression model, $w = Z \\theta + v$, what would be the dimensions of $v$?",
+        "A": "N x p",
+        "B": "N x 1",
+        "C": "p x 1",
+        "D": "1 x 1",
+        "answer": "B"
+    },
+    {
+        "question": "What is the total number of parameters needed to estimate all equations of a standard form, unrestricted, quad-variate VAR(3), excluding the intercepts?",
+        "A": "9",
+        "B": "36",
+        "C": "48",
+        "D": "12",
+        "answer": "C"
+    },
+    {
+        "question": "An analyst conducts a test for heteroskedasticity in the subsequent regression model:  $y_t = \\alpha_1 + \\alpha_2 x_{2t} + \\alpha_3 x_{3t} + e_t$  The overall sample of 250 observations is divided precisely in half for the sub-sample regressions. What would be the unrestricted residual sum of squares?",
+        "A": "The RSS for the whole sample",
+        "B": "The sum of the RSS for the first and second sub-samples",
+        "C": "The RSS for the second sub-sample",
+        "D": "The RSS for the first sub-sample",
+        "answer": "B"
+    },
+    {
+        "question": "Suppose we aim to test the null hypothesis that a GARCH(1,1) model can be scaled down to a process with unchanging conditional variance using the likelihood ratio test method. Which of the following statements are accurate?",
+        "A": "The value of the log-likelihood function is typically larger for the scaled-down model than for the unrestricted model",
+        "B": "Under the null hypothesis, the test statistic will have a chi-squared distribution with 1 degree of freedom",
+        "C": "If the relevant log-likelihood functions are -102.5 and -105.6, the value of the test statistic is 6.2",
+        "D": "The likelihood ratio test evaluates the gradients of the log-likelihood function at the maximum and at the restricted parameter value.",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is NOT a direct method to address multicollinearity?",
+        "A": "Collect more data points",
+        "B": "Remove one of the highly correlated variables",
+        "C": "Use ridge regression",
+        "D": "Increase the sample size",
+        "answer": "D"
+    },
+    {
+        "question": "Given the AR(1) model as follows:  xt = 0.5 xt-1 + et  What type of process is this?",
+        "A": "Explosive process",
+        "B": "Stationary process",
+        "C": "Unit root process",
+        "D": "Stationary and unit root process",
+        "answer": "B"
+    },
+    {
+        "question": "Which statistical test is appropriate for checking for the presence of third-order autocorrelation in a time series dataset?",
+        "A": "The Augmented Dickey-Fuller test",
+        "B": "The Breusch-Godfrey test",
+        "C": "The Phillips-Perron test",
+        "D": "The CUSUM test",
+        "answer": "B"
+    },
+    {
+        "question": "What can be the final outcome if Ordinary Least Squares (OLS) is used separately for every equation in a concurrent system?",
+        "A": "OLS cannot be used for equations in a concurrent system",
+        "B": "Consistent and unbiased",
+        "C": "Both biased and inconsistent",
+        "D": "Consistent but biased",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is NOT an instance of functional form mis-specification?",
+        "A": "Applying a linear specification when y works as a function of x cubes",
+        "B": "Applying a linear specification when a log-log model would be more appropriate",
+        "C": "Omitting a significant variable from a linear regression model",
+        "D": "Modeling y as a function of x when in reality it scales as a function of 1/x",
+        "answer": "C"
+    },
+    {
+        "question": "If we want to assess the factors influencing the likelihood of a consumer choosing a digital subscription over a physical one or none at all, which type of model would be most suitable?",
+        "A": "A multinomial logit",
+        "B": "A linear regression model",
+        "C": "A probit model",
+        "D": "A binomial logit",
+        "answer": "A"
+    },
+    {
+        "question": "What could potentially occur if the sample size in a random sampling study is too small?  i) The results may not accurately represent the population  ii) It could lead to a high margin of error  iii) The statistical power of the study may be compromised",
+        "A": "(i) and (iii) only",
+        "B": "(ii) and (iii) only",
+        "C": "(i), (ii), and (iii) only",
+        "D": "(i) and (ii) only",
+        "answer": "C"
+    },
+    {
+        "question": "What is a potential downside when applying the fixed effects method in panel data analysis?",
+        "A": "All of (a) to (c) are potential downsides of the fixed effects method.",
+        "B": "The method could lead to biased estimates if there is no time-variant variation in the independent variables.",
+        "C": "The fixed effects method doesn't consider the individual specific effect, resulting in inaccurate results.",
+        "D": "It might be inefficient due to its inability to estimate time-invariant variables.",
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following statements are accurate about the time series and ARIMA model?  (i) Time series analysis is often complicated to interpret in practice  (ii) ARIMA models can be tricky to apply for some data sets  (iii) Information criteria offer an alternative method to model order determination  (iv) If implemented correctly, the time series and ARIMA models will always provide unique model selections",
+        "A": "(i), (ii), and (iii) only",
+        "B": "(i), (ii), (iii), and (iv)",
+        "C": "(ii) and (iv) only",
+        "D": "(i) and (iii) only",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following prerequisites are essential for a series to be identified as a weakly stationary process?  (a) It must maintain a constant mean  (b) It must sustain a constant variance  (c) It must possess constant autocovariances for any given lags  (d) It must retain a constant probability distribution",
+        "A": "(a), (b), and (c) only",
+        "B": "(a) and (c) only",
+        "C": "(b) and (d) only",
+        "D": "(a), (b), (c), and (d)",
+        "answer": "A"
+    },
+    {
+        "question": "Analyze the equation below and identify the type of econometric model it represents:  $y_{ij} = \\theta + \\lambda_i + \\epsilon_{ij}$",
+        "A": "A time series model with autoregressive errors",
+        "B": "A panel data model with entity fixed effects",
+        "C": "A cross-sectional fixed effects model",
+        "D": "A hierarchical linear model",
+        "answer": "B"
+    },
+    {
+        "question": "Without the need for statistical charts, for a set of 1500 observations, the values of the Dickey-Fuller test statistic are",
+        "A": "More negative (i.e., larger in absolute value) for a 5% size of test than a 10% test.",
+        "B": "Derived from a mathematical formula for the density of the Dickey-Fuller distribution",
+        "C": "More negative (i.e., larger in absolute value) than those in the left-hand tail of a normal distribution",
+        "D": "Less negative (i.e., smaller in absolute value) than those in the left-hand tail of a normal distribution",
+        "answer": "C"
+    },
+    {
+        "question": "Consider that a hypothesis test is performed using a 10% significance level. Which of the following statements is true?  (i) The significance level is the same as the size of the test  (ii) The significance level is the same as the power of the test  (iii) For a 2-sided test, 5% of the total distribution will be in each tail rejection region  (iv) For a 2-sided test, 10% of the total distribution will be in each tail rejection region.",
+        "A": "(i), (ii), and (iii) only",
+        "B": "(i), (ii), (iii), and (iv)",
+        "C": "(i) and (iii) only",
+        "D": "(ii) and (iv) only",
+        "answer": "C"
+    },
+    {
+        "question": "Which issue that arises with the Dickey-Fuller/Engle-Granger method in handling cointegrated variables is addressed by the Johansen procedure?",
+        "A": "The cointegrating tests show an asymmetrical treatment of variables",
+        "B": "In Dickey Fuller tests, small sample sizes often lead to false positives for unit roots in a series",
+        "C": "Only one cointegrating relationship can be identified using the Engle-Granger (EG) method, even when there may be multiple",
+        "D": "Testing for the cointegrating relationship is not feasible",
+        "answer": "C"
+    },
+    {
+        "question": "Imagine a sequence that operates on an AR(1) model with a zero mean and an autoregressive coefficient of 0.5. What is the value of the autocorrelation at lag 1?",
+        "A": "1",
+        "B": "0.5",
+        "C": "It is not possible to determine the value of the autocorrelations without knowing the error variance.",
+        "D": "0.45",
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following estimation methods can be utilized for the prediction of under-identified systems of simultaneous equations?  i) OLS  ii) ILS  iii) 2SLS  iv) IV",
+        "A": "(i), (ii), (iii) and (iv)",
+        "B": "(ii), (iii), and (iv) only",
+        "C": "(i) only",
+        "D": "(i) and (ii) only",
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following choices provides the most accurate description of a Type I error?",
+        "A": "It is equivalent to the sensitivity of the test",
+        "B": "It is synonymous to the robustness of the test",
+        "C": "It is the probability of incorrectly rejecting a true null hypothesis",
+        "D": "It is the likelihood of wrongly accepting the alternative hypothesis",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is the most suitable as a 95% (two-sided) confidence interval for the slope term of the model provided in question 18?",
+        "A": "(-6.20, 3.60)",
+        "B": "(-2.50, 2.50)",
+        "C": "(-3.75, 1.85)",
+        "D": "(-4.00, 4.00)",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following traits define a random walk process?  i) It has no predictable patterns or trends   ii) Its past and future are independent   iii) It contains a trend component   iv) Its current value is the sum of the previous value and a random error",
+        "A": "(i), (ii), and (iv) only",
+        "B": "(i), (ii), (iii), and (iv)",
+        "C": "(i) and (ii) only",
+        "D": "(iii) and (iv) only",
+        "answer": "A"
+    },
+    {
+        "question": "Reevaluate the ARIMA model as per equation 20. What requirements should be met to state that there is mutual interplay?",
+        "A": "The e and g coefficients are significant",
+        "B": "The f and h coefficients are significant and the e and g coefficients are insignificant",
+        "C": "The f and h coefficients are significant",
+        "D": "The e and g coefficients are significant and the f and h coefficients are insignificant",
+        "answer": "C"
+    },
+    {
+        "question": "Analyze the following sample autocorrelation coefficients obtained from 500 data points:  1) Lag 1 2 3  2) Coefficient 0.30 -0.25 -0.05  3) Assuming that the coefficients follow a normal distribution, which of the coefficients are statistically significant at the 5% significance level?",
+        "A": "1, 2 and 3 only",
+        "B": "1 and 2 only",
+        "C": "Cannot determine the statistical significance without standard errors",
+        "D": "1 only",
+        "answer": "B"
+    },
+    {
+        "question": "What does a goodness of fit test essentially measure?",
+        "A": "The accuracy of the sample regression equation in fitting the data",
+        "B": "The congruency of the population regression equation with the sample regression equation",
+        "C": "The extent to which the population regression equation represents the data",
+        "D": "The accuracy of the sample regression equation in representing the population regression equation",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following statements correctly describe the application of control variates in a Monte Carlo simulation?  i) Control variates help by reducing the variance of the estimate without changing its expected value.  ii) Control variates involve using a different but correlated variable with a known expected value.  iii) Control variates involve inverting each of the random draws and running the simulation with those values.  iv) Control variates entail using the opposite of each random draw and repeating the simulation using those values.",
+        "A": "(ii) and (iv) only",
+        "B": "(i), (ii), and (iv) only",
+        "C": "(i) and (ii) only",
+        "D": "(i), (ii), (iii), and (iv)",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following assertions is correct in relation to various measures of forecast accuracy?",
+        "A": "Mean absolute percentage error penalizes significant forecast errors more than minor forecast errors",
+        "B": "Mean absolute error is an efficient metric for assessing asset return predictions",
+        "C": "Mean squared error provides an exponential loss function",
+        "D": "Mean absolute percentage error generally correlates with trading rule profitability",
+        "answer": "B"
+    },
+    {
+        "question": "What limitations of traditional (\"plain vanilla\") ARCH models are addressed by GARCH models?  i) ARCH models require a large number of parameters to capture volatility clustering in long time series  ii) ARCH models only consider the impact of lagged squared returns on current volatility  iii) ARCH models do not consider the influence of previous volatility on current volatility in a parsimonious way  iv) ARCH models typically do not include a direct effect of shocks to returns",
+        "A": "(i), (ii), and (iii) only",
+        "B": "(i), (ii), (iii), and (iv)",
+        "C": "(i) and (iii) only",
+        "D": "(ii) and (iii) only",
+        "answer": "D"
+    },
+    {
+        "question": "Assume that 200 individual companies were evaluated to ascertain how many of them \"outperform the market\" using a Fama-French model, and it is discovered that 5 fund managers do so remarkably. Does this imply an initial proof of stock market inefficiency?",
+        "A": "Yes",
+        "B": "The question lacks enough information to make a conclusion about market efficiency.",
+        "C": "No",
+        "D": "To answer this question accurately, you need to evaluate all fund managers operating in that market",
+        "answer": "C"
+    },
+    {
+        "question": "What is the null hypothesis of the Johansen test when applied to multiple time series to test for cointegration?",
+        "A": "There is at least one cointegrating relationship",
+        "B": "There are no cointegrating relationships",
+        "C": "All variables are non-stationary",
+        "D": "All variables are stationary",
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following statements about the autocorrelation function (acf) and partial autocorrelation function (pacf) are accurate?  i) Regardless of the model, the acf and pacf will always be identical at lag one  ii) Beyond lag q, the pacf for an MA(q) model will generally be non-zero  iii) Beyond lag p, the pacf for an AR(p) model will be zero  iv) For an MA(1) model, the acf and pacf will be identical at lag two",
+        "A": "(i), (ii), and (iii) only",
+        "B": "(ii) and (iv) only",
+        "C": "(i) and (iii) only",
+        "D": "(i), (ii), (iii), and (iv)",
+        "answer": "C"
+    }
+]

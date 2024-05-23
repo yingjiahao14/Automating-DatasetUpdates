@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="static/ico/favicon.ico" rel="icon" type="image/x-ico" />
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://fastly.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    crossorigin="anonymous">
+  <script src="https://fastly.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://fastly.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+  <script src="https://cdn.staticfile.org/vue-resource/1.5.1/vue-resource.min.js"></script>
+
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/export-data.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+  <script>
+    function toggleVisibility(id) {
+        var element = document.getElementById(id);
+        if (element.style.display === 'none') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+    </script>
+<style>
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 100%; /* Adjust based on your layout needs */
+    margin-bottom: 20px; /* Space between cards */
+}
+
+
+.arrow {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px; /* Control the space between the cards */
+    font-size: 24px; /* Size of the arrow */
+    font-weight: bold; /* Make the arrow bold */
+    color: #007BFF; /* Arrow color */
+  }
+
+.card-body, .list-group-item {
+    text-align: left;
+}
+
+</style>
+<style>
+  .image-container {
+      display: flex;        
+      justify-content: center; 
+      align-items: center; 
+  }
+  
+  .responsive-image {
+      max-width: 50%;     
+      height: auto;        
+      margin: 5px;         
+  }
+  </style>
+  
+  <style>
+    .navbar {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: .25rem;
+      padding-bottom: .25rem;
+    }
+
+    .navbar-expand-md .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+    }
+
+    .navbar {
+      align-items: stretch;
+      min-height: 3.5rem;
+      background: 0 0;
+      color: rgba(35, 46, 60, .7);
+    }
+
+    .navbar-light {
+      box-shadow: inset 0 -1px 0 0 rgba(101, 109, 119, .16);
+      background-color: #fff;
+    }
+
+    .navbar-collapse .navbar {
+      flex-grow: 1;
+    }
+    .page-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .component-fade-enter-active,
+    .component-fade-leave-active {
+      transition: opacity .3s ease;
+    }
+
+    .component-fade-enter,
+    .component-fade-leave-to
+
+    /* .component-fade-leave-active for below version 2.1.8 */
+      {
+      opacity: 0;
+    }
+
+    .slide-fade-enter-active {
+      transition: all .5s ease;
+    }
+
+    .slide-fade-leave-active {
+      transition: all .5s ease;
+    }
+
+    .slide-fade-enter,
+    .slide-fade-leave-to
+
+    /* .slide-fade-leave-active for below version 2.1.8 */
+      {
+      transform: translateX(10px);
+      opacity: 0;
+    }
+    /* Class for tight group */
+    .group-item {
+      margin-bottom: 0;
+    }
+    .link-like {
+      color: blue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    /* Additional spacing after every second item */
+    .group-item:nth-child(2n) {
+      margin-bottom: 3px; /* Adjust this value as needed for more spacing between groups */
+    }
+  </style>
+<style>
+  .btn {
+      border: none;
+      padding: 8px 16px; /* Smaller padding */
+      font-size: 14px; /* Smaller font size */
+      transition: all 0.3s;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      border-radius: 5px; /* Rounded corners */
+      margin: 0 auto; /* Center the button */
+      display: block; /* Block-level for margin auto to work */
+  }
+  
+  .btn-light {
+      background-color: #e7e7e7; /* Light grey */
+      color: #555; /* Dark grey text */
+  }
+  
+  .btn-secondary {
+      background-color: #50596b; /* Dark grey */
+      color: white;
+  }
+  
+  .btn:hover, .btn:focus {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transform: translateY(-2px); /* Slight move up */
+  }
+  
+  .btn:active {
+      box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+      transform: translateY(1px); /* Slight move down when active */
+  }
+  </style>
+  
+  
+  
+  <title>Jiahao</title>
+</head>
+
+
+
+<body>
+  <script src="https://fastly.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://fastly.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+  <div id="app">
+    <div class="wrapper">
+      <!-- <header class="navbar navbar-expand-md navbar-light d-print-none">
+        <div class="container-xl">
+          <a href="index.html">
+            ReLoad
+          </a>
+        </div>
+
+      </header> -->
+
+      <div class="navbar-expand-md">
+        <div class="collapse navbar-collapse" id="navbar-menu">
+          <div class="navbar">
+            <div class="container-xl">
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button @click="switchpart(1)" :class="navclass1" id="pills-home-tab">Overview</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button @click="switchpart(2)" :class="navclass2" id="pills-data-tab">Data Display - Mimicking</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button @click="switchpart(3)" :class="navclass3" id="pills-data-tab">Data Display - Extending</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="page-wrapper">
+        <div class="container-xl">
+          <transition name="component-fade" mode="out-in">
+            <component :is="nowname" :switchpartson="switchpart"></component>
+          </transition>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <template id="Overview">
+    <div>
+      <!-- <div class="alert alert-warning" role="alert">
+        <h4 class="alert-heading">Check out our data!</h4>
+        <p style="margin-bottom: 0rem;">Click the data section to gain a comprehensive understanding of our benchmark.</p>
+        <button type="button" class="btn btn-warning" style="margin-top: 8px;" @click="switchpartson(2)">Go!</button>
+      </div> -->
+
+      <section class="hero">
+        <div class="hero-body">
+          <div class="container is-max-desktop">
+            <div class="columns is-centered">
+              <div class="column has-text-centered">
+                <h1 class="title is-1 publication-title">Have Seen Me Before? Automating Dataset Updates
+                  Towards Reliable and Timely Evaluation</h1>
+                <div class="is-size-5 publication-authors">
+                  <!-- Paper authors -->
+                  <a href="mailto:jhying.2022@phdcs.smu.edu.sg">
+                    <span class="author-block">Jiahao Ying</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                    Yixin Cao<sup>1*</sup>,</span>
+                  <span class="author-block">Yushi Bai<sup>2</sup>,</span>
+                  <span class="author-block">
+                    Bo Wang<sup>3</sup>,
+                  </span>
+                  <span class="author-block">Wei Tang<sup>4</sup>,</span><br>
+                  <span class="author-block">Zhaojun Ding<sup>5</sup>,</span>
+                  <span class="author-block">Yizhe Yang<sup>3</sup>,</span>
+                  <span class="author-block">Shuicheng Yan<sup>6*</sup>,</span>
+                </div>
+                <div class="is-size-5 publication-authors" style="margin-top: 5px;">
+                  <span class="author-block">
+                    <sup>1</sup>Singapore Management University
+                    <br>
+                    <sup>2</sup>Tsinghua University
+                    <br>
+                    <sup>3</sup>Beijing Institute of Technology
+                    <br>
+                    <sup>4</sup>University of Science and Technology of China
+                    <br>
+                    <sup>5</sup>School of Computing, University of Georgia
+                    <br>
+                    <sup>6</sup>Skywork AI
+                    <br>
+                    <br>
+                    <span class="link-block">
+                      <a href="https://arxiv.org/abs/2402.11894" class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+                    <span class="link-block">
+                      <a href="https://github.com/yingjiahao14/haopage" class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fab fa-github"></i>
+                        </span>
+                        <span>Data</span>
+                      </a>
+                    </span>
+                    <!-- <a href="https://arxiv.org/abs/2402.11894">[Paper]</a>
+                    <a href="https://github.com/yingjiahao14/haopage">[Data]</a> -->
+                  </span>
+                  <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+              <h2 class="title is-3">Abstract</h2>
+              <div class="content has-text-justified">
+                <p>
+                  Due to the expanding capabilities and pre-training data, Large Language Models
+                  (LLMs) are facing increasingly serious evaluation challenges. On one hand, data
+                  leakage often leads to overestimated performance when using existing benchmarks.
+                  On the other hand, periodically curating datasets manually is costly.
+                </p>
+                <p>
+                  In this paper,
+                  we propose to automate dataset updates for reliable and timely evaluation. The
+                  basic idea is to generate unseen and high-quality testing samples based on existing
+                  ones to mitigate overestimation problems when data leakage happens. In specific, 
+                  we propose two strategies with systematic verification. First, the <b>mimicking
+                  strategy</b> employs LLMs to create new samples resembling existing ones, to the
+                  maximum extent preserving the stylistic of the original dataset. Our experiments
+                  demonstrate its evaluation stability across multiple instantiations and its effectiveness
+                  in dealing with overestimation issues in most cases. Second, for the cases
+                  where the mimicking dataset works poorly, we design an <b>extending strategy</b> that
+                  expands the generated samples according to varying cognitive levels. 
+                </p>
+                <p>
+                  To the best
+                  of our knowledge, this is the <strong>first work</strong> to investigate the automated updates of
+                  datasets for handling the overestimation of LLMs when data leakage happens.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+              <h2 class="title is-3" id="privacy-auditing">The auto-dataset update framework</h2>
+              <div class="content has-text-justified">
+                <img src="static/images/overview.png" class="d-block w-100" alt="..."
+          style="margin-top: 30px; margin-bottom: 30px;">
+          <p>
+            <li><a class="link-like" type="button" @click="switchpartson(2)"> For the mimicking strategy</a> (click the link to view data samples), we leverage LLMs to generate <span style="background-color: #58C09C;">similar ones</span> for each <span style="background-color: #F0F3BD;">original test case</span> , so that we, to the maximum extent, preserve the stylistic and contextual essence of the original data. 
+          The mimicking strategy initiates by iterating through each sample in the selected dataset as a seed. This seed, combined with the corresponding task description, forms the input for prompting LLMs to generate new samples. Below is an example: <br>
+          <div class="tcolorbox" style="border: 1px solid #ccc; padding: 20px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); background-color: #f0f0f0; font-family: Arial, sans-serif; line-height: 1.6; margin-bottom: 20px;">
+            <button onclick="toggleVisibility('taskDetails')">Click to show the prompt demo for the task Sports Understanding</button>
+            <div id="taskDetails" style="display: none;">
+              <br>
+                <strong>You are a question-writer expert.</strong>
+                Please mimic the provided examples to generate <em>one</em> different but high-quality sample following the task description.<br><br>
+                <strong style="font-weight: bold;">[Task Description]:</strong><br>
+                This task evaluates the model's ability to discern the plausibility of specific athletic actions based on the athlete's known skills and typical behaviors in their sport. For example, a language model should understand that Leo Messi (arguably the best soccer player) is more likely to score goals or that basketball player Isaiah Thomas is unlikely to dunk (being a 5'9" point guard).<br><br>
+                <strong style="font-weight: bold;">[Seed Sample]:</strong>
+                <pre style="background-color: #e8e8e8; padding: 10px; font-family: monospace; text-align: left ">
+{
+    "input": "Jamal Murray was perfect from the line",
+    "target_scores": {
+        "plausible": 1,
+        "implausible": 0
+    }
+}
+                </pre>
+                <strong style="font-weight: bold;">[New Generated Sample]:</strong>
+                <pre style="background-color: #e8e8e8; padding: 10px; font-family: monospace; text-align: left;">
+{
+    "input": "Jamal Murray made 10 three-pointers in a row",
+    "target_scores": {
+        "plausible": 1,
+        "implausible": 0
+    }
+}
+                </pre>
+            </div>
+         </div>
+        
+        
+        
+         </p>
+         <li><a class="link-like" type="button" @click="switchpartson(3)"> For the Extending strategy</a> (click the link to view data samples), we extend the original sample to multi-cognition levels  
+          (<span style="background-color: #FDF8E1;">Remember & Understand</span> , <span style="background-color: #FAEFBB;">Apply</span> , <span style="background-color: #F6E694;">Analysis</span> ,
+          <span style="background-color: #F4DD71;">Evaluation</span> )to have a thorough and nuanced assessment. 
+          Below is an example where we extract sports star ”Jamal Murray“ and prompt LLMs to extend:<br>
+          <div class="tcolorbox" style="border: 1px solid #ccc; padding: 20px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); background-color: #f0f0f0; font-family: Arial, sans-serif; line-height: 1.6; margin-bottom: 20px;">
+            <button onclick="toggleVisibility('questionDetails')">Click to show the prompt demo for the task Sports Understanding</button>
+            <div id="questionDetails" style="display: none;">
+              <br>
+              <strong>You are a question-writer expert.</strong>
+               You our objective is to write <strong>only one</strong> really complex and difficult question about the given entity.<br><br>
+                <strong style="font-weight: bold;">[Generate Criterion]:</strong><br>
+                1. The question should be focused on the remember and understand level. This means the question should prompt for recall of facts, terms, and basic concepts, and NOT delve into deeper levels like Applying, Analyzing, or Understanding.<br>
+                2. Ensure that you can confidently answer the questions you are proposing, if you can not answer it correctly or have no related knowledge about the entity please return "None".<br><br>
+                <strong style="font-weight: bold;">[Seed Entity]:</strong> Jamal Murray<br><br>
+                <strong style="font-weight: bold;">[New Generated Sample]:</strong>
+                <pre style="background-color: #e8e8e8; padding: 10px; font-family: monospace; text-align: left ">
+{
+    "question": "What is the exact date, team, and college that Jamal Murray was drafted 
+                 into the NBA?", 
+    "ref_answer": "Jamal Murray was drafted on June 23, 2016, by the Denver Nuggets, after
+                  attending the University of Kentucky"
+}
+                </pre>
+            </div>
+        </div>
+        
+              </div> 
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+      <section class="section">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+              <h2 class="title is-3">Is it stable if we dynamically update evaluation datasets?</h2>
+              <div class="content has-text-justified">
+                <p>
+                  Clearly, a major concern is whether they can produce consistent evaluation results. To answer the above stability question, we choose the mimicking strategy and iterate the update process four times on the tasks from MMLU and BIG-Bench.
+                  and conducted experiments using seven open source models: Llama-2-7b-chat, Llama-2-13b-chat, 
+                  Llama-3-8b-Instruction, Mistral-7B-Instruct-v0.2, Mixtral-8x7B-Instruct-v0.1, Yi-6b-chat, Yi-34b-chat,
+                   and four closed-source models: GTP-4, ChatGPT, Claude2, Gemini-pro.
+
+        
+          <img src="static/images/mimic_bbh_v2.png" class="d-block w-100" alt="..."
+          style="margin-top: 30px; margin-bottom: 30px;">
+          <img src="static/images/mimic_mmlu_v2.png" class="d-block w-100" alt="..."
+          style="margin-top: 30px; margin-bottom: 30px;">
+          Compared with the performance of baselines on original datasets, their performance on our datasets are similar, the difference of the two scores is 5% on average. Among four different mimicked datasets, the standard deviation is limited, ranging from 0% to 3%. This demonstrates the stability of our dataset update strategy.
+          
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered has-text-centered">
+            <div class="column is-four-fifths">
+              <h2 class="title is-3">Can mimicked and extended datasets alleviate overestimation when data leakage occurs?</h2>
+              <div class="content has-text-justified">
+                To simulate the data leakage issue, we choose three baseline models, Llama-2-7b-chat, Llama-2-13b-chat, and Mistral-7b-instruction and finetune them using the testing data from original datasets. On our mimicked datasets, the performance of all leakage simulations generally decreases or remains similar, except task Algos. 
+                <img src="static/images/table2.png" class="d-block w-100" alt="..."
+                style="margin-top: 30px; margin-bottom: 30px;">
+                <img src="static/images/table3.png" class="d-block w-100" alt="..."
+                style="margin-top: 30px; margin-bottom: 30px;">
+                The mimicking strategy does not work well on datasets: Algos and Algebra. The data leakage issue still leads to the severe overestimation of model, which we will further explore using the extending strategy. 
+                Using either <strong>GTP-4</strong> or <strong>Claude-3</strong> as backbone to generate the new samples can effectively alleviate the overestimation problems.
+                <div class="image-container">
+                  <img src="static/images/extend_1.png" alt="Image 1" class="responsive-image">
+                  <img src="static/images/extend_2.png" alt="Image 2" class="responsive-image">
+              </div>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+      <!--BibTex citation -->
+      <section class="section" id="BibTeX">
+        <div class="container is-max-desktop content" style="width: 80%; margin: auto;">
+          <h2 class="title">BibTeX</h2>
+          <pre><code>@misc{ying2024seen,
+            title={Have Seen Me Before? Automating Dataset Updates Towards Reliable and Timely Evaluation}, 
+            author={Jiahao Ying and Yixin Cao and Bo Wang and Wei Tang and Yizhe Yang and Shuicheng Yan},
+            year={2024},
+            eprint={2402.11894},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
+}</code></pre>
+          <a href="https://www.flagcounter.me/details/dKe"><img src="https://www.flagcounter.me/dKe/" alt="Flag Counter"
+              hidden></a>
+        </div>
+      </section>
+
+    </div>
+  </template>
+
+  <template id="Sample">
+    <div>
+      <!-- {{ message }}
+      <div class="form-group">
+        <input type="text" class="form-control typeahead" placeholder="Type your search query" data-provide="typeahead">
+      </div> -->
+      <h1 style="margin-bottom: 15px;"> The updated data sample using the mimicking strategy </h1><br>
+
+
+      <div class="card-header bg-secondary text-white mb-3" style="background: linear-gradient(135deg, #6a82fb, #fc5c7d);">
+        <div class="card-body" style="padding-left: 0;">
+            <button type="button" class="btn btn-success" style="background-color: #28a745; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 8px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition-duration: 0.4s; cursor: pointer;"
+                    onmouseover="this.style.backgroundColor='#218838'"
+                    onmouseout="this.style.backgroundColor='#28a745'"
+                    @click="sample()">
+                Press the button to randomly select a new sample from the set.
+            </button>
+        </div>
+    </div>
+      <!-- <div class="card-header bg-secondary text-white mb-3">
+        <div class="card-body" style="padding-left: 0;">
+          <p class="card-text" style="margin-bottom: 0.5rem; text-align: left;">
+            Press the button to randomly select a sample from the dataset.
+          </p>
+          <button type="button" class="btn btn-success" style="margin-top: 10px;" @click="sample()">
+            Get Random Sample
+          </button>
+        </div>
+      </div> -->
+
+      <div class="accordion" id="accordionExample">
+        <div class="card" v-for="(qitem, qindex) in sampledData">
+          <div :id="'collapse'+qindex" :class="['collapse', nowqindex==qindex ? 'show' : '']"
+            :aria-labelledby="'heading'+qindex" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="container">
+                <div class="row" style="margin-bottom: 30px;">
+
+                  <div class="card">
+                    
+                    <div class="card-body" style="padding-top: 0.75rem; padding-bottom: 0.25rem;">
+                      <h5 class="card-title"><b>Original Question</b></h5>
+                      
+                  </div>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                          <p> <strong>Question: </strong> {{sampledData[qindex]['question']}}</p>
+                          <p
+                          :style="expandedFollow[2] ? 'margin: 0px;' : 'display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical; margin: 0px;'">
+                          <strong>Answer: &nbsp;</strong>{{sampledData[qindex]['answer']}}
+                        </p>
+                      </li>
+                  </ul>
+                </div>
+                <div class="arrow" style="width: 100%; display: flex; justify-content: center; align-items: center; margin: 20px;">
+                  <span style="font-size: 48px; color: #007BFF; font-weight: bold;">&#8595;</span> Mimicking<!-- Larger Unicode down arrow, bold -->
+               </div>
+              
+              
+              
+              <div class="card">
+                  <div class="card-body" style="padding-top: 0.75rem; padding-bottom: 0.25rem;">
+                    <h5 class="card-title"><b>Mimicked Question</b></h5>
+                    
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <p><strong>Question: </strong> {{sampledData[qindex]['followingQuestion']}}</p>
+                        <p> <strong>Answer: </strong> {{sampledData[qindex]['followingAnswer']}}</p>
+                    </li>
+                </ul>
+                </div>
+
+                  <div class="card" style="margin-top: 20px;">
+                    <div class="card-body" style="padding-top: 0.75rem; padding-bottom: 0.25rem;">
+                      <h5 class="card-title"><b>Answers from the selected LMs</b> (Click on answers below to show the full text)</h5> 
+                      <!-- <h6 style="color: darkblue;"> Click on answers below to show the full text! </h6> -->
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                    </div> <br>
+                    
+                    <div class="row" style="margin-top: 10px;">
+                      <div class="col-3" v-for="(lm, index) in lmlist" :key="index" style="margin-bottom: 5px;">
+                        <button type="button"
+                          :class="{btn: true, 'btn-secondary': selected[index], 'btn-light': !selected[index]}"
+                          @click="selectcat(index)" style="width: 90%; margin: 0 auto; display: block;">{{lm}}</button>
+                      </div>
+                      <div class="col-3" style="margin-bottom: 5px;">
+                        <button type="button"
+                          :class="{btn: true, 'btn-secondary': !selected.includes(false), 'btn-light': selected.includes(false)}"
+                          @click="selectcat(-1)" style="width: 90%; margin: 0 auto; display: block;">Show All</button>
+                      </div>
+                    </div>
+                    <br>
+
+                      <ul class="list-group list-group-flush">
+                        <transition-group name="slide-fade">
+                          <li class="list-group-item" v-for="(lm, index) in lmlist" v-show="selected[index]" :key="'ans' + index" @click="setExpandOrCollapse(index)">
+                            <p :style="expanded[index] ? 'margin: 0px;' : 'display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical; margin: 0px;'">
+                              <strong>{{lm}}:&nbsp;</strong>
+                              <span v-if="questiondata[index].data === 1" class="icon correct">✅</span>
+                              <span v-else class="icon incorrect">❌</span>
+                              {{ questiondata[index].text }}
+                            </p>
+                          </li>
+                        </transition-group>
+                      </ul>
+                    </div>
+
+                  </div>
+
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </template>
+
+  <template id="Extend">
+    <div>
+      <!-- {{ message }}
+      <div class="form-group">
+        <input type="text" class="form-control typeahead" placeholder="Type your search query" data-provide="typeahead">
+      </div> -->
+      <h1 style="margin-bottom: 15px;"> The updated data sample using the extending strategy </h1><br>
+
+      <div class="card-header bg-secondary text-white mb-3" style="background: linear-gradient(135deg, #6a82fb, #fc5c7d);">
+        <div class="card-body" style="padding-left: 0;">
+            <button type="button" class="btn btn-success" style="background-color: #28a745; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 8px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition-duration: 0.4s; cursor: pointer;"
+                    onmouseover="this.style.backgroundColor='#218838'"
+                    onmouseout="this.style.backgroundColor='#28a745'"
+                    @click="sample()">
+                Press the button to randomly select a new sample from the set.
+            </button>
+        </div>
+    </div>
+    
+
+      <div class="accordion" id="accordionExample">
+        <div class="card" v-for="(qitem, qindex) in sampledData">
+            
+          <div :id="'collapse'+qindex" :class="['collapse', nowqindex==qindex ? 'show' : '']"
+            :aria-labelledby="'heading'+qindex" data-parent="#accordionExample">
+            <div class="card-body">
+              <div class="card">
+                    
+                <div class="card-body" style="padding-top: 0.75rem; padding-bottom: 0.25rem;">
+                  <h5 class="card-title"><b>Original Question</b></h5>
+                  
+              </div>
+              <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                      <p> <strong>Question: </strong> {{sampledData[qindex]['question']}}</p>
+                  </li>
+              </ul>
+            </div>
+            <div class="arrow" style="width: 100%; display: flex; justify-content: center; align-items: center; margin: 20px;">
+              <span style="font-size: 48px; color: #007BFF; font-weight: bold;">&#8595;</span> Extending<!-- Larger Unicode down arrow, bold -->
+           </div><br>
+           <div class="card" style="margin-top: 20px;">
+            <div class="card-body" style="padding-top: 0.75rem; padding-bottom: 0.25rem;">
+              <h5 class="card-title"><b>Extended Question (Please Select one of the Cognitive levels)</b></h5>
+              <!-- <h6 style="color: darkblue;"> Click on answers below to show the full text! </h6> -->
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            </div> <br>
+              <div class="col-sm">
+                <div class="row">
+                  <div class="col-3" v-for="i in 4" :key="i">
+                    <button type="button"
+                      :class="{btn: true, 'btn-secondary': selectedQ === (i-1), 'btn-light': selectedQ !== (i-1)}"
+                      @click="selectQuestion(qindex, i-1)" style="font-size: medium; width: 100%;">{{sampledData[qindex]['fourQ'][i-1]['level']}}</button>
+                  </div>
+                </div><br>
+              </div><br>
+
+                    <ul class="list-group list-group-flush">
+                      <transition-group name="slide-fade">
+                        <li class="list-group-item" key="Que_" @click="setExpandOrCollapseFollow(2)">
+                          <p
+                            :style="expandedFollow[2] ? 'margin: 0px;' : 'display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical; margin: 0px;'">
+                            <strong>Question:&nbsp;</strong>{{sampledData[qindex]['fourQ'][selectedQ]['question']}}
+                          </p>
+                        </li>
+                        <li class="list-group-item" key="Ans_" @click="setExpandOrCollapseFollow(3)">
+                          <p
+                            :style="expandedFollow[3] ? 'margin: 0px;' : 'display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical; margin: 0px;'">
+                            <strong>Reference Answer:&nbsp;</strong>{{sampledData[qindex]['fourQ'][selectedQ]['groundtruth']}}
+                          </p>
+                        </li>
+                      </transition-group>
+                    </ul>
+                    
+                </div>
+
+                <div class="card" style="margin-top: 20px;">
+                  <div class="card-body" style="padding-top: 0.75rem; padding-bottom: 0.25rem;">
+                    <h5 class="card-title"><b>Answers from the selected LMs</b> (Click on answers below to show the full text)<br><br></h5> 
+                    <!-- <h6 style="color: darkblue;"> Click on answers below to show the full text! </h6> -->
+                    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                  <!-- </div> <br>
+                  <div class="row" style="margin-top: 10px;">
+                    <div class="col-3" v-for="(lm, index) in lmlist" :key="index" style="margin-bottom: 5px;">
+                      <button type="button"
+                        :class="{btn: true, 'btn-secondary': selected[index], 'btn-light': !selected[index]}"
+                        @click="selectcat(index)" style="width: 80%;">{{lm}}</button>
+                    </div>
+                    <div class="col-3" style="margin-bottom: 5px;">
+                      <button type="button"
+                        :class="{btn: true, 'btn-secondary': !selected.includes(false), 'btn-light': selected.includes(false)}"
+                        @click="selectcat(-1)" style="width: 80%;">Show All</button>
+                    </div>
+                  </div> -->
+                </div> <br>
+                  <div class="row justify-content-center" style="margin-top: 10px;">
+                    <div class="col-2" v-for="(lm, index) in lmlist" :key="index" style="margin-bottom: 5px;">
+                        <button type="button"
+                            :class="{btn: true, 'btn-secondary': selected[index], 'btn-light': !selected[index]}"
+                            @click="selectcat(index)" style="width: 90%;">{{lm}}</button>
+                    </div>
+                    <div class="col-2" style="margin-bottom: 5px;">
+                        <button type="button"
+                            :class="{btn: true, 'btn-secondary': !selected.includes(false), 'btn-light': selected.includes(false)}"
+                            @click="selectcat(-1)" style="width: 90%;">Show All</button>
+                    </div>
+                </div>
+                
+                
+                  <!-- <div class="card" style="margin-top: 20px;"> -->
+                    <ul class="list-group list-group-flush" style="margin-top: 20px;">
+                      <transition-group name="slide-fade">
+                        <template v-for="(lm, index) in lmlist" :key="'group' + index">
+                          <li class="list-group-item group-item" v-show="selected[index]" :key="'ans' + index" @click="setExpandOrCollapse(index)">
+                            <p :style="expanded[index] ? 'margin: 0px;' : 'display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical; margin: 0px;'">
+                              <strong>{{lm}}:&nbsp;</strong>
+                              {{ questiondata[index].text }}
+                            </p>
+                          </li>
+                          <li class="list-group-item group-item" v-show="selected[index]" :key="'eval' + index" @click="setExpandOrCollapse(index)">
+                            <p :style="expanded[index] ? 'margin: 0px; margin-top: 5px;' : 'display: -webkit-box; overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2; -webkit-box-orient: vertical; margin: 0px; margin-top: 5px;'">
+                              <strong>Eval:</strong>&nbsp;
+                              <span v-html="generateProgressBar(questiondata[index].data)"></span><br>
+                              {{ questiondata[index].eval_text }}
+                            </p>
+                          </li>
+                        </template>
+                      </transition-group>
+                    </ul>
+                  <!-- </div> -->
+
+                </div>
+              
+              </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </template>
+
+</body>
+
+
+
+
+<script>
+
+  var overview = {
+    template: '#Overview',
+    data: function () {
+      return {
+        message: 'いいよ、こいよ',
+      }
+    },
+    props: {
+      switchpartson: {
+        type: Function,
+        default: null
+      }
+    },
+  }
+
+
+  // 从数组中随机选择指定数量的元素
+  function getRandomElements(arr, num) {
+    // 将数组复制一份以避免修改原始数组
+    const copy = arr.slice();
+    // 用于存储随机选择的元素
+    const result = [];
+    // 随机选择 num 个元素
+    for (let i = 0; i < num; i++) {
+      // 生成一个随机索引
+      const randomIndex = Math.floor(Math.random() * copy.length);
+      // 将选定的元素添加到结果数组中
+      result.push(copy[randomIndex]);
+      // 从剩余的元素中移除已选定的元素，避免重复选择
+      copy.splice(randomIndex, 1);
+    }
+    return result;
+  }
+
+
+  var DataDisplay_Mimicking = {
+    template: '#Sample',
+    data: function () {
+      return {
+        loading: true,
+        // selected: [true, true, true, false, false, false, false, false],
+        selected: [true, true, true, true, true, true, true, true,  true, true, true],
+        expanded: [false, false, false, false, false, false, false, false, false, false, false, false],
+        expandedFollow: [false, false, false, false],
+        // selectedCount: 3,
+        selectedCount: 8,
+        chart: null,
+        sampledData: [0, 1, 2],
+        sampledFollowData: [0, 1, 2],
+        nowqindex: 0,
+        questiondata: [],
+        selectedFollow: -1,
+        nowqfollowindex: 0,
+        lmlist: [],
+        lmlistOri: [],
+      }
+    },
+    methods: {
+      selectQuestion: function (qindex) {
+        console.log("sample API call result:", qindex);
+        console.log("sample API call result:", this.sampledData);
+        this.questiondata = this.sampledData[qindex]['eval']
+        this.lmlist = this.sampledData[qindex]['rank']
+        this.nowqindex = qindex
+        this.expanded = [false, false, false, false, false, false, false, false, false]
+        this.$forceUpdate()
+        //this.drawchart(qindex)
+      },
+      selectcat: function (index) {
+        // 如果传入 -1，显示所有按钮
+        if (index === -1) {
+          this.selected = this.selected.map(() => true);
+        } else {
+          this.selected = this.selected.map((_, i) => i === index);
+        }
+        console.log(this.selected);
+      },
+      // getSampleData: function
+      // 暂时不改 可能造成内存占用过大
+      sample: function () {
+        thisPreserved = this
+        thisPreserved.loading = true
+        //this.$http.get('http://127.0.0.1:8421/api/sample?num=3').then(function (result) {
+        // thisPreserved.sampledData = result['body']
+        axios.get('./static/json/sampleDate.json')
+          .then(function (response) {
+            console.log(response.data);
+            thisPreserved.sampledData = getRandomElements(response.data, 1);
+            thisPreserved.selectQuestion(0)
+            thisPreserved.loading = false
+          })
+          .catch(function (error) {
+            console.error('Error fetching sampleDate.json:', error);
+          });
+
+        // thisPreserved.sampledData = testData.sampledData
+        //})
+      },
+      setExpandOrCollapse: function (mindex) {
+        this.expanded[mindex] = !this.expanded[mindex]
+        this.$forceUpdate()
+      },
+      setExpandOrCollapseFollow: function (mindex) {
+        this.expandedFollow[mindex] = !this.expandedFollow[mindex]
+        this.$forceUpdate()
+      }
+    },
+    mounted: function () {
+      this.sample();
+    },
+  }
+
+
+  var DataDisplay_Extending = {
+    template: '#Extend',
+    data: function () {
+      return {
+        loading: true,
+        selectedQ: 0,
+        selected: [true, true, true, true, true, true, true, true,  true, true, true],
+        expanded: [false, false, false, false, false, false, false, false, false, false, false, false],
+        expandedFollow: [false, false, false, false],
+        // selectedCount: 3,
+        selectedCount: 8,
+        chart: null,
+        sampledData: [{ fourQ: [{ eval: [{ data: [1, 2, 3] }] }] }],
+        sampledFollowData: [0, 1, 2],
+        nowqindex: 0,
+        questiondata: [],
+        selectedFollow: -1,
+        nowqfollowindex: 0,
+        lmlist: [],
+        lmlistOri: [],
+      }
+    },
+    methods: {
+      selectQuestion: function (qindex, sonqindex) {
+        console.log("sample API call result:", qindex, sonqindex);
+        console.log("sample API call result:", this.sampledData);
+        this.questiondata = this.sampledData[qindex]['fourQ'][sonqindex]['eval']
+        console.log("sample API call result:", this.questiondata);
+        this.lmlist = this.sampledData[qindex]['fourQ'][sonqindex]['rank'];
+        console.log("sample API call result:", this.lmlist);
+        this.nowqindex = qindex;
+        this.selectedQ = sonqindex;
+        this.expanded = [false, false, false, false, false, false, false, false, false];
+        this.$forceUpdate();
+      },
+      selectcat: function (index) {
+        if (index === -1) {
+          this.selected = this.selected.map(() => true);
+        } else {
+          this.selected = this.selected.map((_, i) => i === index);
+        }
+        console.log(this.selected);
+      },
+      // getSampleData: function
+      // 暂时不改 可能造成内存占用过大
+      sample: function () {
+        thisPreserved = this
+        thisPreserved.loading = true
+        //this.$http.get('http://127.0.0.1:8421/api/sample?num=3').then(function (result) {
+        // thisPreserved.sampledData = result['body']
+        axios.get('./static/json/ExtendDate.json')
+          .then(function (response) {
+            console.log(response.data);
+            thisPreserved.sampledData = getRandomElements(response.data, 1);
+            thisPreserved.selectQuestion(0, 0);
+            thisPreserved.loading = false
+          })
+          .catch(function (error) {
+            console.error('Error fetching sampleDate.json:', error);
+          });
+
+        // thisPreserved.sampledData = testData.sampledData
+        //})
+      },
+      setExpandOrCollapse: function (mindex) {
+        this.expanded[mindex] = !this.expanded[mindex]
+        this.$forceUpdate()
+      },
+      setExpandOrCollapseFollow: function (mindex) {
+        this.expandedFollow[mindex] = !this.expandedFollow[mindex]
+        this.$forceUpdate()
+      },
+      generateProgressBar(progressArray) {
+        const labels = ['Accuracy', 'Coherence', 'Factuality'];
+        return progressArray.map((count, idx) => {
+          const color = count === 3 ? 'green' : 'red';
+          return `<span class="progress-part-${idx}" style="color: ${color};">${labels[idx]}: ${count}</span>`;
+        }).join(', ');
+      }
+    },
+    mounted: function () {
+      this.sample();
+    },
+  }
+
+
+  var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!',
+      nowpart: 1,
+      nowname: 'overview',
+      navclass1: 'nav-link active',
+      navclass2: 'nav-link',
+      navclass3: 'nav-link',
+      navclass4: 'nav-link',
+    },
+    methods: {
+      switchpart: function (num) {
+        if (num == 1) {
+          this.navclass1 = 'nav-link active'
+          this.navclass2 = 'nav-link'
+          this.navclass3 = 'nav-link'
+          this.navclass4 = 'nav-link'
+          this.nowname = 'overview'
+        } else if (num == 2) {
+          this.navclass1 = 'nav-link'
+          this.navclass2 = 'nav-link active'
+          this.navclass3 = 'nav-link'
+          this.navclass4 = 'nav-link'
+          this.nowname = 'DataDisplay_Mimicking'
+        } else if (num == 3) {
+          this.navclass1 = 'nav-link'
+          this.navclass2 = 'nav-link'
+          this.navclass3 = 'nav-link active'
+          this.navclass4 = 'nav-link'
+          this.nowname = 'DataDisplay_Extending'
+        } else if (num == 4) {
+          this.navclass1 = 'nav-link'
+          this.navclass2 = 'nav-link'
+          this.navclass3 = 'nav-link'
+          this.navclass4 = 'nav-link active'
+          this.nowname = 'contact'
+        }
+        this.nowpart = num
+      }
+    },
+    components: {
+      overview,
+      DataDisplay_Mimicking,
+      DataDisplay_Extending
+      // contact
+    },
+  })
+
+</script>
+
+</html>

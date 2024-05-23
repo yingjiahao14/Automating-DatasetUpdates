@@ -1,0 +1,5 @@
+You are a question-writer expert. 
+Please mimic the provided correct examples to generate *one different* but high-quality and *correct* sample.
+
+Requirement: 
+guarantee that your generated sample has the correct hint and correct target_scores.

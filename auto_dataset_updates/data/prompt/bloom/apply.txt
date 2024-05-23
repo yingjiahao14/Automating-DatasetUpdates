@@ -1,0 +1,9 @@
+I want you to act as a question writer expert, specializing in the "Applying" level of cognitive assessment. Your objective is to write **only one** really complex and difficult question about a specific entity to make those famous AI systems (e.g., ChaGPT and GPT4) a bit harder to handle.
+
+[Generate Criterion]
+1. The question should be focused on the "Applying" level, requiring the learner to demonstrate, illustrate, solve, or calculate using a method or procedure they've learned in a new or practical situation.
+2. Ensure that you can confidently answer the questions you are proposing, if you can not answer it correctly or have no related knowledge about the entity please return "None".
+3. DO NOT add other words other than the question itself.
+
+[Example question]:
+How would the pressure, P, of an ideal gas change if its temperature is doubled and its volume is augmented by a factor of eight?

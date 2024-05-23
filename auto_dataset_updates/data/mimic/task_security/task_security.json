@@ -1,0 +1,802 @@
+[
+    {
+        "question": "Which type of fuzzer is most likely to examine all possible paths in a given piece of software code?",
+        "A": "Blackbox",
+        "B": "Whitebox",
+        "C": "Greybox",
+        "D": "Mutation-based",
+        "answer": "B"
+    },
+    {
+        "question": "Consider a scenario where a secure HTTPS connection has been successfully established between a user and a web service. This includes verification of the web service's certificate and execution of an RSA key exchange, but the user did not provide a certificate. Assuming both the user and the web service are trustworthy, neither of them discloses their keys, and the encryption is solid. Which of the following attacks does HTTPS prevent against? 1. An intruder replaying information the user sent previously. 2. An intruder pretending to be the web service.",
+        "A": "True, True",
+        "B": "False, True",
+        "C": "True, False",
+        "D": "False, False",
+        "answer": "A"
+    },
+    {
+        "question": "The default lifetime for a TGT (Ticket Granting Ticket) issued by the Active Directory Domain Services in Microsoft is 10 hours. How is it ensured that a TGT cannot be used beyond its expiry?",
+        "A": "The Active Directory Domain Services (AD DS) decline to initiate new client-server connections for expired TGTs.",
+        "B": "Upon a client connection, the server compares the TGT’s expiry time to its current time and refuses to authenticate the user if the TGT has expired.",
+        "C": "Upon a client connection, the server queries the AD DS to verify the TGT’s validity against the AD DS’s clock, and refuses to authenticate the user if the AD DS confirms that the TGT has expired.",
+        "D": "The server sets a 10-hour countdown upon each client connection to end the connection, ensuring the client cannot stay linked beyond the TGT's default lifespan.",
+        "answer": "B"
+    },
+    {
+        "question": "In the context of Secure Communication, the transmitted information should only be comprehensible to the intended",
+        "A": "Broadcaster",
+        "B": "Interpreter",
+        "C": "Encoder",
+        "D": "Recipient",
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following is a form of ransomware?",
+        "A": "Jigsaw",
+        "B": "Powload",
+        "C": "Loki",
+        "D": "Kovter",
+        "answer": "A"
+    },
+    {
+        "question": "______________ is a common security vulnerability in web applications that occurs when a developer exposes internal implementation objects, such as files or database keys, to users, potentially allowing an attacker to manipulate these references to access unauthorized data.",
+        "A": "Lack of optimization",
+        "B": "Inadequate algorithm efficiency",
+        "C": "Insecure direct object references",
+        "D": "Excessive memory usage",
+        "answer": "C"
+    },
+    {
+        "question": "In the article Sandboxing Untrusted Native Code with NaCl by Yee and his colleagues, it was observed that NaCl utilizes x86 segmentation of Intel to make sure that the sandboxed module cannot execute instructions or read/write memory beyond its designated data area. Alice believes that these restrictions are enough to safely execute the sandboxed module, indicating validation may not be necessary. However, she is incorrect. Highlight the types of x86 machine instructions that are invariably prohibited by the validator in sandboxed code. Do not take into consideration trampoline and springboard code.",
+        "A": "all indirect loads or stores (through an address in a register or variable)",
+        "B": "all instructions that alter segment state",
+        "C": "all indirect jumps (through an address in a register or variable)",
+        "D": "all loads or stores to addresses that are not 0 mod 32",
+        "answer": "B"
+    },
+    {
+        "question": "__________ is another component of the darknet used for anonymous file sharing.",
+        "A": "Internet",
+        "B": "Freenet",
+        "C": "Stuxnet",
+        "D": "ARPANET",
+        "answer": "B"
+    },
+    {
+        "question": "Why are software applications written in languages such as C and C++ susceptible to Buffer Overflow vulnerabilities?",
+        "A": "No validation of string lengths in built-in functions",
+        "B": "No check of database integrity",
+        "C": "No monitoring of CPU usage",
+        "D": "No check for available storage in external memory",
+        "answer": "A"
+    },
+    {
+        "question": "The Diffie-Hellman protocol can be compromised by a man-in-the-middle attack if the two parties have not properly",
+        "A": "Launched",
+        "B": "Connected",
+        "C": "Authenticated",
+        "D": "Exchanged",
+        "answer": "C"
+    },
+    {
+        "question": "A buffer overflow happens when",
+        "A": "a buffer is used as if it was a pointer",
+        "B": "a buffer is used to access an integer outside of the integer's bounds",
+        "C": "there is no more space to hold buffers in the program",
+        "D": "data is written to a buffer beyond the end of the allocated space",
+        "answer": "D"
+    },
+    {
+        "question": "Consider FF, a hash function based on Merkle-Damgard construction that is F:X^{\\leq L} \\to TF:X^≤L  →T. A MAC can be produced from this FF as follows: \\ \\ S(k,m) = F(k \\| m)  S(k,m)=F(k∥m). The insecurity of this mac is because:",
+        "A": "Given F(k \\| m)F(k∥m), it's possible to compute F(x \\| k \\| m \\| \\text{PB})F(x∥k∥m∥PB) for any xx",
+        "B": "It's possible to compute F( k \\| m )F(k∥m) for any mm",
+        "C": "Given F(k \\| m)F(k∥m), it's possible to compute F(k \\| m \\| x)F(k∥m∥x) for any xx",
+        "D": "Given F(k \\| m)F(k∥m), it's possible to compute F(k \\| m \\| \\text{PB} \\| x)F(k∥m∥PB∥x) for any xx",
+        "answer": "D"
+    },
+    {
+        "question": "Assume that Sara and Mike exchanged sensitive emails via a secure email platform last week. They're concerned that a hacker may breach one of their systems today while they are in a meeting, possibly decrypting those emails. Which of the following security features could alleviate Sara and Mike's worries?",
+        "A": "Non-repudiation.",
+        "B": "Forward secrecy.",
+        "C": "Data integrity.",
+        "D": "Session key isolation.",
+        "answer": "B"
+    },
+    {
+        "question": "The AH Protocol ensures data integrity and source authentication, but fails to provide",
+        "A": "Availability",
+        "B": "Confidentiality",
+        "C": "Both B & C",
+        "D": "Reliability",
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following does not represent a cyber threat?",
+        "A": "Brute force attack",
+        "B": "Malware",
+        "C": "Phishing",
+        "D": "Firewall",
+        "answer": "D"
+    },
+    {
+        "question": "The device that connects wireless clients in an 802.11 network is called a _______________.",
+        "A": "Access Point",
+        "B": "WEP",
+        "C": "WAN",
+        "D": "Distribution System",
+        "answer": "A"
+    },
+    {
+        "question": "What is the length of the message digest in MD-5?",
+        "A": "160",
+        "B": "128",
+        "C": "54",
+        "D": "64",
+        "answer": "B"
+    },
+    {
+        "question": "What is Wireshark?",
+        "A": "It is a network protocol analyzer for understanding network communication",
+        "B": "It is a topography mapping tool for the Internet",
+        "C": "It is a tool for creating viruses and malware",
+        "D": "It is a scripting tool for constructing and encoding cyber attacks",
+        "answer": "A"
+    },
+    {
+        "question": "What is one method to protect a database from SQL injection attacks?",
+        "A": "Installing antivirus",
+        "B": "Using prepared statements",
+        "C": "Blocking IP addresses",
+        "D": "Data encryption",
+        "answer": "B"
+    },
+    {
+        "question": "What does it entail to \"remain undetected\" during a cyber security audit?",
+        "A": "Utilizing encryption during audits to hide the origin of potential threats",
+        "B": "Executing the audit from a hidden location",
+        "C": "Ensuring to refrain from activities during the audit that might garner attention, such as from system administrators or intrusion detection systems",
+        "D": "Carrying out the security audit without the knowledge of the host organization",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is not a network layer vulnerability?",
+        "A": "Unauthorized application access",
+        "B": "Incorrect routing update handling",
+        "C": "Vulnerability that allows IP address spoofing",
+        "D": "Inefficient packet filtering",
+        "answer": "A"
+    },
+    {
+        "question": "In Brumley and Boneh's research on side-channel attacks, how does blinding obstruct the success of a timing assault?",
+        "A": "Blinding introduces randomness into the ciphertext undergoing decryption, thereby masking the link between the adversary's input and the timing variability.",
+        "B": "Blinding disallows the server from utilizing the CRT optimization, a crucial element for the timing assault.",
+        "C": "Blinding infuses an arbitrary time duration to the decryption due to the multiplication and division by the randomly chosen blinding value r, hiding the timing variations crucial for the assault.",
+        "D": "Blinding modifies the primes p and q used, hence an intruder cannot gain knowledge of the server's actual p and q.",
+        "answer": "A"
+    },
+    {
+        "question": "The outlined openSSL practices in “Remote Timing Attacks are Practical” (by Brumley and Boneh) involve performance improvements like: Chinese Remainder (CR), Montgomery Representation (MR), Karatsuba Multiplication (KM), and Repeated squaring and Sliding windows (RS). Which pair of optimizations if deactivated would potentially shut down the timing channel attack discussed in the paper? 1. KM and CR 2. MR and RS",
+        "A": "False, False",
+        "B": "False, True",
+        "C": "True, True",
+        "D": "True, False",
+        "answer": "D"
+    },
+    {
+        "question": "Why is Asymmetric encryption considered superior to Symmetric encryption?",
+        "A": "Key distribution",
+        "B": "Key size",
+        "C": "Data size",
+        "D": "Operational speed",
+        "answer": "A"
+    },
+    {
+        "question": "The __________ was a notorious underground website on the Dark Web, known for its illicit trade of narcotics, counterfeit money, and fake passports.",
+        "A": "Ebony Path",
+        "B": "Satin Street",
+        "C": "Silk Road",
+        "D": "Ivory Trail",
+        "answer": "C"
+    },
+    {
+        "question": "The ______________ is a part of the internet that is deliberately hidden and unreachable via standard search engines.",
+        "A": "Deep web",
+        "B": "Social web",
+        "C": "Invisible web",
+        "D": "Visible web",
+        "answer": "A"
+    },
+    {
+        "question": "How does EXE react when the STP solver cannot complete a constraint query for a specific path within the given time?",
+        "A": "Presume that the query is unsatisfiable and cease the path execution.",
+        "B": "Eliminate a portion of the constraints and repeat the query.",
+        "C": "Presume that the query is satisfiable and maintain the path execution.",
+        "D": "Restart the STP and attempt the query again, limited to a certain number of retries.",
+        "answer": "A"
+    },
+    {
+        "question": "For the decryption of a digital signature, which key is necessary?",
+        "A": "Recipient's Private key",
+        "B": "Recipient's Public key",
+        "C": "Originator's Public key",
+        "D": "Originator's Private key",
+        "answer": "C"
+    },
+    {
+        "question": "Assume you intend to apply fuzzing to a software to detect potential memory faults; which of the following statements is accurate?",
+        "A": "Compiling the software with address sanitizer (ASAN) will make faults more difficult to replicate",
+        "B": "Fuzzing only detects crashes and hangs, not memory faults",
+        "C": "Compiling the software with address sanitizer (ASAN) will ease the identification of a memory fault's origin",
+        "D": "You should avoid utilising a grammar-based fuzzer as its grammatical consistency will prevent it from detecting memory faults",
+        "answer": "C"
+    },
+    {
+        "question": "In accordance with the article “SoK: SSL and HTTPS: Revisiting past challenges and evaluating certificates trust model enhancements”, which of the following statements is incorrect?",
+        "A": "OCSP stapling enables a server to affirm to a client that its certificate has not been rescinded.",
+        "B": "Valid OV certificates give a user more assurance of communicating with the target party than valid EV certificates.",
+        "C": "Server key-pinning intensifies the difficulty for a hacker to persuade a CA to create a certificate for a website and initiate an MITM attack on that website.",
+        "D": "DANE complicates the process for a hacker to instigate a SSL stripping assault.",
+        "answer": "B"
+    },
+    {
+        "question": "Which application can be utilized for SNMP enumeration?",
+        "A": "Netstat",
+        "B": "Ping",
+        "C": "SolarWinds SNMP Walk",
+        "D": "Traceroute",
+        "answer": "C"
+    },
+    {
+        "question": "Which of these provides the highest level of wireless security?",
+        "A": "WPA",
+        "B": "WPA3",
+        "C": "WEP",
+        "D": "WPA2",
+        "answer": "B"
+    },
+    {
+        "question": "Imagine if Unix did not include a method for transferring file descriptors among processes, but still permitted the inheritance of file descriptors from a parent on fork and exec. How would the lack of file descriptor passing affect the structure of OKWS?  1. It would make it unfeasible for services to establish a TCP connection with the client's web browser. 2. It would make it unachievable for okd to operate as a non-root user.",
+        "A": "True, False",
+        "B": "False, True",
+        "C": "False, False",
+        "D": "True, True",
+        "answer": "B"
+    },
+    {
+        "question": "Phishing attacks, which are aimed at obtaining sensitive information, typically occur on which layer of the OSI model?",
+        "A": "Data link layer",
+        "B": "Transport layer",
+        "C": "Application layer",
+        "D": "Network layer",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is a type of two-factor authentication?",
+        "A": "Software tokens",
+        "B": "Biometric verification",
+        "C": "All of the above",
+        "D": "Hardware tokens",
+        "answer": "C"
+    },
+    {
+        "question": "What typically triggers a buffer overflow vulnerability?",
+        "A": "when a buffer on the stack is copied to the heap",
+        "B": "when the system registers that the buffer has reached its capacity and starts declining requests",
+        "C": "when allocating memory to a pointer that has been deleted",
+        "D": "when more data is written to a buffer than it is designed to hold, causing data to overflow into adjacent memory",
+        "answer": "D"
+    },
+    {
+        "question": "To create a digital signature, one requires a",
+        "A": "Key exchange system",
+        "B": "None of the above",
+        "C": "Symmetric-key system",
+        "D": "Asymmetric-key system",
+        "answer": "D"
+    },
+    {
+        "question": "A stateful inspection firewall operates at which layer of the OSI model?",
+        "A": "Network Layer",
+        "B": "Application Layer",
+        "C": "Transport Layer",
+        "D": "Data Link Layer",
+        "answer": "A"
+    },
+    {
+        "question": "Consider J = (T,U)J=(T,U) as a MAC. Assume T(l,n)T(l,n) is consistently 3 bits long. Could this MAC be secure?",
+        "A": "No, a hacker can simply predict the tag for messages",
+        "B": "It relies on the specifics of the MAC",
+        "C": "Yes, the PRG is pseudorandom",
+        "D": "Yes, the hacker cannot create a valid tag for any message",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following is associated with detecting network intrusions and analyzing traffic in real-time?",
+        "A": "Aircrack-ng",
+        "B": "Nmap",
+        "C": "Wireshark",
+        "D": "Metasploit",
+        "answer": "C"
+    },
+    {
+        "question": "In terms of information security, the assurance that the sender cannot deny sending a message is referred to as",
+        "A": "Integrity",
+        "B": "Nonrepudiation",
+        "C": "Authentication",
+        "D": "Confidentiality",
+        "answer": "B"
+    },
+    {
+        "question": "The security protocol sequence that a wireless client and an Access Point execute, involving four distinct messages, is known as the _____________",
+        "A": "Wi-Fi authentication sequence",
+        "B": "4-step verification",
+        "C": "4-way handshake",
+        "D": "Wireless security protocol",
+        "answer": "C"
+    },
+    {
+        "question": "Digital signatures provide assurance of",
+        "A": "Message Duplication",
+        "B": "Message Encryption",
+        "C": "Message Transmission",
+        "D": "Message Non-repudiation",
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following is most susceptible to cross-site scripting (XSS) attacks?",
+        "A": "User input displayed on web pages",
+        "B": "Command-line arguments",
+        "C": "TCP/IP settings",
+        "D": "Email messages",
+        "answer": "A"
+    },
+    {
+        "question": "Assume that a secure SSL connection has been made between a user and a host. This included verification of the host's certificate and implementing an RSA exchange, but the user did not give a user certificate. Also, assume that both the user and the host are trustworthy, neither the user nor the host expose their keys, and the encryption is robust. Which type of assaults does SSL guard against? 1. An attacker substituting bytes sent by a user with bytes of the attacker's own selection. 2. An attacker decoding the bytes sent by a user.",
+        "A": "True, False",
+        "B": "False, True",
+        "C": "True, True",
+        "D": "False, False",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following is a tool used for network protocol analysis?",
+        "A": "OpenVas",
+        "B": "NetWitness",
+        "C": "Wireshark",
+        "D": "Nmap",
+        "answer": "C"
+    },
+    {
+        "question": "A ___________ is a technique that tricks users into revealing sensitive information by disguising as a trustworthy entity.",
+        "A": "backdoor",
+        "B": "hacking",
+        "C": "key-logging",
+        "D": "phishing",
+        "answer": "D"
+    },
+    {
+        "question": "Which of the following is not a type of symmetric key algorithm?",
+        "A": "Blowfish",
+        "B": "AES",
+        "C": "DES",
+        "D": "RSA",
+        "answer": "D"
+    },
+    {
+        "question": "What is a virtual private network (VPN)?",
+        "A": "A device that boosts the speed of the internet",
+        "B": "A tool that allows the remote control of a computer from another location",
+        "C": "A network technology that creates a secure connection over a public network",
+        "D": "A software that blocks ads on websites",
+        "answer": "C"
+    },
+    {
+        "question": "Applications may continue to have a buffer-overflow defect if _________ are inadequately performed.",
+        "A": "buffer assessments",
+        "B": "edge inspections",
+        "C": "memory evaluations",
+        "D": "boundary intrusions",
+        "answer": "A"
+    },
+    {
+        "question": "Software created by programming languages such as ____ and _____ often encounter this common null pointer exception.",
+        "A": "Java, C#",
+        "B": "Tcl, C++",
+        "C": "C, Ruby",
+        "D": "Python, Ruby",
+        "answer": "A"
+    },
+    {
+        "question": "Encryption and decryption ensure the confidentiality of data but do not inherently provide",
+        "A": "Non-repudiation",
+        "B": "Integrity",
+        "C": "All of the above",
+        "D": "Authentication",
+        "answer": "B"
+    },
+    {
+        "question": "A/an ___________ is a type of malware that encrypts the victim's files and demands a ransom to restore access.",
+        "A": "Ransomware",
+        "B": "Backdoor Trojans",
+        "C": "Trojan-Downloader",
+        "D": "IM – Trojans",
+        "answer": "A"
+    },
+    {
+        "question": "What is the length of the sub key used in each round of the DES algorithm?",
+        "A": "48",
+        "B": "56",
+        "C": "64",
+        "D": "52",
+        "answer": "A"
+    },
+    {
+        "question": "What characterizes generation-based fuzzing?",
+        "A": "It is only applicable for network-based fuzzing, not file-based fuzzing",
+        "B": "It modifies a previous input to create a new one",
+        "C": "It induces faults by making small mutations to the target program",
+        "D": "It creates new inputs from scratch based on a model of the input domain",
+        "answer": "D"
+    },
+    {
+        "question": "What are the types of cyber threats?",
+        "A": "Server, client, and network",
+        "B": "Passive, active, and interactive",
+        "C": "Malware, phishing, and Man-In-The-Middle attacks",
+        "D": "Port, network, and services",
+        "answer": "C"
+    },
+    {
+        "question": "The principle that prevents a message originator from denying having sent the message, is referred to as",
+        "A": "Message Authenticity",
+        "B": "Message Indisputability",
+        "C": "Message Nonrepudiation",
+        "D": "Message Non-rejection",
+        "answer": "C"
+    },
+    {
+        "question": "A proxy firewall operates at which layer of the OSI model?",
+        "A": "Presentation layer",
+        "B": "Application layer",
+        "C": "Transport layer",
+        "D": "Session layer",
+        "answer": "B"
+    },
+    {
+        "question": "The Advanced Encryption Standard (AES) is a part of which security protocol?",
+        "A": "Transport Layer Security Protocol",
+        "B": "Secure IP Protocol",
+        "C": "Secure File Transfer Protocol",
+        "D": "Secure Socket Layer Protocol",
+        "answer": "A"
+    },
+    {
+        "question": "To surf the web anonymously and bypass internet censorship, one needs to use the ____________ that ensures privacy by bouncing internet activity through a series of computers all around the world.",
+        "A": "Safari",
+        "B": "Tor browser",
+        "C": "Internet Explorer",
+        "D": "Edge",
+        "answer": "B"
+    },
+    {
+        "question": "How does a stack-based buffer overflow enable the execution of arbitrary code by an attacker?",
+        "A": "By directly writing the address of the code in %eax",
+        "B": "By manipulating the return pointer to reference the attacker's code",
+        "C": "By changing the process identifier to match the attacker's code",
+        "D": "By directly modifying the address of the code in the stack pointer register",
+        "answer": "B"
+    },
+    {
+        "question": "The output produced by a cryptographic hash function is typically known as a",
+        "A": "Hash Signature",
+        "B": "Hash Code",
+        "C": "Hash Digest",
+        "D": "Hash Output",
+        "answer": "C"
+    },
+    {
+        "question": "Suppose G: L \\times S \\to NG:L×S→N is a secure PRF. For n \\in Nn∈N define D(l,n) = \\big[ s \\gets S,\\ \\text{output } \\big(s,\\ G(l,s) \\oplus n\\big)\\ \\big]D(l,n)=[s←S, output (s, G(l,s)⊕n) ] Is DD semantically secure under CPA?",
+        "A": "It depends on what G is used",
+        "B": "Yes, whenever G is a secure PRF",
+        "C": "Yes, but only if S is large enough so s never repeats (w.h.p)",
+        "D": "No, there is always a CPA attack on this system",
+        "answer": "B"
+    },
+    {
+        "question": "Legacy operating systems such as _______ and MSDOS-based systems frequently encountered buffer-overflow attacks as a common security flaw.",
+        "A": "Android 6",
+        "B": "Linux",
+        "C": "Safari",
+        "D": "Windows 95",
+        "answer": "D"
+    },
+    {
+        "question": "What is a phishing attack?",
+        "A": "An attack which floods the server with excessive requests",
+        "B": "An attack where the attacker pretends to be a trusted entity to steal sensitive data",
+        "C": "The attacker sends harmful software to the system",
+        "D": "An attack where the attacker physically steals the device",
+        "answer": "B"
+    },
+    {
+        "question": "Statement 1| A U2F USB dongle can block a hacker from gaining access to the user's two-factor authentication, even if the user's PC is switched off. Statement 2| A server employing U2F can confidently verify that the user trying to log in is genuinely at the computer from which the login request originated.",
+        "A": "False, True",
+        "B": "True, False",
+        "C": "True, True",
+        "D": "False, False",
+        "answer": "A"
+    },
+    {
+        "question": "____________________ refers to the protection against illegal access or damage to computer systems or data via internet networks.",
+        "A": "Web device applications",
+        "B": "Network security",
+        "C": "Online access",
+        "D": "Internet safety",
+        "answer": "B"
+    },
+    {
+        "question": "What are some advantages of conducting a penetration test?",
+        "A": "It increases the value of a company's stock",
+        "B": "It can help identify potential vulnerabilities",
+        "C": "It speeds up the operation of the computer network",
+        "D": "It improves the aesthetic appearance of the system",
+        "answer": "B"
+    },
+    {
+        "question": "2. _________ framework made the exploitation of weaknesses simple similar to drag and drop.",
+        "A": "Python",
+        "B": "BeEF",
+        "C": "Metasploit",
+        "D": "Wireshark",
+        "answer": "C"
+    },
+    {
+        "question": "You have a message (p) and its OTP encryption output (q). Can you determine the OTP key from p and q?",
+        "A": "Yes, the key is k = p xor q.",
+        "B": "No, I cannot determine the key.",
+        "C": "Yes, the key is k = p xor p.",
+        "D": "I am only able to determine half the bits of the key.",
+        "answer": "A"
+    },
+    {
+        "question": "The openSSL implementation mentioned in “Cryptography and Network Security” (by Stallings) utilizes the following optimization techniques: Fast Fourier Transform (FFT), Karatsuba Multiplication (KM), and Montgomery Reduction (MR). Which of the following options would mitigate the side channel attack described in the book if you disabled the listed optimizations? 1. FFT and KM 2. MR",
+        "A": "True, False",
+        "B": "False, False",
+        "C": "False, True",
+        "D": "True, True",
+        "answer": "C"
+    },
+    {
+        "question": "What term refers to the state where data received is identical to the data that was sent?",
+        "A": "Data Splashing",
+        "B": "Data Confidentiality",
+        "C": "Data Integrity",
+        "D": "Data Transmission",
+        "answer": "C"
+    },
+    {
+        "question": "What distinguishes a side channel attack from a direct attack in terms of cybersecurity?",
+        "A": "A direct attack targets the software's known vulnerabilities while a side channel attack exploits indirect information such as timing, power, or space usage",
+        "B": "A side channel attack is intentional, while a direct attack is not",
+        "C": "A direct attack and a side channel attack are the same thing",
+        "D": "A side channel attack is always successful, while a direct attack may fail",
+        "answer": "A"
+    },
+    {
+        "question": "How often is a one-time pad used between two communicating parties?",
+        "A": "Twice",
+        "B": "Multiple times",
+        "C": "Only once",
+        "D": "Depends on the situation",
+        "answer": "C"
+    },
+    {
+        "question": "What is the function of a nop sled?",
+        "A": "It is another term for a jump instruction at the end of a sequence of nops",
+        "B": "It is a tool used to clean snow from a sled",
+        "C": "It is a succession of nops implemented before an injected shellcode, beneficial when the return address is not known",
+        "D": "It is a technique to erase zero bytes from a shellcode",
+        "answer": "C"
+    },
+    {
+        "question": "What type of Nmap scan does not fully establish a TCP connection?",
+        "A": "FIN scan",
+        "B": "TCP full connect",
+        "C": "UDP scan",
+        "D": "NULL scan",
+        "answer": "A"
+    },
+    {
+        "question": "According to the research article “Click Trajectories: End-to-End Analysis of the Spam Value Chain”, which of the subsequent statements accurately reflect the findings? Here, “Spammers” refer to constituents of the “spam value chain.”",
+        "A": "Spammers face significant expenses when shifting acquiring banks.",
+        "B": "Spammers must reserve domain names for their spam-associated ads to be fruitful.",
+        "C": "B and C",
+        "D": "Spammers operate their spam-promoted websites on violated user systems part of a botnet.",
+        "answer": "C"
+    },
+    {
+        "question": "In a _____________ attack, a hacker transfers excessive data to overflow the system's buffer memory with the goal of executing malicious code.",
+        "A": "SQL Injection",
+        "B": "DoS",
+        "C": "Buffer Overflow",
+        "D": "Spoofing",
+        "answer": "C"
+    },
+    {
+        "question": "_______________ is a widely used software for probing computer networks in diverse protocols.",
+        "A": "NetStumbler",
+        "B": "Tor",
+        "C": "Hping",
+        "D": "Wireshark",
+        "answer": "D"
+    },
+    {
+        "question": "Just like a Base Transceiver Station (BTS) in GSM, the ________ in 802.11 protocols provides signal coverage.",
+        "A": "Wireless Access Point",
+        "B": "Wireless Transmitter Point",
+        "C": "Wireless Point",
+        "D": "Wireless Receiver Point",
+        "answer": "A"
+    },
+    {
+        "question": "A __________ is a continuous section of memory allocated for storing a series of elements, such as a string of characters or an array of numbers.",
+        "A": "list",
+        "B": "buffer",
+        "C": "cache",
+        "D": "heap",
+        "answer": "B"
+    },
+    {
+        "question": "What type of encryption is utilized by WPA2?",
+        "A": "AES",
+        "B": "LEAP",
+        "C": "TKIP",
+        "D": "Shared Key",
+        "answer": "A"
+    },
+    {
+        "question": "Assume an upload field of a website can take a maximum of 50 images, and you've attempted to upload more than that; the page fails to load. Typically this is due to insufficient __________",
+        "A": "processing power",
+        "B": "server capacity",
+        "C": "internet speed",
+        "D": "buffer",
+        "answer": "B"
+    },
+    {
+        "question": "__________________ emerged a few years ago on wireless access points as a novel method to add or link new devices.",
+        "A": "WPA3",
+        "B": "WPA",
+        "C": "WPS",
+        "D": "WEP",
+        "answer": "C"
+    },
+    {
+        "question": "What are the scanning results that can be identified by Nmap?",
+        "A": "Open, closed, filtered",
+        "B": "Active, passive, null",
+        "C": "Open, half-closed, terminated",
+        "D": "Available, unavailable, undetermined",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following is considered the weakest form of wireless network security?",
+        "A": "WPA",
+        "B": "WPA2",
+        "C": "WEP",
+        "D": "WPA3",
+        "answer": "C"
+    },
+    {
+        "question": "Why can't a compiler determine the exact memory address of a dynamic variable?",
+        "A": "Dynamic variables are not stored in memory",
+        "B": "The compiler is not efficient enough to determine this",
+        "C": "The architecture of the system determines the size of the address of dynamic variables",
+        "D": "The memory location of dynamic variables changes every time the program runs",
+        "answer": "D"
+    },
+    {
+        "question": "What does the stack memory primarily store?",
+        "A": "Global configurations",
+        "B": "Program data",
+        "C": "System libraries",
+        "D": "Function calls",
+        "answer": "D"
+    },
+    {
+        "question": "Is it possible for a block cipher to achieve perfect secrecy?",
+        "A": "Yes, if the key is used only once and is as long as the message",
+        "B": "Yes, all encryption methods can achieve perfect secrecy if implemented correctly",
+        "C": "No, perfect secrecy is not achievable with any practical encryption method",
+        "D": "No, because block ciphers operate on fixed-size blocks and require key reuse for longer messages",
+        "answer": "A"
+    },
+    {
+        "question": "What is the primary objective of authorization in cybersecurity?",
+        "A": "Monitor the user's online activity",
+        "B": "Check if the user is a potential threat",
+        "C": "Identify the user's true identity",
+        "D": "Limit the user's access to certain data or operations",
+        "answer": "D"
+    },
+    {
+        "question": "The information must be codified at the origin point and decoded at the",
+        "A": "Destination point",
+        "B": "Broadcasting",
+        "C": "Origin point",
+        "D": "Transit point",
+        "answer": "A"
+    },
+    {
+        "question": "A _________________ can stealthily collect keystrokes, mouse movements, or other user activities on a computer, often for the purpose of capturing sensitive information such as passwords, financial data, or personal correspondence.",
+        "A": "ransomware",
+        "B": "adware",
+        "C": "worm",
+        "D": "keylogger",
+        "answer": "D"
+    },
+    {
+        "question": "How can DNS spoofing be detected?",
+        "A": "Setting up a VPN for all network traffic",
+        "B": "Using an intrusion detection system that can analyze DNS traffic",
+        "C": "Observe all DNS queries that are requested but do not return successfully",
+        "D": "Checking the timestamp of the DNS server and the user's system",
+        "answer": "B"
+    },
+    {
+        "question": "Which of these is not a common problem associated with the application layer?",
+        "A": "Inappropriate management of externally supplied data",
+        "B": "Insufficient process isolation can lead to information leakage",
+        "C": "Physical damage to network cables",
+        "D": "Vulnerabilities in encryption methods can be manipulated to bypass security",
+        "answer": "C"
+    },
+    {
+        "question": "Assuming Linux did not facilitate the transfer of file descriptors among processes, but still permitted file descriptors to be inherited from a parent during fork and exec. How would this affect the architecture of OKWS? 1. It would prevent services from communicating with oklogd. 2. It would hinder services from establishing a TCP connection with a database proxy.",
+        "A": "False, False",
+        "B": "True, True",
+        "C": "False, True",
+        "D": "True, False",
+        "answer": "A"
+    },
+    {
+        "question": "What is the purpose of a ping sweep?",
+        "A": "To search for live hosts",
+        "B": "To find open ports",
+        "C": "To detect firewalls",
+        "D": "To detect live hosts",
+        "answer": "D"
+    },
+    {
+        "question": "What are the four main principles of network security?",
+        "A": "Authentication, Confidentiality, Integrity, Non-repudiation",
+        "B": "Encryption, Integrity, Access Control, Non-repudiation",
+        "C": "Authentication, Authorization, Confidentiality, Availability",
+        "D": "Access Control, Encapsulation, Integrity, Non-repudiation",
+        "answer": "A"
+    },
+    {
+        "question": "What was the first major worm to spread across the internet?",
+        "A": "Blaster Worm",
+        "B": "ILOVEYOU",
+        "C": "Mydoom",
+        "D": "Morris Worm",
+        "answer": "D"
+    },
+    {
+        "question": "The ______________ can steal your personal information by recording your keystrokes.",
+        "A": "Ransom Trojan",
+        "B": "SMS Trojan",
+        "C": "Keylogging Trojan",
+        "D": "Backdoor Trojan",
+        "answer": "C"
+    },
+    {
+        "question": "Which of these is not a fundamental principle of information security?",
+        "A": "Modifiability",
+        "B": "Integrity",
+        "C": "Non-repudiation",
+        "D": "Confidentiality",
+        "answer": "A"
+    }
+]

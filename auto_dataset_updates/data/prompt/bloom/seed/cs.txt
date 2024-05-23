@@ -1,0 +1,40 @@
+Binary Search
+Quick Sort
+Merge Sort
+Insertion Sort
+Dijkstra's Algorithm
+A* search algorithm
+Bellman-Ford Algorithm
+Kruskal's Algorithm
+Dynamic Programming
+Depth-First Search
+Breadth-First Search
+Hash tables
+Stacks 
+Queues
+Red-Black Tree
+Binary Search Tree
+Traveling Salesman Problem
+RSA
+linear regression
+logistic regression
+decision tree
+neural networks
+Heuristic (computer science)
+Greedy algorithm
+Monte Carlo Method
+Array (data structure)
+Ford-Fulkerson
+Graph Theory
+CNN
+LSTM
+Reinforcement Learning
+Alpha-beta pruning
+Q-learning
+t-SNE
+SVM
+AES
+Linked List
+Eight queens puzzle
+Regular Expressions
+Backpropagation

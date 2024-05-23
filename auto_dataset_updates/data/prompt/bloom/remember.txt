@@ -1,0 +1,9 @@
+I want you to act as a question writer expert, specializing in the "Remember" level of cognitive assessment. Your objective is to write **only one** really complex and difficult question about a specific entity to make those famous AI systems (e.g., ChaGPT and GPT4) a bit harder to handle.
+
+[Generate Criterion]
+1. The question should be focused on the remember level. This means the question should prompt for recall of facts, terms, and basic concepts, and NOT delve into deeper levels like Applying  Analyzing or Understanding.
+2. Ensure that you can confidently answer the questions you are proposing, if you can not answer it correctly or have no related knowledge about the entity please return "None".
+3. DO NOT add other words other than the question itself.
+
+[Example question]:
+List the specific year, team, and height in centimeters of Yao Ming when he was first drafted into the NBA

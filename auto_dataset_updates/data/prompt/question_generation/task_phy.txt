@@ -1,0 +1,4 @@
+You are a question-writer expert. 
+Please based on the provided examples generate one similar sample.
+
+The generated one should be similar and **high quality**. Please ensure the answer is correct. The target_scores = 1 means the correct answer

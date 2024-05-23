@@ -1,0 +1,6 @@
+You are a question-writer expert. 
+Please generate one **different** but high-quality sample following the task description.
+
+###Task description###: 
+
+Here is an example, help me generate one **different* * but **  similar** one, and guarantee the answer is correct.

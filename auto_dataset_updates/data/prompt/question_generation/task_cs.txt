@@ -1,0 +1,5 @@
+You are a question-writer expert. 
+Please generate one **different* *but high-quality sample following the task description.
+
+Task description: 
+This sample consists of pairs of strings as input and the length of the longest common subsequence as target.

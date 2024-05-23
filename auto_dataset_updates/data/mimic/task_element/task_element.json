@@ -1,0 +1,2194 @@
+[
+    {
+        "input": "What element contains two more proton than hydrogen?",
+        "target_scores": "lithium"
+    },
+    {
+        "input": "What element contains two more proton than helium?",
+        "target_scores": "beryllium"
+    },
+    {
+        "input": "What element contains two more proton than lithium?",
+        "target_scores": "boron"
+    },
+    {
+        "input": "What element contains two more proton than beryllium?",
+        "target_scores": "carbon"
+    },
+    {
+        "input": "What element contains two more proton than boron?",
+        "target_scores": "nitrogen"
+    },
+    {
+        "input": "What element contains two more proton than carbon?",
+        "target_scores": "oxygen"
+    },
+    {
+        "input": "What element contains two more proton than nitrogen?",
+        "target_scores": "fluorine"
+    },
+    {
+        "input": "What element contains two more proton than oxygen?",
+        "target_scores": "neon"
+    },
+    {
+        "input": "What element contains two more proton than fluorine?",
+        "target_scores": "sodium"
+    },
+    {
+        "input": "What element contains two more proton than neon?",
+        "target_scores": "magnesium"
+    },
+    {
+        "input": "What element contains two more proton than sodium?",
+        "target_scores": "aluminum"
+    },
+    {
+        "input": "What element contains two more proton than magnesium?",
+        "target_scores": "silicon"
+    },
+    {
+        "input": "What element contains two more proton than aluminum?",
+        "target_scores": "phosphorus"
+    },
+    {
+        "input": "What element contains two more proton than silicon?",
+        "target_scores": "sulfur"
+    },
+    {
+        "input": "What element contains two more proton than phosphorus?",
+        "target_scores": "chlorine"
+    },
+    {
+        "input": "What element contains two more proton than sulfur?",
+        "target_scores": "argon"
+    },
+    {
+        "input": "What element contains two more proton than chlorine?",
+        "target_scores": "potassium"
+    },
+    {
+        "input": "What element contains two more proton than argon?",
+        "target_scores": "calcium"
+    },
+    {
+        "input": "What element contains two more proton than potassium?",
+        "target_scores": "scandium"
+    },
+    {
+        "input": "What element contains two more proton than calcium?",
+        "target_scores": "titanium"
+    },
+    {
+        "input": "What element contains two more proton than scandium?",
+        "target_scores": "vanadium"
+    },
+    {
+        "input": "What element contains two more proton than titanium?",
+        "target_scores": "chromium"
+    },
+    {
+        "input": "What element contains two more proton than vanadium?",
+        "target_scores": "manganese"
+    },
+    {
+        "input": "What element contains two more proton than chromium?",
+        "target_scores": "iron"
+    },
+    {
+        "input": "What element contains two more proton than manganese?",
+        "target_scores": "cobalt"
+    },
+    {
+        "input": "What element contains two more proton than iron?",
+        "target_scores": "nickel"
+    },
+    {
+        "input": "What element contains two more proton than cobalt?",
+        "target_scores": "copper"
+    },
+    {
+        "input": "What element contains two more proton than nickel?",
+        "target_scores": "zinc"
+    },
+    {
+        "input": "What element contains two more proton than copper?",
+        "target_scores": "gallium"
+    },
+    {
+        "input": "What element contains two more proton than zinc?",
+        "target_scores": "germanium"
+    },
+    {
+        "input": "What element contains two more proton than gallium?",
+        "target_scores": "arsenic"
+    },
+    {
+        "input": "What element contains two more proton than germanium?",
+        "target_scores": "selenium"
+    },
+    {
+        "input": "What element contains two more proton than arsenic?",
+        "target_scores": "bromine"
+    },
+    {
+        "input": "What element contains two more proton than selenium?",
+        "target_scores": "krypton"
+    },
+    {
+        "input": "What element contains two more proton than bromine?",
+        "target_scores": "rubidium"
+    },
+    {
+        "input": "What element contains two more proton than krypton?",
+        "target_scores": "strontium"
+    },
+    {
+        "input": "What element contains two more proton than rubidium?",
+        "target_scores": "yttrium"
+    },
+    {
+        "input": "What element contains two more proton than strontium?",
+        "target_scores": "zirconium"
+    },
+    {
+        "input": "What element contains two more proton than yttrium?",
+        "target_scores": "niobium"
+    },
+    {
+        "input": "What element contains two more proton than zirconium?",
+        "target_scores": "molybdenum"
+    },
+    {
+        "input": "What element contains two more proton than niobium?",
+        "target_scores": "technetium"
+    },
+    {
+        "input": "What element contains two more proton than molybdenum?",
+        "target_scores": "ruthenium"
+    },
+    {
+        "input": "What element contains two more proton than technetium?",
+        "target_scores": "rhodium"
+    },
+    {
+        "input": "What element contains two more proton than ruthenium?",
+        "target_scores": "palladium"
+    },
+    {
+        "input": "What element contains two more proton than rhodium?",
+        "target_scores": "silver"
+    },
+    {
+        "input": "What element contains two more proton than palladium?",
+        "target_scores": "cadmium"
+    },
+    {
+        "input": "What element contains two more proton than silver?",
+        "target_scores": "indium"
+    },
+    {
+        "input": "What element contains two more proton than cadmium?",
+        "target_scores": "tin"
+    },
+    {
+        "input": "What element contains two more proton than indium?",
+        "target_scores": "antimony"
+    },
+    {
+        "input": "What element contains two more proton than tin?",
+        "target_scores": "tellurium"
+    },
+    {
+        "input": "What element contains two more proton than antimony?",
+        "target_scores": "iodine"
+    },
+    {
+        "input": "What element contains two more proton than tellurium?",
+        "target_scores": "xenon"
+    },
+    {
+        "input": "What element contains two more proton than iodine?",
+        "target_scores": "cesium"
+    },
+    {
+        "input": "What element contains two more proton than xenon?",
+        "target_scores": "barium"
+    },
+    {
+        "input": "What element contains two more proton than cesium?",
+        "target_scores": "lanthanum"
+    },
+    {
+        "input": "What element contains two more proton than barium?",
+        "target_scores": "cerium"
+    },
+    {
+        "input": "What element contains two more proton than lanthanum?",
+        "target_scores": "praseodymium"
+    },
+    {
+        "input": "What element contains two more proton than cerium?",
+        "target_scores": "neodymium"
+    },
+    {
+        "input": "What element contains two more proton than praseodymium?",
+        "target_scores": "promethium"
+    },
+    {
+        "input": "What element contains two more proton than neodymium?",
+        "target_scores": "samarium"
+    },
+    {
+        "input": "What element contains two more proton than promethium?",
+        "target_scores": "europium"
+    },
+    {
+        "input": "What element contains two more proton than samarium?",
+        "target_scores": "gadolinium"
+    },
+    {
+        "input": "What element contains two more proton than europium?",
+        "target_scores": "terbium"
+    },
+    {
+        "input": "What element contains two more proton than gadolinium?",
+        "target_scores": "dysprosium"
+    },
+    {
+        "input": "What element contains two more proton than terbium?",
+        "target_scores": "holmium"
+    },
+    {
+        "input": "What element contains two more proton than dysprosium?",
+        "target_scores": "erbium"
+    },
+    {
+        "input": "What element contains two more proton than holmium?",
+        "target_scores": "thulium"
+    },
+    {
+        "input": "What element contains two more proton than erbium?",
+        "target_scores": "ytterbium"
+    },
+    {
+        "input": "What element contains two more proton than thulium?",
+        "target_scores": "lutetium"
+    },
+    {
+        "input": "What element contains two more proton than ytterbium?",
+        "target_scores": "hafnium"
+    },
+    {
+        "input": "What element contains two more proton than lutetium?",
+        "target_scores": "tantalum"
+    },
+    {
+        "input": "What element contains two more proton than hafnium?",
+        "target_scores": "tungsten"
+    },
+    {
+        "input": "What element contains two more proton than tantalum?",
+        "target_scores": "rhenium"
+    },
+    {
+        "input": "What element contains two more proton than tungsten?",
+        "target_scores": "osmium"
+    },
+    {
+        "input": "What element contains two more proton than rhenium?",
+        "target_scores": "iridium"
+    },
+    {
+        "input": "What element contains two more proton than osmium?",
+        "target_scores": "platinum"
+    },
+    {
+        "input": "What element contains two more proton than iridium?",
+        "target_scores": "gold"
+    },
+    {
+        "input": "What element contains two more proton than platinum?",
+        "target_scores": "mercury"
+    },
+    {
+        "input": "What element contains two more proton than gold?",
+        "target_scores": "thallium"
+    },
+    {
+        "input": "What element contains two more proton than mercury?",
+        "target_scores": "lead"
+    },
+    {
+        "input": "What element contains two more proton than thallium?",
+        "target_scores": "bismuth"
+    },
+    {
+        "input": "What element contains two more proton than lead?",
+        "target_scores": "polonium"
+    },
+    {
+        "input": "What element contains two more proton than bismuth?",
+        "target_scores": "astatine"
+    },
+    {
+        "input": "What element contains two more proton than polonium?",
+        "target_scores": "radon"
+    },
+    {
+        "input": "What element contains two more proton than astatine?",
+        "target_scores": "francium"
+    },
+    {
+        "input": "What element contains two more proton than radon?",
+        "target_scores": "radium"
+    },
+    {
+        "input": "What element contains two more proton than francium?",
+        "target_scores": "actinium"
+    },
+    {
+        "input": "What element contains two more proton than radium?",
+        "target_scores": "thorium"
+    },
+    {
+        "input": "What element contains two more proton than actinium?",
+        "target_scores": "protactinium"
+    },
+    {
+        "input": "What element contains two more proton than thorium?",
+        "target_scores": "uranium"
+    },
+    {
+        "input": "What element contains two more proton than protactinium?",
+        "target_scores": "neptunium"
+    },
+    {
+        "input": "What element contains two more proton than uranium?",
+        "target_scores": "plutonium"
+    },
+    {
+        "input": "What element contains two more proton than neptunium?",
+        "target_scores": "americium"
+    },
+    {
+        "input": "What element contains two more proton than plutonium?",
+        "target_scores": "curium"
+    },
+    {
+        "input": "What element contains two more proton than americium?",
+        "target_scores": "berkelium"
+    },
+    {
+        "input": "What element contains two more proton than curium?",
+        "target_scores": "californium"
+    },
+    {
+        "input": "What element contains two more proton than berkelium?",
+        "target_scores": "einsteinium"
+    },
+    {
+        "input": "What element contains two more proton than californium?",
+        "target_scores": "fermium"
+    },
+    {
+        "input": "What element contains two more proton than einsteinium?",
+        "target_scores": "mendelevium"
+    },
+    {
+        "input": "What element contains two more proton than fermium?",
+        "target_scores": "nobelium"
+    },
+    {
+        "input": "What element contains two more proton than mendelevium?",
+        "target_scores": "lawrencium"
+    },
+    {
+        "input": "What element contains two more proton than nobelium?",
+        "target_scores": "rutherfordium"
+    },
+    {
+        "input": "What element contains two more proton than lawrencium?",
+        "target_scores": "dubnium"
+    },
+    {
+        "input": "What element contains two more proton than rutherfordium?",
+        "target_scores": "seaborgium"
+    },
+    {
+        "input": "What element contains two more proton than dubnium?",
+        "target_scores": "bohrium"
+    },
+    {
+        "input": "What element contains two more proton than seaborgium?",
+        "target_scores": "hassium"
+    },
+    {
+        "input": "What element contains two more proton than bohrium?",
+        "target_scores": "meitnerium"
+    },
+    {
+        "input": "What element contains two more proton than hassium?",
+        "target_scores": "darmstadtium"
+    },
+    {
+        "input": "What element contains two more proton than meitnerium?",
+        "target_scores": "roentgenium"
+    },
+    {
+        "input": "What element contains two more proton than darmstadtium?",
+        "target_scores": "copernicium"
+    },
+    {
+        "input": "What element contains two more proton than roentgenium?",
+        "target_scores": "nihonium"
+    },
+    {
+        "input": "What element contains two more proton than copernicium?",
+        "target_scores": "flerovium"
+    },
+    {
+        "input": "What element contains two more proton than nihonium?",
+        "target_scores": "moscovium"
+    },
+    {
+        "input": "What element contains two more proton than flerovium?",
+        "target_scores": "livermorium"
+    },
+    {
+        "input": "What element contains two more proton than moscovium?",
+        "target_scores": "tennessine"
+    },
+    {
+        "input": "What element contains two more proton than livermorium?",
+        "target_scores": "oganesson"
+    },
+    {
+        "input": "What element contains three more proton than hydrogen?",
+        "target_scores": "beryllium"
+    },
+    {
+        "input": "What element contains three more proton than helium?",
+        "target_scores": "boron"
+    },
+    {
+        "input": "What element contains three more proton than lithium?",
+        "target_scores": "carbon"
+    },
+    {
+        "input": "What element contains three more proton than beryllium?",
+        "target_scores": "nitrogen"
+    },
+    {
+        "input": "What element contains three more proton than boron?",
+        "target_scores": "oxygen"
+    },
+    {
+        "input": "What element contains three more proton than carbon?",
+        "target_scores": "fluorine"
+    },
+    {
+        "input": "What element contains three more proton than nitrogen?",
+        "target_scores": "neon"
+    },
+    {
+        "input": "What element contains three more proton than oxygen?",
+        "target_scores": "sodium"
+    },
+    {
+        "input": "What element contains three more proton than fluorine?",
+        "target_scores": "magnesium"
+    },
+    {
+        "input": "What element contains three more proton than neon?",
+        "target_scores": "aluminum"
+    },
+    {
+        "input": "What element contains three more proton than sodium?",
+        "target_scores": "silicon"
+    },
+    {
+        "input": "What element contains three more proton than magnesium?",
+        "target_scores": "phosphorus"
+    },
+    {
+        "input": "What element contains three more proton than aluminum?",
+        "target_scores": "sulfur"
+    },
+    {
+        "input": "What element contains three more proton than silicon?",
+        "target_scores": "chlorine"
+    },
+    {
+        "input": "What element contains three more proton than phosphorus?",
+        "target_scores": "argon"
+    },
+    {
+        "input": "What element contains three more proton than sulfur?",
+        "target_scores": "potassium"
+    },
+    {
+        "input": "What element contains three more proton than chlorine?",
+        "target_scores": "calcium"
+    },
+    {
+        "input": "What element contains three more proton than argon?",
+        "target_scores": "scandium"
+    },
+    {
+        "input": "What element contains three more proton than potassium?",
+        "target_scores": "titanium"
+    },
+    {
+        "input": "What element contains three more proton than calcium?",
+        "target_scores": "vanadium"
+    },
+    {
+        "input": "What element contains three more proton than scandium?",
+        "target_scores": "chromium"
+    },
+    {
+        "input": "What element contains three more proton than titanium?",
+        "target_scores": "manganese"
+    },
+    {
+        "input": "What element contains three more proton than vanadium?",
+        "target_scores": "iron"
+    },
+    {
+        "input": "What element contains three more proton than chromium?",
+        "target_scores": "cobalt"
+    },
+    {
+        "input": "What element contains three more proton than manganese?",
+        "target_scores": "nickel"
+    },
+    {
+        "input": "What element contains three more proton than iron?",
+        "target_scores": "copper"
+    },
+    {
+        "input": "What element contains three more proton than cobalt?",
+        "target_scores": "zinc"
+    },
+    {
+        "input": "What element contains three more proton than nickel?",
+        "target_scores": "gallium"
+    },
+    {
+        "input": "What element contains three more proton than copper?",
+        "target_scores": "germanium"
+    },
+    {
+        "input": "What element contains three more proton than zinc?",
+        "target_scores": "arsenic"
+    },
+    {
+        "input": "What element contains three more proton than gallium?",
+        "target_scores": "selenium"
+    },
+    {
+        "input": "What element contains three more proton than germanium?",
+        "target_scores": "bromine"
+    },
+    {
+        "input": "What element contains three more proton than arsenic?",
+        "target_scores": "krypton"
+    },
+    {
+        "input": "What element contains three more proton than selenium?",
+        "target_scores": "rubidium"
+    },
+    {
+        "input": "What element contains three more proton than bromine?",
+        "target_scores": "strontium"
+    },
+    {
+        "input": "What element contains three more proton than krypton?",
+        "target_scores": "yttrium"
+    },
+    {
+        "input": "What element contains three more proton than rubidium?",
+        "target_scores": "zirconium"
+    },
+    {
+        "input": "What element contains three more proton than strontium?",
+        "target_scores": "niobium"
+    },
+    {
+        "input": "What element contains three more proton than yttrium?",
+        "target_scores": "molybdenum"
+    },
+    {
+        "input": "What element contains three more proton than zirconium?",
+        "target_scores": "technetium"
+    },
+    {
+        "input": "What element contains three more proton than niobium?",
+        "target_scores": "ruthenium"
+    },
+    {
+        "input": "What element contains three more proton than molybdenum?",
+        "target_scores": "rhodium"
+    },
+    {
+        "input": "What element contains three more proton than technetium?",
+        "target_scores": "palladium"
+    },
+    {
+        "input": "What element contains three more proton than ruthenium?",
+        "target_scores": "silver"
+    },
+    {
+        "input": "What element contains three more proton than rhodium?",
+        "target_scores": "cadmium"
+    },
+    {
+        "input": "What element contains three more proton than palladium?",
+        "target_scores": "indium"
+    },
+    {
+        "input": "What element contains three more proton than silver?",
+        "target_scores": "tin"
+    },
+    {
+        "input": "What element contains three more proton than cadmium?",
+        "target_scores": "antimony"
+    },
+    {
+        "input": "What element contains three more proton than indium?",
+        "target_scores": "tellurium"
+    },
+    {
+        "input": "What element contains three more proton than tin?",
+        "target_scores": "iodine"
+    },
+    {
+        "input": "What element contains three more proton than antimony?",
+        "target_scores": "xenon"
+    },
+    {
+        "input": "What element contains three more proton than tellurium?",
+        "target_scores": "cesium"
+    },
+    {
+        "input": "What element contains three more proton than iodine?",
+        "target_scores": "barium"
+    },
+    {
+        "input": "What element contains three more proton than xenon?",
+        "target_scores": "lanthanum"
+    },
+    {
+        "input": "What element contains three more proton than cesium?",
+        "target_scores": "cerium"
+    },
+    {
+        "input": "What element contains three more proton than barium?",
+        "target_scores": "praseodymium"
+    },
+    {
+        "input": "What element contains three more proton than lanthanum?",
+        "target_scores": "neodymium"
+    },
+    {
+        "input": "What element contains three more proton than cerium?",
+        "target_scores": "promethium"
+    },
+    {
+        "input": "What element contains three more proton than praseodymium?",
+        "target_scores": "samarium"
+    },
+    {
+        "input": "What element contains three more proton than neodymium?",
+        "target_scores": "europium"
+    },
+    {
+        "input": "What element contains three more proton than promethium?",
+        "target_scores": "gadolinium"
+    },
+    {
+        "input": "What element contains three more proton than samarium?",
+        "target_scores": "terbium"
+    },
+    {
+        "input": "What element contains three more proton than europium?",
+        "target_scores": "dysprosium"
+    },
+    {
+        "input": "What element contains three more proton than gadolinium?",
+        "target_scores": "holmium"
+    },
+    {
+        "input": "What element contains three more proton than terbium?",
+        "target_scores": "erbium"
+    },
+    {
+        "input": "What element contains three more proton than dysprosium?",
+        "target_scores": "thulium"
+    },
+    {
+        "input": "What element contains three more proton than holmium?",
+        "target_scores": "ytterbium"
+    },
+    {
+        "input": "What element contains three more proton than erbium?",
+        "target_scores": "lutetium"
+    },
+    {
+        "input": "What element contains three more proton than thulium?",
+        "target_scores": "hafnium"
+    },
+    {
+        "input": "What element contains three more proton than ytterbium?",
+        "target_scores": "tantalum"
+    },
+    {
+        "input": "What element contains three more proton than lutetium?",
+        "target_scores": "tungsten"
+    },
+    {
+        "input": "What element contains three more proton than hafnium?",
+        "target_scores": "rhenium"
+    },
+    {
+        "input": "What element contains three more proton than tantalum?",
+        "target_scores": "osmium"
+    },
+    {
+        "input": "What element contains three more proton than tungsten?",
+        "target_scores": "iridium"
+    },
+    {
+        "input": "What element contains three more proton than rhenium?",
+        "target_scores": "platinum"
+    },
+    {
+        "input": "What element contains three more proton than osmium?",
+        "target_scores": "gold"
+    },
+    {
+        "input": "What element contains three more proton than iridium?",
+        "target_scores": "mercury"
+    },
+    {
+        "input": "What element contains three more proton than platinum?",
+        "target_scores": "thallium"
+    },
+    {
+        "input": "What element contains three more proton than gold?",
+        "target_scores": "lead"
+    },
+    {
+        "input": "What element contains three more proton than mercury?",
+        "target_scores": "bismuth"
+    },
+    {
+        "input": "What element contains three more proton than thallium?",
+        "target_scores": "polonium"
+    },
+    {
+        "input": "What element contains three more proton than lead?",
+        "target_scores": "astatine"
+    },
+    {
+        "input": "What element contains three more proton than bismuth?",
+        "target_scores": "radon"
+    },
+    {
+        "input": "What element contains three more proton than polonium?",
+        "target_scores": "francium"
+    },
+    {
+        "input": "What element contains three more proton than astatine?",
+        "target_scores": "radium"
+    },
+    {
+        "input": "What element contains three more proton than radon?",
+        "target_scores": "actinium"
+    },
+    {
+        "input": "What element contains three more proton than francium?",
+        "target_scores": "thorium"
+    },
+    {
+        "input": "What element contains three more proton than radium?",
+        "target_scores": "protactinium"
+    },
+    {
+        "input": "What element contains three more proton than actinium?",
+        "target_scores": "uranium"
+    },
+    {
+        "input": "What element contains three more proton than thorium?",
+        "target_scores": "neptunium"
+    },
+    {
+        "input": "What element contains three more proton than protactinium?",
+        "target_scores": "plutonium"
+    },
+    {
+        "input": "What element contains three more proton than uranium?",
+        "target_scores": "americium"
+    },
+    {
+        "input": "What element contains three more proton than neptunium?",
+        "target_scores": "curium"
+    },
+    {
+        "input": "What element contains three more proton than plutonium?",
+        "target_scores": "berkelium"
+    },
+    {
+        "input": "What element contains three more proton than americium?",
+        "target_scores": "californium"
+    },
+    {
+        "input": "What element contains three more proton than curium?",
+        "target_scores": "einsteinium"
+    },
+    {
+        "input": "What element contains three more proton than berkelium?",
+        "target_scores": "fermium"
+    },
+    {
+        "input": "What element contains three more proton than californium?",
+        "target_scores": "mendelevium"
+    },
+    {
+        "input": "What element contains three more proton than einsteinium?",
+        "target_scores": "nobelium"
+    },
+    {
+        "input": "What element contains three more proton than fermium?",
+        "target_scores": "lawrencium"
+    },
+    {
+        "input": "What element contains three more proton than mendelevium?",
+        "target_scores": "rutherfordium"
+    },
+    {
+        "input": "What element contains three more proton than nobelium?",
+        "target_scores": "dubnium"
+    },
+    {
+        "input": "What element contains three more proton than lawrencium?",
+        "target_scores": "seaborgium"
+    },
+    {
+        "input": "What element contains three more proton than rutherfordium?",
+        "target_scores": "bohrium"
+    },
+    {
+        "input": "What element contains three more proton than dubnium?",
+        "target_scores": "hassium"
+    },
+    {
+        "input": "What element contains three more proton than seaborgium?",
+        "target_scores": "meitnerium"
+    },
+    {
+        "input": "What element contains three more proton than bohrium?",
+        "target_scores": "darmstadtium"
+    },
+    {
+        "input": "What element contains three more proton than hassium?",
+        "target_scores": "roentgenium"
+    },
+    {
+        "input": "What element contains three more proton than meitnerium?",
+        "target_scores": "copernicium"
+    },
+    {
+        "input": "What element contains three more proton than darmstadtium?",
+        "target_scores": "nihonium"
+    },
+    {
+        "input": "What element contains three more proton than roentgenium?",
+        "target_scores": "flerovium"
+    },
+    {
+        "input": "What element contains three more proton than copernicium?",
+        "target_scores": "moscovium"
+    },
+    {
+        "input": "What element contains three more proton than nihonium?",
+        "target_scores": "livermorium"
+    },
+    {
+        "input": "What element contains three more proton than flerovium?",
+        "target_scores": "tennessine"
+    },
+    {
+        "input": "What element contains three more proton than moscovium?",
+        "target_scores": "oganesson"
+    },
+    {
+        "input": "What element contains two less proton than lithium?",
+        "target_scores": "hydrogen"
+    },
+    {
+        "input": "What element contains two less proton than beryllium?",
+        "target_scores": "helium"
+    },
+    {
+        "input": "What element contains two less proton than boron?",
+        "target_scores": "lithium"
+    },
+    {
+        "input": "What element contains two less proton than carbon?",
+        "target_scores": "beryllium"
+    },
+    {
+        "input": "What element contains two less proton than nitrogen?",
+        "target_scores": "boron"
+    },
+    {
+        "input": "What element contains two less proton than oxygen?",
+        "target_scores": "carbon"
+    },
+    {
+        "input": "What element contains two less proton than fluorine?",
+        "target_scores": "nitrogen"
+    },
+    {
+        "input": "What element contains two less proton than neon?",
+        "target_scores": "oxygen"
+    },
+    {
+        "input": "What element contains two less proton than sodium?",
+        "target_scores": "fluorine"
+    },
+    {
+        "input": "What element contains two less proton than magnesium?",
+        "target_scores": "neon"
+    },
+    {
+        "input": "What element contains two less proton than aluminum?",
+        "target_scores": "sodium"
+    },
+    {
+        "input": "What element contains two less proton than silicon?",
+        "target_scores": "magnesium"
+    },
+    {
+        "input": "What element contains two less proton than phosphorus?",
+        "target_scores": "aluminum"
+    },
+    {
+        "input": "What element contains two less proton than sulfur?",
+        "target_scores": "silicon"
+    },
+    {
+        "input": "What element contains two less proton than chlorine?",
+        "target_scores": "phosphorus"
+    },
+    {
+        "input": "What element contains two less proton than argon?",
+        "target_scores": "sulfur"
+    },
+    {
+        "input": "What element contains two less proton than potassium?",
+        "target_scores": "chlorine"
+    },
+    {
+        "input": "What element contains two less proton than calcium?",
+        "target_scores": "argon"
+    },
+    {
+        "input": "What element contains two less proton than scandium?",
+        "target_scores": "potassium"
+    },
+    {
+        "input": "What element contains two less proton than titanium?",
+        "target_scores": "calcium"
+    },
+    {
+        "input": "What element contains two less proton than vanadium?",
+        "target_scores": "scandium"
+    },
+    {
+        "input": "What element contains two less proton than chromium?",
+        "target_scores": "titanium"
+    },
+    {
+        "input": "What element contains two less proton than manganese?",
+        "target_scores": "vanadium"
+    },
+    {
+        "input": "What element contains two less proton than iron?",
+        "target_scores": "chromium"
+    },
+    {
+        "input": "What element contains two less proton than cobalt?",
+        "target_scores": "manganese"
+    },
+    {
+        "input": "What element contains two less proton than nickel?",
+        "target_scores": "iron"
+    },
+    {
+        "input": "What element contains two less proton than copper?",
+        "target_scores": "cobalt"
+    },
+    {
+        "input": "What element contains two less proton than zinc?",
+        "target_scores": "nickel"
+    },
+    {
+        "input": "What element contains two less proton than gallium?",
+        "target_scores": "copper"
+    },
+    {
+        "input": "What element contains two less proton than germanium?",
+        "target_scores": "zinc"
+    },
+    {
+        "input": "What element contains two less proton than arsenic?",
+        "target_scores": "gallium"
+    },
+    {
+        "input": "What element contains two less proton than selenium?",
+        "target_scores": "germanium"
+    },
+    {
+        "input": "What element contains two less proton than bromine?",
+        "target_scores": "arsenic"
+    },
+    {
+        "input": "What element contains two less proton than krypton?",
+        "target_scores": "selenium"
+    },
+    {
+        "input": "What element contains two less proton than rubidium?",
+        "target_scores": "bromine"
+    },
+    {
+        "input": "What element contains two less proton than strontium?",
+        "target_scores": "krypton"
+    },
+    {
+        "input": "What element contains two less proton than yttrium?",
+        "target_scores": "rubidium"
+    },
+    {
+        "input": "What element contains two less proton than zirconium?",
+        "target_scores": "strontium"
+    },
+    {
+        "input": "What element contains two less proton than niobium?",
+        "target_scores": "yttrium"
+    },
+    {
+        "input": "What element contains two less proton than molybdenum?",
+        "target_scores": "zirconium"
+    },
+    {
+        "input": "What element contains two less proton than technetium?",
+        "target_scores": "niobium"
+    },
+    {
+        "input": "What element contains two less proton than ruthenium?",
+        "target_scores": "molybdenum"
+    },
+    {
+        "input": "What element contains two less proton than rhodium?",
+        "target_scores": "technetium"
+    },
+    {
+        "input": "What element contains two less proton than palladium?",
+        "target_scores": "ruthenium"
+    },
+    {
+        "input": "What element contains two less proton than silver?",
+        "target_scores": "rhodium"
+    },
+    {
+        "input": "What element contains two less proton than cadmium?",
+        "target_scores": "palladium"
+    },
+    {
+        "input": "What element contains two less proton than indium?",
+        "target_scores": "silver"
+    },
+    {
+        "input": "What element contains two less proton than tin?",
+        "target_scores": "cadmium"
+    },
+    {
+        "input": "What element contains two less proton than antimony?",
+        "target_scores": "indium"
+    },
+    {
+        "input": "What element contains two less proton than tellurium?",
+        "target_scores": "tin"
+    },
+    {
+        "input": "What element contains two less proton than iodine?",
+        "target_scores": "antimony"
+    },
+    {
+        "input": "What element contains two less proton than xenon?",
+        "target_scores": "tellurium"
+    },
+    {
+        "input": "What element contains two less proton than cesium?",
+        "target_scores": "iodine"
+    },
+    {
+        "input": "What element contains two less proton than barium?",
+        "target_scores": "xenon"
+    },
+    {
+        "input": "What element contains two less proton than lanthanum?",
+        "target_scores": "cesium"
+    },
+    {
+        "input": "What element contains two less proton than cerium?",
+        "target_scores": "barium"
+    },
+    {
+        "input": "What element contains two less proton than praseodymium?",
+        "target_scores": "lanthanum"
+    },
+    {
+        "input": "What element contains two less proton than neodymium?",
+        "target_scores": "cerium"
+    },
+    {
+        "input": "What element contains two less proton than promethium?",
+        "target_scores": "praseodymium"
+    },
+    {
+        "input": "What element contains two less proton than samarium?",
+        "target_scores": "neodymium"
+    },
+    {
+        "input": "What element contains two less proton than europium?",
+        "target_scores": "promethium"
+    },
+    {
+        "input": "What element contains two less proton than gadolinium?",
+        "target_scores": "samarium"
+    },
+    {
+        "input": "What element contains two less proton than terbium?",
+        "target_scores": "europium"
+    },
+    {
+        "input": "What element contains two less proton than dysprosium?",
+        "target_scores": "gadolinium"
+    },
+    {
+        "input": "What element contains two less proton than holmium?",
+        "target_scores": "terbium"
+    },
+    {
+        "input": "What element contains two less proton than erbium?",
+        "target_scores": "dysprosium"
+    },
+    {
+        "input": "What element contains two less proton than thulium?",
+        "target_scores": "holmium"
+    },
+    {
+        "input": "What element contains two less proton than ytterbium?",
+        "target_scores": "erbium"
+    },
+    {
+        "input": "What element contains two less proton than lutetium?",
+        "target_scores": "thulium"
+    },
+    {
+        "input": "What element contains two less proton than hafnium?",
+        "target_scores": "ytterbium"
+    },
+    {
+        "input": "What element contains two less proton than tantalum?",
+        "target_scores": "lutetium"
+    },
+    {
+        "input": "What element contains two less proton than tungsten?",
+        "target_scores": "hafnium"
+    },
+    {
+        "input": "What element contains two less proton than rhenium?",
+        "target_scores": "tantalum"
+    },
+    {
+        "input": "What element contains two less proton than osmium?",
+        "target_scores": "tungsten"
+    },
+    {
+        "input": "What element contains two less proton than iridium?",
+        "target_scores": "rhenium"
+    },
+    {
+        "input": "What element contains two less proton than platinum?",
+        "target_scores": "osmium"
+    },
+    {
+        "input": "What element contains two less proton than gold?",
+        "target_scores": "iridium"
+    },
+    {
+        "input": "What element contains two less proton than mercury?",
+        "target_scores": "platinum"
+    },
+    {
+        "input": "What element contains two less proton than thallium?",
+        "target_scores": "gold"
+    },
+    {
+        "input": "What element contains two less proton than lead?",
+        "target_scores": "mercury"
+    },
+    {
+        "input": "What element contains two less proton than bismuth?",
+        "target_scores": "thallium"
+    },
+    {
+        "input": "What element contains two less proton than polonium?",
+        "target_scores": "lead"
+    },
+    {
+        "input": "What element contains two less proton than astatine?",
+        "target_scores": "bismuth"
+    },
+    {
+        "input": "What element contains two less proton than radon?",
+        "target_scores": "polonium"
+    },
+    {
+        "input": "What element contains two less proton than francium?",
+        "target_scores": "astatine"
+    },
+    {
+        "input": "What element contains two less proton than radium?",
+        "target_scores": "radon"
+    },
+    {
+        "input": "What element contains two less proton than actinium?",
+        "target_scores": "francium"
+    },
+    {
+        "input": "What element contains two less proton than thorium?",
+        "target_scores": "radium"
+    },
+    {
+        "input": "What element contains two less proton than protactinium?",
+        "target_scores": "actinium"
+    },
+    {
+        "input": "What element contains two less proton than uranium?",
+        "target_scores": "thorium"
+    },
+    {
+        "input": "What element contains two less proton than neptunium?",
+        "target_scores": "protactinium"
+    },
+    {
+        "input": "What element contains two less proton than plutonium?",
+        "target_scores": "uranium"
+    },
+    {
+        "input": "What element contains two less proton than americium?",
+        "target_scores": "neptunium"
+    },
+    {
+        "input": "What element contains two less proton than curium?",
+        "target_scores": "plutonium"
+    },
+    {
+        "input": "What element contains two less proton than berkelium?",
+        "target_scores": "americium"
+    },
+    {
+        "input": "What element contains two less proton than californium?",
+        "target_scores": "curium"
+    },
+    {
+        "input": "What element contains two less proton than einsteinium?",
+        "target_scores": "berkelium"
+    },
+    {
+        "input": "What element contains two less proton than fermium?",
+        "target_scores": "californium"
+    },
+    {
+        "input": "What element contains two less proton than mendelevium?",
+        "target_scores": "einsteinium"
+    },
+    {
+        "input": "What element contains two less proton than nobelium?",
+        "target_scores": "fermium"
+    },
+    {
+        "input": "What element contains two less proton than lawrencium?",
+        "target_scores": "mendelevium"
+    },
+    {
+        "input": "What element contains two less proton than rutherfordium?",
+        "target_scores": "nobelium"
+    },
+    {
+        "input": "What element contains two less proton than dubnium?",
+        "target_scores": "lawrencium"
+    },
+    {
+        "input": "What element contains two less proton than seaborgium?",
+        "target_scores": "rutherfordium"
+    },
+    {
+        "input": "What element contains two less proton than bohrium?",
+        "target_scores": "dubnium"
+    },
+    {
+        "input": "What element contains two less proton than hassium?",
+        "target_scores": "seaborgium"
+    },
+    {
+        "input": "What element contains two less proton than meitnerium?",
+        "target_scores": "bohrium"
+    },
+    {
+        "input": "What element contains two less proton than darmstadtium?",
+        "target_scores": "hassium"
+    },
+    {
+        "input": "What element contains two less proton than roentgenium?",
+        "target_scores": "meitnerium"
+    },
+    {
+        "input": "What element contains two less proton than copernicium?",
+        "target_scores": "darmstadtium"
+    },
+    {
+        "input": "What element contains two less proton than nihonium?",
+        "target_scores": "roentgenium"
+    },
+    {
+        "input": "What element contains two less proton than flerovium?",
+        "target_scores": "copernicium"
+    },
+    {
+        "input": "What element contains two less proton than moscovium?",
+        "target_scores": "nihonium"
+    },
+    {
+        "input": "What element contains two less proton than livermorium?",
+        "target_scores": "flerovium"
+    },
+    {
+        "input": "What element contains two less proton than tennessine?",
+        "target_scores": "moscovium"
+    },
+    {
+        "input": "What element contains two less proton than oganesson?",
+        "target_scores": "livermorium"
+    },
+    {
+        "input": "What element contains three less proton than beryllium?",
+        "target_scores": "hydrogen"
+    },
+    {
+        "input": "What element contains three less proton than boron?",
+        "target_scores": "helium"
+    },
+    {
+        "input": "What element contains three less proton than carbon?",
+        "target_scores": "lithium"
+    },
+    {
+        "input": "What element contains three less proton than nitrogen?",
+        "target_scores": "beryllium"
+    },
+    {
+        "input": "What element contains three less proton than oxygen?",
+        "target_scores": "boron"
+    },
+    {
+        "input": "What element contains three less proton than fluorine?",
+        "target_scores": "carbon"
+    },
+    {
+        "input": "What element contains three less proton than neon?",
+        "target_scores": "nitrogen"
+    },
+    {
+        "input": "What element contains three less proton than sodium?",
+        "target_scores": "oxygen"
+    },
+    {
+        "input": "What element contains three less proton than magnesium?",
+        "target_scores": "fluorine"
+    },
+    {
+        "input": "What element contains three less proton than aluminum?",
+        "target_scores": "neon"
+    },
+    {
+        "input": "What element contains three less proton than silicon?",
+        "target_scores": "sodium"
+    },
+    {
+        "input": "What element contains three less proton than phosphorus?",
+        "target_scores": "magnesium"
+    },
+    {
+        "input": "What element contains three less proton than sulfur?",
+        "target_scores": "aluminum"
+    },
+    {
+        "input": "What element contains three less proton than chlorine?",
+        "target_scores": "silicon"
+    },
+    {
+        "input": "What element contains three less proton than argon?",
+        "target_scores": "phosphorus"
+    },
+    {
+        "input": "What element contains three less proton than potassium?",
+        "target_scores": "sulfur"
+    },
+    {
+        "input": "What element contains three less proton than calcium?",
+        "target_scores": "chlorine"
+    },
+    {
+        "input": "What element contains three less proton than scandium?",
+        "target_scores": "argon"
+    },
+    {
+        "input": "What element contains three less proton than titanium?",
+        "target_scores": "potassium"
+    },
+    {
+        "input": "What element contains three less proton than vanadium?",
+        "target_scores": "calcium"
+    },
+    {
+        "input": "What element contains three less proton than chromium?",
+        "target_scores": "scandium"
+    },
+    {
+        "input": "What element contains three less proton than manganese?",
+        "target_scores": "titanium"
+    },
+    {
+        "input": "What element contains three less proton than iron?",
+        "target_scores": "vanadium"
+    },
+    {
+        "input": "What element contains three less proton than cobalt?",
+        "target_scores": "chromium"
+    },
+    {
+        "input": "What element contains three less proton than nickel?",
+        "target_scores": "manganese"
+    },
+    {
+        "input": "What element contains three less proton than copper?",
+        "target_scores": "iron"
+    },
+    {
+        "input": "What element contains three less proton than zinc?",
+        "target_scores": "cobalt"
+    },
+    {
+        "input": "What element contains three less proton than gallium?",
+        "target_scores": "nickel"
+    },
+    {
+        "input": "What element contains three less proton than germanium?",
+        "target_scores": "copper"
+    },
+    {
+        "input": "What element contains three less proton than arsenic?",
+        "target_scores": "zinc"
+    },
+    {
+        "input": "What element contains three less proton than selenium?",
+        "target_scores": "gallium"
+    },
+    {
+        "input": "What element contains three less proton than bromine?",
+        "target_scores": "germanium"
+    },
+    {
+        "input": "What element contains three less proton than krypton?",
+        "target_scores": "arsenic"
+    },
+    {
+        "input": "What element contains three less proton than rubidium?",
+        "target_scores": "selenium"
+    },
+    {
+        "input": "What element contains three less proton than strontium?",
+        "target_scores": "bromine"
+    },
+    {
+        "input": "What element contains three less proton than yttrium?",
+        "target_scores": "krypton"
+    },
+    {
+        "input": "What element contains three less proton than zirconium?",
+        "target_scores": "rubidium"
+    },
+    {
+        "input": "What element contains three less proton than niobium?",
+        "target_scores": "strontium"
+    },
+    {
+        "input": "What element contains three less proton than molybdenum?",
+        "target_scores": "yttrium"
+    },
+    {
+        "input": "What element contains three less proton than technetium?",
+        "target_scores": "zirconium"
+    },
+    {
+        "input": "What element contains three less proton than ruthenium?",
+        "target_scores": "niobium"
+    },
+    {
+        "input": "What element contains three less proton than rhodium?",
+        "target_scores": "molybdenum"
+    },
+    {
+        "input": "What element contains three less proton than palladium?",
+        "target_scores": "technetium"
+    },
+    {
+        "input": "What element contains three less proton than silver?",
+        "target_scores": "ruthenium"
+    },
+    {
+        "input": "What element contains three less proton than cadmium?",
+        "target_scores": "rhodium"
+    },
+    {
+        "input": "What element contains three less proton than indium?",
+        "target_scores": "palladium"
+    },
+    {
+        "input": "What element contains three less proton than tin?",
+        "target_scores": "silver"
+    },
+    {
+        "input": "What element contains three less proton than antimony?",
+        "target_scores": "cadmium"
+    },
+    {
+        "input": "What element contains three less proton than tellurium?",
+        "target_scores": "indium"
+    },
+    {
+        "input": "What element contains three less proton than iodine?",
+        "target_scores": "tin"
+    },
+    {
+        "input": "What element contains three less proton than xenon?",
+        "target_scores": "antimony"
+    },
+    {
+        "input": "What element contains three less proton than cesium?",
+        "target_scores": "tellurium"
+    },
+    {
+        "input": "What element contains three less proton than barium?",
+        "target_scores": "iodine"
+    },
+    {
+        "input": "What element contains three less proton than lanthanum?",
+        "target_scores": "xenon"
+    },
+    {
+        "input": "What element contains three less proton than cerium?",
+        "target_scores": "cesium"
+    },
+    {
+        "input": "What element contains three less proton than praseodymium?",
+        "target_scores": "barium"
+    },
+    {
+        "input": "What element contains three less proton than neodymium?",
+        "target_scores": "lanthanum"
+    },
+    {
+        "input": "What element contains three less proton than promethium?",
+        "target_scores": "cerium"
+    },
+    {
+        "input": "What element contains three less proton than samarium?",
+        "target_scores": "praseodymium"
+    },
+    {
+        "input": "What element contains three less proton than europium?",
+        "target_scores": "neodymium"
+    },
+    {
+        "input": "What element contains three less proton than gadolinium?",
+        "target_scores": "promethium"
+    },
+    {
+        "input": "What element contains three less proton than terbium?",
+        "target_scores": "samarium"
+    },
+    {
+        "input": "What element contains three less proton than dysprosium?",
+        "target_scores": "europium"
+    },
+    {
+        "input": "What element contains three less proton than holmium?",
+        "target_scores": "gadolinium"
+    },
+    {
+        "input": "What element contains three less proton than erbium?",
+        "target_scores": "terbium"
+    },
+    {
+        "input": "What element contains three less proton than thulium?",
+        "target_scores": "dysprosium"
+    },
+    {
+        "input": "What element contains three less proton than ytterbium?",
+        "target_scores": "holmium"
+    },
+    {
+        "input": "What element contains three less proton than lutetium?",
+        "target_scores": "erbium"
+    },
+    {
+        "input": "What element contains three less proton than hafnium?",
+        "target_scores": "thulium"
+    },
+    {
+        "input": "What element contains three less proton than tantalum?",
+        "target_scores": "ytterbium"
+    },
+    {
+        "input": "What element contains three less proton than tungsten?",
+        "target_scores": "lutetium"
+    },
+    {
+        "input": "What element contains three less proton than rhenium?",
+        "target_scores": "hafnium"
+    },
+    {
+        "input": "What element contains three less proton than osmium?",
+        "target_scores": "tantalum"
+    },
+    {
+        "input": "What element contains three less proton than iridium?",
+        "target_scores": "tungsten"
+    },
+    {
+        "input": "What element contains three less proton than platinum?",
+        "target_scores": "rhenium"
+    },
+    {
+        "input": "What element contains three less proton than gold?",
+        "target_scores": "osmium"
+    },
+    {
+        "input": "What element contains three less proton than mercury?",
+        "target_scores": "iridium"
+    },
+    {
+        "input": "What element contains three less proton than thallium?",
+        "target_scores": "platinum"
+    },
+    {
+        "input": "What element contains three less proton than lead?",
+        "target_scores": "gold"
+    },
+    {
+        "input": "What element contains three less proton than bismuth?",
+        "target_scores": "mercury"
+    },
+    {
+        "input": "What element contains three less proton than polonium?",
+        "target_scores": "thallium"
+    },
+    {
+        "input": "What element contains three less proton than astatine?",
+        "target_scores": "lead"
+    },
+    {
+        "input": "What element contains three less proton than radon?",
+        "target_scores": "bismuth"
+    },
+    {
+        "input": "What element contains three less proton than francium?",
+        "target_scores": "polonium"
+    },
+    {
+        "input": "What element contains three less proton than radium?",
+        "target_scores": "astatine"
+    },
+    {
+        "input": "What element contains three less proton than actinium?",
+        "target_scores": "radon"
+    },
+    {
+        "input": "What element contains three less proton than thorium?",
+        "target_scores": "francium"
+    },
+    {
+        "input": "What element contains three less proton than protactinium?",
+        "target_scores": "radium"
+    },
+    {
+        "input": "What element contains three less proton than uranium?",
+        "target_scores": "actinium"
+    },
+    {
+        "input": "What element contains three less proton than neptunium?",
+        "target_scores": "thorium"
+    },
+    {
+        "input": "What element contains three less proton than plutonium?",
+        "target_scores": "protactinium"
+    },
+    {
+        "input": "What element contains three less proton than americium?",
+        "target_scores": "uranium"
+    },
+    {
+        "input": "What element contains three less proton than curium?",
+        "target_scores": "neptunium"
+    },
+    {
+        "input": "What element contains three less proton than berkelium?",
+        "target_scores": "plutonium"
+    },
+    {
+        "input": "What element contains three less proton than californium?",
+        "target_scores": "americium"
+    },
+    {
+        "input": "What element contains three less proton than einsteinium?",
+        "target_scores": "curium"
+    },
+    {
+        "input": "What element contains three less proton than fermium?",
+        "target_scores": "berkelium"
+    },
+    {
+        "input": "What element contains three less proton than mendelevium?",
+        "target_scores": "californium"
+    },
+    {
+        "input": "What element contains three less proton than nobelium?",
+        "target_scores": "einsteinium"
+    },
+    {
+        "input": "What element contains three less proton than lawrencium?",
+        "target_scores": "fermium"
+    },
+    {
+        "input": "What element contains three less proton than rutherfordium?",
+        "target_scores": "mendelevium"
+    },
+    {
+        "input": "What element contains three less proton than dubnium?",
+        "target_scores": "nobelium"
+    },
+    {
+        "input": "What element contains three less proton than seaborgium?",
+        "target_scores": "lawrencium"
+    },
+    {
+        "input": "What element contains three less proton than bohrium?",
+        "target_scores": "rutherfordium"
+    },
+    {
+        "input": "What element contains three less proton than hassium?",
+        "target_scores": "dubnium"
+    },
+    {
+        "input": "What element contains three less proton than meitnerium?",
+        "target_scores": "seaborgium"
+    },
+    {
+        "input": "What element contains three less proton than darmstadtium?",
+        "target_scores": "bohrium"
+    },
+    {
+        "input": "What element contains three less proton than roentgenium?",
+        "target_scores": "hassium"
+    },
+    {
+        "input": "What element contains three less proton than copernicium?",
+        "target_scores": "meitnerium"
+    },
+    {
+        "input": "What element contains three less proton than nihonium?",
+        "target_scores": "darmstadtium"
+    },
+    {
+        "input": "What element contains three less proton than flerovium?",
+        "target_scores": "roentgenium"
+    },
+    {
+        "input": "What element contains three less proton than moscovium?",
+        "target_scores": "copernicium"
+    },
+    {
+        "input": "What element contains three less proton than livermorium?",
+        "target_scores": "nihonium"
+    },
+    {
+        "input": "What element contains three less proton than tennessine?",
+        "target_scores": "flerovium"
+    },
+    {
+        "input": "What element contains three less proton than oganesson?",
+        "target_scores": "moscovium"
+    },
+    {
+        "input": "What element is located two positions to the right of calcium on the periodic table?",
+        "target_scores": "titanium"
+    },
+    {
+        "input": "What element is located two positions to the right of scandium on the periodic table?",
+        "target_scores": "vanadium"
+    },
+    {
+        "input": "What element is located two positions to the right of strontium on the periodic table?",
+        "target_scores": "zirconium"
+    },
+    {
+        "input": "What element is located two positions to the right of yttrium on the periodic table?",
+        "target_scores": "niobium"
+    },
+    {
+        "input": "What element is located two positions to the right of barium on the periodic table?",
+        "target_scores": "hafnium"
+    },
+    {
+        "input": "What element is located two positions to the right of lanthanum on the periodic table?",
+        "target_scores": "tantalum"
+    },
+    {
+        "input": "What element is located two positions to the right of radium on the periodic table?",
+        "target_scores": "rutherfordium"
+    },
+    {
+        "input": "What element is located two positions to the right of actinium on the periodic table?",
+        "target_scores": "dubnium"
+    },
+    {
+        "input": "What element is located two positions to the left of titanium on the periodic table?",
+        "target_scores": "calcium"
+    },
+    {
+        "input": "What element is located two positions to the left of vanadium on the periodic table?",
+        "target_scores": "scandium"
+    },
+    {
+        "input": "What element is located two positions to the left of zirconium on the periodic table?",
+        "target_scores": "strontium"
+    },
+    {
+        "input": "What element is located two positions to the left of niobium on the periodic table?",
+        "target_scores": "yttrium"
+    },
+    {
+        "input": "What element is located two positions to the left of hafnium on the periodic table?",
+        "target_scores": "barium"
+    },
+    {
+        "input": "What element is located two positions to the left of tantalum on the periodic table?",
+        "target_scores": "lanthanum"
+    },
+    {
+        "input": "What element is located two positions to the left of rutherfordium on the periodic table?",
+        "target_scores": "radium"
+    },
+    {
+        "input": "What element is located two positions to the left of dubnium on the periodic table?",
+        "target_scores": "actinium"
+    },
+    {
+        "input": "What element is located two rows below hydrogen on the periodic table?",
+        "target_scores": "sodium"
+    },
+    {
+        "input": "What element is located two rows above sodium on the periodic table?",
+        "target_scores": "hydrogen"
+    },
+    {
+        "input": "What element is located two rows below lithium on the periodic table?",
+        "target_scores": "potassium"
+    },
+    {
+        "input": "What element is located two rows above potassium on the periodic table?",
+        "target_scores": "lithium"
+    },
+    {
+        "input": "What element is located two rows below sodium on the periodic table?",
+        "target_scores": "rubidium"
+    },
+    {
+        "input": "What element is located two rows above rubidium on the periodic table?",
+        "target_scores": "sodium"
+    },
+    {
+        "input": "What element is located two rows below potassium on the periodic table?",
+        "target_scores": "cesium"
+    },
+    {
+        "input": "What element is located two rows above cesium on the periodic table?",
+        "target_scores": "potassium"
+    },
+    {
+        "input": "What element is located two rows below rubidium on the periodic table?",
+        "target_scores": "francium"
+    },
+    {
+        "input": "What element is located two rows above francium on the periodic table?",
+        "target_scores": "rubidium"
+    },
+    {
+        "input": "What element is located two rows below beryllium on the periodic table?",
+        "target_scores": "calcium"
+    },
+    {
+        "input": "What element is located two rows above calcium on the periodic table?",
+        "target_scores": "beryllium"
+    },
+    {
+        "input": "What element is located two rows below magnesium on the periodic table?",
+        "target_scores": "strontium"
+    },
+    {
+        "input": "What element is located two rows above strontium on the periodic table?",
+        "target_scores": "magnesium"
+    },
+    {
+        "input": "What element is located two rows below calcium on the periodic table?",
+        "target_scores": "barium"
+    },
+    {
+        "input": "What element is located two rows above barium on the periodic table?",
+        "target_scores": "calcium"
+    },
+    {
+        "input": "What element is located two rows below strontium on the periodic table?",
+        "target_scores": "radium"
+    },
+    {
+        "input": "What element is located two rows above radium on the periodic table?",
+        "target_scores": "strontium"
+    },
+    {
+        "input": "What element is located two rows below scandium on the periodic table?",
+        "target_scores": "lanthanum"
+    },
+    {
+        "input": "What element is located two rows above lanthanum on the periodic table?",
+        "target_scores": "scandium"
+    },
+    {
+        "input": "What element is located two rows below yttrium on the periodic table?",
+        "target_scores": "actinium"
+    },
+    {
+        "input": "What element is located two rows above actinium on the periodic table?",
+        "target_scores": "yttrium"
+    },
+    {
+        "input": "What element is located two rows below titanium on the periodic table?",
+        "target_scores": "hafnium"
+    },
+    {
+        "input": "What element is located two rows above hafnium on the periodic table?",
+        "target_scores": "titanium"
+    },
+    {
+        "input": "What element is located two rows below zirconium on the periodic table?",
+        "target_scores": "rutherfordium"
+    },
+    {
+        "input": "What element is located two rows above rutherfordium on the periodic table?",
+        "target_scores": "zirconium"
+    },
+    {
+        "input": "What element is located two rows below iron on the periodic table?",
+        "target_scores": "osmium"
+    },
+    {
+        "input": "What element is located two rows above osmium on the periodic table?",
+        "target_scores": "iron"
+    },
+    {
+        "input": "What element is located two rows below ruthenium on the periodic table?",
+        "target_scores": "hassium"
+    },
+    {
+        "input": "What element is located two rows above hassium on the periodic table?",
+        "target_scores": "ruthenium"
+    },
+    {
+        "input": "What element is located two rows below zinc on the periodic table?",
+        "target_scores": "mercury"
+    },
+    {
+        "input": "What element is located two rows above mercury on the periodic table?",
+        "target_scores": "zinc"
+    },
+    {
+        "input": "What element is located two rows below cadmium on the periodic table?",
+        "target_scores": "copernicium"
+    },
+    {
+        "input": "What element is located two rows above copernicium on the periodic table?",
+        "target_scores": "cadmium"
+    },
+    {
+        "input": "What element is located two rows below boron on the periodic table?",
+        "target_scores": "gallium"
+    },
+    {
+        "input": "What element is located two rows above gallium on the periodic table?",
+        "target_scores": "boron"
+    },
+    {
+        "input": "What element is located two rows below aluminum on the periodic table?",
+        "target_scores": "indium"
+    },
+    {
+        "input": "What element is located two rows above indium on the periodic table?",
+        "target_scores": "aluminum"
+    },
+    {
+        "input": "What element is located two rows below gallium on the periodic table?",
+        "target_scores": "thallium"
+    },
+    {
+        "input": "What element is located two rows above thallium on the periodic table?",
+        "target_scores": "gallium"
+    },
+    {
+        "input": "What element is located two rows below indium on the periodic table?",
+        "target_scores": "nihonium"
+    },
+    {
+        "input": "What element is located two rows above nihonium on the periodic table?",
+        "target_scores": "indium"
+    },
+    {
+        "input": "What element is located two rows below carbon on the periodic table?",
+        "target_scores": "germanium"
+    },
+    {
+        "input": "What element is located two rows above germanium on the periodic table?",
+        "target_scores": "carbon"
+    },
+    {
+        "input": "What element is located two rows below silicon on the periodic table?",
+        "target_scores": "tin"
+    },
+    {
+        "input": "What element is located two rows above tin on the periodic table?",
+        "target_scores": "silicon"
+    },
+    {
+        "input": "What element is located two rows below germanium on the periodic table?",
+        "target_scores": "lead"
+    },
+    {
+        "input": "What element is located two rows above lead on the periodic table?",
+        "target_scores": "germanium"
+    },
+    {
+        "input": "What element is located two rows below tin on the periodic table?",
+        "target_scores": "flerovium"
+    },
+    {
+        "input": "What element is located two rows above flerovium on the periodic table?",
+        "target_scores": "tin"
+    },
+    {
+        "input": "What element is located two rows below fluorine on the periodic table?",
+        "target_scores": "bromine"
+    },
+    {
+        "input": "What element is located two rows above bromine on the periodic table?",
+        "target_scores": "fluorine"
+    },
+    {
+        "input": "What element is located two rows below chlorine on the periodic table?",
+        "target_scores": "iodine"
+    },
+    {
+        "input": "What element is located two rows above iodine on the periodic table?",
+        "target_scores": "chlorine"
+    },
+    {
+        "input": "What element is located two rows below bromine on the periodic table?",
+        "target_scores": "iodine"
+    },
+    {
+        "input": "What element is located two rows above iodine on the periodic table?",
+        "target_scores": "bromine"
+    },
+    {
+        "input": "What element is located two rows below iodine on the periodic table?",
+        "target_scores": "astatine"
+    },
+    {
+        "input": "What element is located two rows above astatine on the periodic table?",
+        "target_scores": "iodine"
+    },
+    {
+        "input": "What element is located two rows below iodine on the periodic table?",
+        "target_scores": "tennessine"
+    },
+    {
+        "input": "What element is located two rows above tennessine on the periodic table?",
+        "target_scores": "iodine"
+    },
+    {
+        "input": "What element is located two rows below helium on the periodic table?",
+        "target_scores": "argon"
+    },
+    {
+        "input": "What element is located two rows above argon on the periodic table?",
+        "target_scores": "helium"
+    },
+    {
+        "input": "What element is located two rows below neon on the periodic table?",
+        "target_scores": "krypton"
+    },
+    {
+        "input": "What element is located two rows above krypton on the periodic table?",
+        "target_scores": "neon"
+    },
+    {
+        "input": "What element is located two rows below argon on the periodic table?",
+        "target_scores": "xenon"
+    },
+    {
+        "input": "What element is located two rows above xenon on the periodic table?",
+        "target_scores": "argon"
+    },
+    {
+        "input": "What element is located two rows below krypton on the periodic table?",
+        "target_scores": "radon"
+    },
+    {
+        "input": "What element is located two rows above radon on the periodic table?",
+        "target_scores": "krypton"
+    },
+    {
+        "input": "What element is located two rows below xenon on the periodic table?",
+        "target_scores": "oganesson"
+    },
+    {
+        "input": "What element is located two rows above oganesson on the periodic table?",
+        "target_scores": "xenon"
+    }
+]

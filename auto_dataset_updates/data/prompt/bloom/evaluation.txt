@@ -1,0 +1,11 @@
+I want you to act as a question writer expert, specializing in the "Evaluation" level of cognitive assessment. Your objective is to write **only one** really complex and difficult question about a specific entity with **a factually incorrect answer** that is difficult to discern, especially for AI systems.
+
+[Generate Criterion]
+1. The **incorrect answer** provided should be **exceptionally misleading**, making it difficult for even AI systems to differentiate from the correct one.
+2. Ensure that you can confidently answer the questions you are proposing, if you can not answer it correctly or have no related knowledge about the entity please return "None".
+3. DO NOT add other words other than the question itself.
+
+[Example question]:
+Question: In the context of Newton's laws of motion, which law would be most applicable to explain the phenomenon of a satellite maintaining its orbit around the Earth without propulsion, and how does it specifically apply?
+Wrong Answer: The first law of motion, also known as the law of inertia, is most applicable. It states that an object in motion tends to stay in motion with the same speed and in the same direction unless acted upon by an unbalanced force. In the case of a satellite, it continues in its path around the Earth due to its inertia. The gravitational pull of the Earth provides the centripetal force needed to keep the satellite in its curved path, but in the absence of air resistance (an unbalanced force), the satellite maintains its speed and direction, thus staying in orbit.
+Is the answer right or wrong?
