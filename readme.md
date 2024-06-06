@@ -39,7 +39,7 @@ For the mimicked sample,  we keep the format the same with the original samples 
 
 The mimicked data can be found at  `data/mimic`, and original data can be found at `data/orig`.
 
-![fig1](static/images/table_statis.png)
+<img src="static/images/table_statis.png" alt="fig1" style="zoom:33%;" />
 
 #### Data instance - Extended dataset
 
@@ -63,7 +63,7 @@ For the extending strategy, we chose the dataset Sports, Algorithms (Algos), Alg
 
 The extended dataset can be found at `data/extend`.
 
-![fig1](static/images/table_statis_extend.png)
+<img src="static/images/table_statis_extend.png" alt="fig1" style="zoom:33%;" />
 
 ## Evaluation
 
