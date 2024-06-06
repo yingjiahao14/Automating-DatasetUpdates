@@ -38,6 +38,7 @@ For the mimicked sample,  we keep the format the same with the original samples 
 #### Data Statistic - Mimicked dataset
 
 The mimicked data can be found at  `data/mimic`, and original data can be found at `data/orig`.
+
 $$
 \begin{array}{ccc|ccc}
 \hline \text { Task }_{\text {BIG }} & \text { \#Orig. } & \text { \#Mimic } & \text { Task }_{\text {MMLU }} & \text { \#Orig. } & \text { \#Mimic } \\
@@ -71,6 +72,7 @@ For the extending strategy, we chose the dataset Sports, Algorithms (Algos), Alg
 #### Data Statistic - Extended dataset
 
 The mimicked data can be found at  `data/extend`.
+
 $$
 \begin{array}{lc}
 \hline \text { Task }_{\text {BIG }} & \text { \#Extending } \\
