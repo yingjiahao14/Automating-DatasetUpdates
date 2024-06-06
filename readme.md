@@ -38,17 +38,8 @@ For the mimicked sample,  we keep the format the same with the original samples 
 #### Data Statistic - Mimicked dataset
 
 The mimicked data can be found at  `data/mimic`, and original data can be found at `data/orig`.
-$$
-\begin{array}{ccc|ccc}
-\hline \text { Task }_{\text {BIG }} & \text { \#Orig. } & \text { \#Mimic } & \text { Task }_{\text {MMLU }} & \text { \#Orig. } & \text { \#Mimic } \\
-\hline \text { Sports } & 1000 & 951 & \text { Algebra } & 100 & 93 \\
-\text { Element } & 536 & 548 & \text { Law } & 121 & 117 \\
- \text { Algos } & 160 & 150 & \text { Econ } & 114 & 101 \\
- \text { Phys } & 81 & 81 & \text { Medicine } & 172 & 160 \\
-\text { Math } & 7688 & 1016 & \text { Security } & 100 & 100 \\
-\hline
-\end{array}
-$$
+
+![fig1](static/images/table_statis.png)
 
 #### Data instance - Extended dataset
 
@@ -70,17 +61,9 @@ For the extending strategy, we chose the dataset Sports, Algorithms (Algos), Alg
 
 #### Data Statistic - Extended dataset
 
-The mimicked data can be found at  `data/extend`.
-$$
-\begin{array}{lc}
-\hline \text { Task }_{\text {BIG }} & \text { \#Extending } \\
-\hline \text { Algebra } & 80 \\
-\text { Algos } & 160 \\
-\text { Phys } & 80 \\
-\text { Sports } & 824 \\
-\hline
-\end{array}
-$$
+The extended dataset can be found at `data/extend`.
+
+![fig1](static/images/table_statis_extend.png)
 
 ## Evaluation
 

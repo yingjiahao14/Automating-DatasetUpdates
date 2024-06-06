@@ -71,7 +71,7 @@ For the extending strategy, we chose the dataset Sports, Algorithms (Algos), Alg
 
 #### Data Statistic - Extended dataset
 
-The mimicked data can be found at  `data/extend`.
+The extended dataset can be found at `data/extend`.
 
 $$
 \begin{array}{lc}
