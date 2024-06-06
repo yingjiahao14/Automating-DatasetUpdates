@@ -1,6 +1,6 @@
 # Automating Dataset Updates Towards Reliable and Timely Evaluation of Large Language Models
 
-This is the data repository for the paper [Automating Dataset Updates Towards Reliable and Timely Evaluation of Large Language Models](https://arxiv.org/abs/2402.11894). 
+This is the data for the paper [Automating Dataset Updates Towards Reliable and Timely Evaluation of Large Language Models](https://arxiv.org/abs/2402.11894). 
 
 ## Overview
 
@@ -82,18 +82,3 @@ $$
 \end{array}
 $$
 
-## Evaluation
-
-We proved the evaluation script for **OpenAI models**.
-
-When using OpenAI models, ensure to add your API key at `Line 18` in `src/question_answer/question_answer_mmlu.py` and `src/question_answer/question_answer_bbh.py` 
-
-```python
-openai.api_key = "YOUR_API_KEY"
-```
-
-Use the following command to run the model:
-
-```pyhon
-python src/question_answer/question_answer_mmlu.py` --dataset task_algebra
-```

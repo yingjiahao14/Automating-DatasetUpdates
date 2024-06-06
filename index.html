@@ -238,6 +238,9 @@
                 <li class="nav-item" role="presentation">
                   <button @click="switchpart(3)" :class="navclass3" id="pills-data-tab">Data Display - Extending</button>
                 </li>
+                <li class="nav-item" role="presentation">
+                  <a href="data.zip" download class="nav-link" id="pills-download-tab">Download Data</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -269,36 +272,42 @@
           <div class="container is-max-desktop">
             <div class="columns is-centered">
               <div class="column has-text-centered">
-                <h1 class="title is-1 publication-title">Have Seen Me Before? Automating Dataset Updates
-                  Towards Reliable and Timely Evaluation</h1>
+                <h1 class="title is-1 publication-title">Automating Dataset Updates Towards Reliable and Timely Evaluation of Large Language Models</h1>
                 <div class="is-size-5 publication-authors">
                   <!-- Paper authors -->
                   <a href="mailto:jhying.2022@phdcs.smu.edu.sg">
                     <span class="author-block">Jiahao Ying</a><sup>1</sup>,</span>
                   <span class="author-block">
-                    Yixin Cao<sup>1*</sup>,</span>
-                  <span class="author-block">Yushi Bai<sup>2</sup>,</span>
+                    Yixin Cao<sup>2*</sup>,</span>
+                  <span class="author-block">Yushi Bai<sup>3</sup>,</span>
+                  <span class="author-block">Qianru Sun<sup>1</sup>,</span>
                   <span class="author-block">
-                    Bo Wang<sup>3</sup>,
+                    Bo Wang<sup>4</sup>,
                   </span>
-                  <span class="author-block">Wei Tang<sup>4</sup>,</span><br>
-                  <span class="author-block">Zhaojun Ding<sup>5</sup>,</span>
-                  <span class="author-block">Yizhe Yang<sup>3</sup>,</span>
-                  <span class="author-block">Shuicheng Yan<sup>6*</sup>,</span>
+                  <span class="author-block">Wei Tang<sup>5</sup>,</span><br>
+                  <span class="author-block">Zhaojun Ding<sup>6</sup>,</span>
+                  <span class="author-block">Yizhe Yang<sup>4</sup>,</span>
+                  <span class="author-block">Xuanjing Huang<sup>2</sup>,</span>
+                  <span class="author-block">Shuicheng Yan<sup>7*</sup></span>
+            
                 </div>
                 <div class="is-size-5 publication-authors" style="margin-top: 5px;">
                   <span class="author-block">
-                    <sup>1</sup>Singapore Management University
+                    <sup>1</sup>Singapore Management University &nbsp 
+
+            
+                    <sup>2</sup>Fudan University
                     <br>
-                    <sup>2</sup>Tsinghua University
+                    <sup>3</sup>Tsinghua University &nbsp
+
+
+                    <sup>4</sup>Beijing Institute of Technology
                     <br>
-                    <sup>3</sup>Beijing Institute of Technology
+                    <sup>5</sup>University of Science and Technology of China
                     <br>
-                    <sup>4</sup>University of Science and Technology of China
-                    <br>
-                    <sup>5</sup>School of Computing, University of Georgia
-                    <br>
-                    <sup>6</sup>Skywork AI
+                    <sup>6</sup>School of Computing, University of Georgia &nbsp
+
+                    <sup>7</sup>Skywork AI
                     <br>
                     <br>
                     <span class="link-block">
@@ -335,28 +344,13 @@
               <h2 class="title is-3">Abstract</h2>
               <div class="content has-text-justified">
                 <p>
-                  Due to the expanding capabilities and pre-training data, Large Language Models
-                  (LLMs) are facing increasingly serious evaluation challenges. On one hand, data
-                  leakage often leads to overestimated performance when using existing benchmarks.
-                  On the other hand, periodically curating datasets manually is costly.
+                  Large language models (LLMs) have achieved impressive performance across various natural language benchmarks, prompting a continual need to curate more difficult datasets for larger LLMs, which is costly and time-consuming.
                 </p>
                 <p>
-                  In this paper,
-                  we propose to automate dataset updates for reliable and timely evaluation. The
-                  basic idea is to generate unseen and high-quality testing samples based on existing
-                  ones to mitigate overestimation problems when data leakage happens. In specific, 
-                  we propose two strategies with systematic verification. First, the <b>mimicking
-                  strategy</b> employs LLMs to create new samples resembling existing ones, to the
-                  maximum extent preserving the stylistic of the original dataset. Our experiments
-                  demonstrate its evaluation stability across multiple instantiations and its effectiveness
-                  in dealing with overestimation issues in most cases. Second, for the cases
-                  where the mimicking dataset works poorly, we design an <b>extending strategy</b> that
-                  expands the generated samples according to varying cognitive levels. 
+                  In this paper, we propose to automate dataset updating and provide systematical analysis regarding its effectiveness in dealing with benchmark leakage issue, difficulty control, and stability. Thus, once current benchmark has been mastered or leaked, we can update it for timely and reliable evaluation. There are two updating strategies: <strong> 1) mimicking strategy </strong> to generate similar samples based on original data, preserving stylistic and contextual essence, and <strong> 2) extending strategy </strong> that further expands existing samples at varying cognitive levels by adapting Bloom’s taxonomy of educational objectives. Extensive experiments on updated MMLU and BIG-Bench demonstrate the stability of the proposed strategies and find that the mimicking strategy can effectively alleviate issues of overestimation from benchmark leakage. In cases where the efficient mimicking strategy fails, our extending strategy still shows promising results. Additionally, by controlling the difficulty, we can better discern the models’ performance and enable fine-grained analysis — neither too difficult nor too easy an exam can fairly judge students’ learning status.
                 </p>
                 <p>
-                  To the best
-                  of our knowledge, this is the <strong>first work</strong> to investigate the automated updates of
-                  datasets for handling the overestimation of LLMs when data leakage happens.
+                  To the best of our knowledge, we are the first to automate updating benchmarks for reliable and timely evaluation.
                 </p>
               </div>
             </div>
@@ -411,7 +405,7 @@
          </p>
          <li><a class="link-like" type="button" @click="switchpartson(3)"> For the Extending strategy</a> (click the link to view data samples), we extend the original sample to multi-cognition levels  
           (<span style="background-color: #FDF8E1;">Remember & Understand</span> , <span style="background-color: #FAEFBB;">Apply</span> , <span style="background-color: #F6E694;">Analysis</span> ,
-          <span style="background-color: #F4DD71;">Evaluation</span> )to have a thorough and nuanced assessment. 
+          <span style="background-color: #F4DD71;">Evaluation</span>) to have a thorough and nuanced assessment. 
           Below is an example where we extract sports star ”Jamal Murray“ and prompt LLMs to extend:<br>
           <div class="tcolorbox" style="border: 1px solid #ccc; padding: 20px; box-shadow: 2px 2px 5px rgba(0,0,0,0.1); background-color: #f0f0f0; font-family: Arial, sans-serif; line-height: 1.6; margin-bottom: 20px;">
             <button onclick="toggleVisibility('questionDetails')">Click to show the prompt demo for the task Sports Understanding</button>
@@ -420,7 +414,7 @@
               <strong>You are a question-writer expert.</strong>
                You our objective is to write <strong>only one</strong> really complex and difficult question about the given entity.<br><br>
                 <strong style="font-weight: bold;">[Generate Criterion]:</strong><br>
-                1. The question should be focused on the remember and understand level. This means the question should prompt for recall of facts, terms, and basic concepts, and NOT delve into deeper levels like Applying, Analyzing, or Understanding.<br>
+                1. The question should be focused on the <strong> remember and understand </strong>level. This means the question should prompt for recall of facts, terms, and basic concepts, and NOT delve into deeper levels like Applying, Analyzing, or Understanding.<br>
                 2. Ensure that you can confidently answer the questions you are proposing, if you can not answer it correctly or have no related knowledge about the entity please return "None".<br><br>
                 <strong style="font-weight: bold;">[Seed Entity]:</strong> Jamal Murray<br><br>
                 <strong style="font-weight: bold;">[New Generated Sample]:</strong>
@@ -473,14 +467,16 @@
         <div class="container is-max-desktop">
           <div class="columns is-centered has-text-centered">
             <div class="column is-four-fifths">
-              <h2 class="title is-3">Can mimicked and extended datasets alleviate overestimation when data leakage occurs?</h2>
+              <h2 class="title is-3">Can mimicked and extended datasets alleviate overestimation when benchmark leakage occurs?</h2>
               <div class="content has-text-justified">
-                To simulate the data leakage issue, we choose three baseline models, Llama-2-7b-chat, Llama-2-13b-chat, and Mistral-7b-instruction and finetune them using the testing data from original datasets. On our mimicked datasets, the performance of all leakage simulations generally decreases or remains similar, except task Algos. 
+                To simulate the data leakage issue, we choose four baseline models, Llama-2-7b-chat, Llama-2-13b-chat, Llama-3-8b-Instruction, and Mistral-7b-Instruct 
+                and finetune them using the testing data from original datasets. 
+                In most instances, compared to the original dataset, where benchmark leakage leads to severe overestimation, our updated dataset exhibits no significant overestimation issues.
                 <img src="static/images/table2.png" class="d-block w-100" alt="..."
                 style="margin-top: 30px; margin-bottom: 30px;">
                 <img src="static/images/table3.png" class="d-block w-100" alt="..."
                 style="margin-top: 30px; margin-bottom: 30px;">
-                The mimicking strategy does not work well on datasets: Algos and Algebra. The data leakage issue still leads to the severe overestimation of model, which we will further explore using the extending strategy. 
+                The mimicking strategy does not work well on datasets: Algos and Algebra. The benchmark leakage issue still leads to the severe overestimation of model, which we will further explore using the extending strategy. 
                 Using either <strong>GTP-4</strong> or <strong>Claude-3</strong> as backbone to generate the new samples can effectively alleviate the overestimation problems.
                 <div class="image-container">
                   <img src="static/images/extend_1.png" alt="Image 1" class="responsive-image">
@@ -766,7 +762,7 @@
                         </template>
                       </transition-group>
                     </ul>
-                  <!-- </div> -->
+                    git branch -m master                 <!-- </div> -->
 
                 </div>
               

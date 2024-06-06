@@ -1,0 +1,730 @@
+[
+    {
+        "input": "A spaceship moving with a speed of 0.60c passes by a stationary observer. A beam of light that leaves the spaceship is observed by the stationary observer. According to the principle of relativity, what speed does the observer measure for the light beam?",
+        "target_scores": {
+            "0.60c": 0,
+            "c": 1,
+            "1.60c": 0,
+            "0c": 0
+        }
+    },
+    {
+        "input": "A hypothetical particle is at rest in a region of an isolated universe where no physical forces prevail and it's devoid of any gravitational, magnetic, electric, nuclear or other known forces. There is no interaction with other particles or any form of radiation. Will this particle experience any alteration in its state of motion and exhibit acceleration?",
+        "target_scores": {
+            "Yes": 0,
+            "No": 1
+        }
+    },
+    {
+        "input": "A satellite is launched from the Earth's surface and begins to orbit. The satellite experiences a thrust due to the rocket engine, gravitational force from the Earth, and negligible air resistance. Which of these forces is responsible for keeping the satellite in its orbit?",
+        "target_scores": {
+            "Thrust from the rocket engine": 0,
+            "Air resistance": 0,
+            "Gravitational force from the Earth": 1,
+            "None of the above": 0
+        }
+    },
+    {
+        "input": "A black hole with a mass of 5 solar masses is pulling a star of 1 solar mass into its event horizon. Both celestial bodies are distanced at 10 million kilometers. Considering the law of Universal Gravitation where the gravitational force (F) between two bodies is given by F = G*(m1*m2)/r^2 (where G is the Gravitational constant, m1 and m2 are the masses of the two bodies and r is the distance between the centers of the two bodies), which celestial body experiences a greater gravitational force?",
+        "target_scores": {
+            "Black Hole": 0,
+            "Star": 0,
+            "Neither": 1
+        }
+    },
+    {
+        "input": "A high-speed interstellar spaceship is flying through space and hits a micro-meteoroid. The spaceship's speed doesn't noticeably change due to the impact. Considering the law of momentum conservation, does the spaceship or the micro-meteoroid have a larger mass?",
+        "target_scores": {
+            "Spaceship": 1,
+            "Micro-meteoroid": 0,
+            "Neither": 0
+        }
+    },
+    {
+        "input": "In a complex, multi-stage space mission, a spacecraft is currently in low Earth orbit, preparing for a trans-lunar injection (TLI) to send it to the Moon. The TLI involves firing the spacecraft's engine to increase its velocity. From the perspective of an observer on the Earth, in which direction does the Earth exert a force on the spacecraft during this maneuver?",
+        "target_scores": {
+            "Forward": 0,
+            "Backward": 1,
+            "Left": 0,
+            "Right": 0,
+            "No force": 0
+        }
+    },
+    {
+        "input": "The concept of action-reaction pairs, also known as Newton's third law, states that for every action, there is an equal and opposite reaction. If an astronaut in a frictionless environment in space throws a wrench, what will be the effect on the astronaut's motion?",
+        "target_scores": {
+            "The astronaut will stay in place": 0,
+            "The astronaut will move in the opposite direction": 1,
+            "The astronaut will move in the same direction": 0,
+            "The astronaut will start spinning": 0
+        }
+    },
+    {
+        "input": "An airplane is flying due north at 500 mph. A wind is blowing from the west at 75 mph. What is the resultant velocity of the airplane?",
+        "target_scores": {
+            "575 mph due north": 0,
+            "500 mph due north": 0,
+            "Roughly 502 mph in a direction slightly east of north": 1,
+            "Roughly 425 mph in a direction slightly east of north": 0
+        }
+    },
+    {
+        "input": "A spaceship is traveling at a speed of 0.8c (80% of the speed of light) away from Earth while firing a projectile at a speed of 0.9c in the opposite direction. According to Special Relativity, what would an observer on Earth perceive the speed of the projectile to be?",
+        "target_scores": {
+            "1.7c": 0,
+            "0.1c": 0,
+            "0.02c": 1,
+            "0.98c": 0
+        }
+    },
+    {
+        "input": "A plane flies at an altitude of 35,000 feet, heading eastward at a constant speed of 550 mph. Simultaneously, a submarine travels 800 feet below sea level, moving westward at a constant speed of 20 knots. After 4 hours, in what directions relative to their initial positions will the plane and submarine be located?",
+        "target_scores": {
+            "Plane: East, Submarine: West": 1,
+            "Plane: West, Submarine: East": 0,
+            "Plane: North, Submarine: South": 0,
+            "Plane: South, Submarine: North": 0
+        }
+    },
+    {
+        "input": "A spaceship is traveling at an average speed of 0.6 the speed of light (c) in a vacuum, from star Alpha Centauri A, which is approximately 4.367 light years away from Earth. If the spaceship starts its journey back to Earth at a specified time, how long will it take for the spaceship to reach Earth as perceived by an observer on Earth?",
+        "target_scores": {
+            "Approximately 7.28 years": 1,
+            "Approximately 4.367 years": 0,
+            "Approximately 2.6 years": 0,
+            "Approximately 10 years": 0
+        }
+    },
+    {
+        "input": "A train leaves City A traveling at 60 miles per hour towards City B, located 300 miles away. At the same time, another train leaves City B traveling at 80 miles per hour towards City A. Assuming they leave at the exact same time and maintain consistent speeds, which train will be closer to City B when they meet?",
+        "target_scores": {
+            "The train from City A": 0,
+            "The train from City B": 0,
+            "They will be the same distance from City B": 1,
+            "It cannot be determined": 0
+        }
+    },
+    {
+        "input": "A quantum particle is in a one-dimensional box of length L with impenetrable walls at x=0 and x=L. The wave function of this particle is psi(x)=sqrt(2/L)sin(n*pi*x/L). Given that the particle is in the state n=2, what is the probability that a measurement of the particle's position would find it between x=0 and x=L/4?",
+        "target_scores": {
+            "0": 0,
+            "1/4": 0,
+            "1/2": 1,
+            "1": 0
+        }
+    },
+    {
+        "input": "You are standing on the equator, facing the Prime Meridian, with a compass in your hand. If you drop the compass, where will the needle point?",
+        "target_scores": {
+            "North": 1,
+            "South": 0,
+            "East": 0,
+            "West": 0
+        }
+    },
+    {
+        "input": "You are at the center of a large field. The North Star is directly ahead, the setting sun is to your right, and the moon is at its zenith. If you throw a frisbee straight towards the moon, what direction is the frisbee traveling?",
+        "target_scores": {
+            "North": 0,
+            "East": 0,
+            "South": 0,
+            "Up": 1
+        }
+    },
+    {
+        "input": "If the Earth's axis of rotation is tilted at 23.5 degrees relative to its orbital plane and it orbits the sun in an elliptical path, which season does the Northern hemisphere experience when the North Pole is tilted towards the sun?",
+        "target_scores": {
+            "Spring": 0,
+            "Summer": 1,
+            "Autumn": 0,
+            "Winter": 0
+        }
+    },
+    {
+        "input": "You are an astronaut standing on the surface of the Moon and you throw a ball towards the Earth. Ignoring any obstacles, which direction does the ball travel assuming the Moon-Earth system is isolated?",
+        "target_scores": {
+            "Towards the Earth": 1,
+            "Away from the Earth": 0,
+            "Parallel to the surface of the Moon": 0,
+            "Perpendicular to the surface of the Moon": 0
+        }
+    },
+    {
+        "input": "A photon is released from a height of 1 meter above the surface of a neutron star. Considering the gravitational potential of a neutron star is 100 billion times more powerful than Earth's, and ignoring any other effects, what will be the fate of the photon?",
+        "target_scores": {
+            "It will stay at the same height": 0,
+            "It will float away into space": 0,
+            "It will be attracted and fall onto the surface": 1,
+            "It will disintegrate": 0
+        }
+    },
+    {
+        "input": "A theoretical physicist is studying neutrino oscillations in a particle accelerator. If a neutrino changes flavor from electron neutrino to tau neutrino, which quantum mechanical phenomenon is responsible for this process?",
+        "target_scores": {
+            "Quantum tunneling": 0,
+            "Quantum superposition": 0,
+            "Quantum entanglement": 0,
+            "Quantum leaping": 0,
+            "Quantum interference": 0,
+            "Neutrino oscillation": 1
+        }
+    },
+    {
+        "input": "A satellite is launched from the equator and travels in an easterly direction, following Earth's rotation. If you are observing the satellite's movement from a point located on the prime meridian at the North Pole, which direction is the opposite of the satellite's apparent course?",
+        "target_scores": {
+            "North": 0,
+            "South": 0,
+            "East": 0,
+            "West": 1
+        }
+    },
+    {
+        "input": "A particle moves along the x-axis from -5 to 5. It then moves along the y-axis from 5 to -5. Finally, it moves along the z-axis from -5 to 5. In which quadrant of the 3-D coordinate system does the particle end its motion?",
+        "target_scores": {
+            "First Quadrant": 0,
+            "Second Quadrant": 0,
+            "Third Quadrant": 1,
+            "Fourth Quadrant": 0
+        }
+    },
+    {
+        "input": "A planet orbits a star in an elliptical path. If the planet is at the point of aphelion (furthest from the star) and begins moving towards the star, what will be the direction of the planet's velocity and acceleration?",
+        "target_scores": {
+            "Velocity towards the star, Acceleration towards the star": 1,
+            "Velocity away from the star, Acceleration towards the star": 0,
+            "Velocity towards the star, Acceleration away from the star": 0,
+            "Velocity away from the star, Acceleration away from the star": 0
+        }
+    },
+    {
+        "input": "A satellite is launched into space from the Earth's surface and is in a circular orbit around the Earth. If the satellite experiences no air resistance or friction, and the only force acting on it is the gravitational force from the Earth, what will be the direction of the satellite's acceleration in relation to its position and velocity?",
+        "target_scores": {
+            "In the direction of its velocity": 0,
+            "Opposite to the direction of its velocity": 0,
+            "In the direction of the Earth's center": 1,
+            "Away from the Earth's center": 0
+        }
+    },
+    {
+        "input": "A spacecraft is launched from Earth and is en route to Mars. Due to the gravitational slingshot effect, it is propelled towards Jupiter instead. In which direction does the spacecraft initially move after the gravitational slingshot?",
+        "target_scores": {
+            "Towards the Sun": 0,
+            "Towards Earth": 0,
+            "Towards Mars": 0,
+            "Towards Jupiter": 1
+        }
+    },
+    {
+        "input": "A spaceship is orbiting a planet in a seemingly perfect circle. If the spaceship suddenly halts its engines while maintaining its current path, which direction does it move in relative to the planet right before it starts falling into the planet's gravity?",
+        "target_scores": {
+            "Towards the planet": 0,
+            "Away from the planet": 0,
+            "Perpendicular to the planet": 1,
+            "Parallel to the planet": 0
+        }
+    },
+    {
+        "input": "An astronaut drops a feather from a height of 2m on the moon, where there is no air resistance. What direction does the feather move in after it leaves the astronaut's hand?",
+        "target_scores": {
+            "Up": 0,
+            "Down": 1,
+            "Left": 0,
+            "Right": 0
+        }
+    },
+    {
+        "input": "A space probe is launched from Earth and is on a trajectory towards a distant exoplanet. The probe is halfway to its destination when it releases a small communication satellite. If the probe continues on its trajectory without any further propulsion, but the satellite immediately slows down, what will be the relative direction of the satellite with respect to the space probe?",
+        "target_scores": {
+            "Forwards": 0,
+            "Backwards": 1,
+            "Left": 0,
+            "Right": 0
+        }
+    },
+    {
+        "input": "Assume the Earth's rotation is counterclockwise when viewed from above the North Pole. You are positioned on the equator and facing eastwards. You release a rocket into space, and it travels perpendicular to the planet's surface while remaining in your line of sight. When viewed from above the North Pole, in what direction is the rocket traveling after it leaves the Earth's atmosphere?",
+        "target_scores": {
+            "North": 1,
+            "South": 0,
+            "East": 0,
+            "West": 0
+        }
+    },
+    {
+        "input": "You are in a satellite orbiting the Earth. If you let go of an object, what path will it follow?",
+        "target_scores": {
+            "It will fall straight down to Earth": 0,
+            "It will float away into space": 0,
+            "It will continue to orbit the Earth in the same path as the satellite": 1,
+            "It will fly off in a straight line": 0
+        }
+    },
+    {
+        "input": "A spaceship is moving at a velocity of 0.75c (light speed) relative to an observer on a stationary planet. The spaceship emits a light beam in the same direction as its motion. What would be the observed speed of the light beam from the perspective of the observer on the planet?",
+        "target_scores": {
+            "1c (light speed)": 1,
+            "1.75c": 0,
+            "0.75c": 0,
+            "0c": 0
+        }
+    },
+    {
+        "input": "A spacecraft is floating in the vacuum of space between the Earth and the Moon. It fires its thrusters for a short time. In which direction does the spacecraft go?",
+        "target_scores": {
+            "Towards the Earth": 0,
+            "Towards the Moon": 0,
+            "Opposite to the direction of the thruster's exhaust": 1,
+            "Same direction as the thruster's exhaust": 0
+        }
+    },
+    {
+        "input": "A spaceship is launched from Earth and travels in opposite direction to the Earth's rotation. Assuming that no other forces are acting on it, which direction will the spaceship travel relative to an observer on the North Pole?",
+        "target_scores": {
+            "East to West": 1,
+            "West to East": 0,
+            "North to South": 0,
+            "South to North": 0
+        }
+    },
+    {
+        "input": "A spacecraft is traveling at 80,000 km/h towards a distant star Zeta. An astronaut inside the spacecraft throws a tool at 5,000 km/h in the opposite direction of the spacecraft's movement. How is the tool moving from the perspective of a stationary observer on Earth?",
+        "target_scores": {
+            "85,000 km/h towards Zeta": 0,
+            "75,000 km/h towards Zeta": 1,
+            "5,000 km/h away from Zeta": 0,
+            "80,000 km/h away from Zeta": 0
+        }
+    },
+    {
+        "input": "A spaceship is moving at 50% the speed of light (150,000 km/s) towards a star. The spaceship launches a probe at 75% the speed of light (225,000 km/s) in the opposite direction. How is the probe moving from the perspective of a stationary observer on Earth, assuming no gravitational or other forces are acting on it?",
+        "target_scores": {
+            "25% the speed of light (75,000 km/s) towards Earth": 1,
+            "125% the speed of light (375,000 km/s) away from Earth": 0,
+            "At rest": 0,
+            "125% the speed of light (375,000 km/s) towards the star": 0
+        }
+    },
+    {
+        "input": "A spaceship is moving in space at a speed of 0.8 times the speed of light (c) and a crew member inside the spaceship throws a dart at a speed of 0.4c in the same direction. According to Einstein's theory of special relativity, how is the dart moving from the crew member's perspective?",
+        "target_scores": {
+            "0.4c": 1,
+            "0.8c": 0,
+            "1.2c": 0,
+            "c": 0
+        }
+    },
+    {
+        "input": "A spaceship is traveling at 0.5 the speed of light (c) towards a star. The spaceship then releases a probe at 0.25c in the opposite direction. From the perspective of a stationary observer on a nearby planet, how is the probe moving?",
+        "target_scores": {
+            "0.25c towards the star": 0,
+            "0.25c away from the star": 1,
+            "0.75c away from the star": 0,
+            "0.75c towards the star": 0
+        }
+    },
+    {
+        "input": "An aeroplane is travelling at a speed of 800 km/h heading north and it drops a package with a downwards velocity of 100 km/h directly below it. How is the package moving from the perspective of a stationary observer on the ground?",
+        "target_scores": {
+            "800 km/h east": 0,
+            "800 km/h west": 0,
+            "800 km/h north": 1,
+            "800 km/h south": 0
+        }
+    },
+    {
+        "input": "A spaceship is traveling at 0.6 times the speed of light (c) towards a neutron star. The spaceship emits a pulse of light towards the neutron star. If the speed of light is constant and taken as 'c', what is the speed of the pulse of light from the spaceship's perspective and from an observer on the neutron star's perspective?",
+        "target_scores": {
+            "0.6c from the spaceship's perspective, c from the neutron star's perspective": 0,
+            "c from both the spaceship's and neutron star's perspective": 1,
+            "c from the spaceship's perspective, 0.6c from the neutron star's perspective": 0,
+            "0c from the spaceship's perspective, c from the neutron star's perspective": 0
+        }
+    },
+    {
+        "input": "A spaceship is travelling at 0.75c (c being the speed of light) towards Alpha Centauri, and launches a probe at 0.25c in the opposite direction. There is a rogue comet moving at 0.35c towards the spaceship. From the perspective of the probe, at what speed and in what direction is the comet moving?",
+        "target_scores": {
+            "0.1c towards Alpha Centauri": 1,
+            "0.1c towards the spaceship": 0,
+            "0.6c towards the spaceship": 0,
+            "1c towards Alpha Centauri": 0
+        }
+    },
+    {
+        "input": "A spacecraft is moving at a speed of 100,000 km/h towards a star located 4.22 light years away while simultaneously sending a radio signal towards the star at the speed of light (approximately 1,080,000,000 km/h). At the same moment, there is an asteroid located halfway between the spacecraft and the star. How is the asteroid moving from the perspective of the radio signal?",
+        "target_scores": {
+            "0 km/h": 0,
+            "100,000 km/h towards the star": 0,
+            "540,000,000 km/h away from the star": 1,
+            "1,080,000,000 km/h away from the star": 0
+        }
+    },
+    {
+        "input": "A spaceship is moving 5000 km/h towards Proxima Centauri and launches a probe at 7500 km/h in the same direction. How is the probe moving relative to the spaceship?",
+        "target_scores": {
+            "0 km/h": 0,
+            "2500 km/h towards Proxima Centauri": 1,
+            "7500 km/h towards Proxima Centauri": 0,
+            "12500 km/h towards Proxima Centauri": 0
+        }
+    },
+    {
+        "input": "A spaceship is traveling near the speed of light (300,000 km/s) towards a star that is 10 light years away. The spaceship emits a laser beam towards the star. From the perspective of a stationary observer on Earth, what is the speed of the laser beam?",
+        "target_scores": {
+            "300,000 km/s": 1,
+            "600,000 km/s": 0,
+            "0 km/s": 0,
+            "150,000 km/s": 0
+        }
+    },
+    {
+        "input": "A spacecraft is traveling at a speed of 20,000 km/h in the direction of Alpha Centauri star system and ejects a probe at a speed of 5,000 km/h in the opposite direction. From the probe's perspective, how is the spacecraft moving?",
+        "target_scores": {
+            "15,000 km/h towards Alpha Centauri": 0,
+            "5,000 km/h towards Alpha Centauri": 0,
+            "20,000 km/h towards Alpha Centauri": 0,
+            "25,000 km/h towards Alpha Centauri": 1
+        }
+    },
+    {
+        "input": "Which type of bond is formed due to the transfer of electrons from a metal to a non-metal atom, resulting in a positively charged cation and a negatively charged anion?",
+        "target_scores": {
+            "Ionic": 1,
+            "Covalent": 0,
+            "Metallic": 0,
+            "Hydrogen": 0
+        }
+    },
+    {
+        "input": "In biochemistry, which specific type of covalent bond that involves the sharing of three pairs of electrons is responsible for the structure of azides and forms during certain types of chemical reactions?",
+        "target_scores": {
+            "Hydrogen bond": 0,
+            "Ionic bond": 0,
+            "Metallic bond": 0,
+            "Triple covalent bond": 1
+        }
+    },
+    {
+        "input": "In quantum mechanics, the Pauli exclusion principle stipulates that two or more identical fermions cannot occupy the same quantum state simultaneously. Which atomic feature is directly impacted by this principle?",
+        "target_scores": {
+            "Atomic Radius": 0,
+            "Ionization Energy": 0,
+            "Electron Configuration": 1,
+            "Atomic Mass": 0
+        }
+    },
+    {
+        "input": "What is the hybridization of the central atom in the XeF4 molecule?",
+        "target_scores": {
+            "sp": 0,
+            "sp2": 0,
+            "sp3": 0,
+            "sp3d2": 1
+        }
+    },
+    {
+        "input": "In quantum mechanics, the Heisenberg Uncertainty Principle states that it is impossible to simultaneously precisely measure the exact position and momentum of a particle. Specifically, the more precisely one property is measured, the less precisely the other can be controlled, known, or determined. This principle is embodied in which mathematical inequality?",
+        "target_scores": {
+            "Einstein's field equations": 0,
+            "Schrodinger Equation": 0,
+            "Heisenberg Inequality": 1,
+            "Fourier Transform Inequalities": 0
+        }
+    },
+    {
+        "input": "In the context of Quantum Field Theory, which mathematical structure is used to describe the spin-statistics connection for a system of identical fermions?",
+        "target_scores": {
+            "Vector Space": 0,
+            "Riemannian Geometry": 0,
+            "Hilbert Space": 0,
+            "Anti-symmetric Bilinear Form": 1
+        }
+    },
+    {
+        "input": "What type of geometric isomerism is exhibited by an octahedral complex where two types of ligands are occupying opposite faces?",
+        "target_scores": {
+            "Trans isomerism": 0,
+            "Cis isomerism": 0,
+            "Fac isomerism": 1,
+            "Mer isomerism": 0
+        }
+    },
+    {
+        "input": "In the context of quantum field theory, what type of particles are associated with the Higgs Field?",
+        "target_scores": {
+            "Gluons": 0,
+            "Photons": 0,
+            "Higgs Bosons": 1,
+            "Neutrinos": 0
+        }
+    },
+    {
+        "input": "In the realm of quantum mechanics, Heisenberg's uncertainty principle is primarily associated with which of the following?",
+        "target_scores": {
+            "Measurement of energy and time": 0,
+            "Measurement of position and velocity": 1,
+            "Measurement of speed of light and time": 0,
+            "Measurement of mass and volume": 0
+        }
+    },
+    {
+        "input": "What type of bond is present in a hexagonal boron nitride monolayer?",
+        "target_scores": {
+            "Ionic": 0,
+            "Covalent": 1,
+            "Metallic": 0,
+            "Hydrogen": 0
+        }
+    },
+    {
+        "input": "The Pauson-Khand reaction is a cobalt-mediated cycloaddition reaction of what types of substrates to yield what type of product?",
+        "target_scores": {
+            "Alkynes, alkenes, and carbon monoxide to yield cyclopentenones": 1,
+            "Alkynes, alkenes, and water to yield alcohols": 0,
+            "Alkenes, alkynes, and oxygen to yield epoxides": 0,
+            "Alkenes, alkynes, and nitrogen to yield amines": 0
+        }
+    },
+    {
+        "input": "What type of bond involves the sharing of electron pairs between atoms and is primarily found in carbon dioxide?",
+        "target_scores": {
+            "Ionic": 0,
+            "Covalent": 1,
+            "Metallic": 0,
+            "Hydrogen": 0
+        }
+    },
+    {
+        "input": "In the context of quantum mechanics, what is the phenomenon that allows particles to exist in multiple states at the same time until measured?",
+        "target_scores": {
+            "Superposition": 1,
+            "Entanglement": 0,
+            "Decoherence": 0,
+            "Quantum fluctuation": 0
+        }
+    },
+    {
+        "input": "In the context of quantum mechanics, what does the Schrödinger equation primarily describe?",
+        "target_scores": {
+            "The motion of subatomic particles": 1,
+            "The behavior of macroscopic objects": 0,
+            "The propagation of light waves": 0,
+            "The formation of chemical bonds": 0
+        }
+    },
+    {
+        "input": "What is the type of hybridization exhibited in the central atom of the molecule of XeF4 (Xenon Hexafluoride), a compound used in the production of certain semiconductors?",
+        "target_scores": {
+            "sp": 0,
+            "sp2": 0,
+            "sp3": 0,
+            "sp3d2": 1
+        }
+    },
+    {
+        "input": "What is the phenomenon that explains the tendency of nonpolar molecules to interact with each other, rather than with polar molecules, due to a difference in electronegativity?",
+        "target_scores": {
+            "Hydrogen bonding": 0,
+            "Covalent bonding": 0,
+            "Ionic bonding": 0,
+            "Hydrophobic effect": 1
+        }
+    },
+    {
+        "input": "Which quantum number determines the shape of the orbital in an atom",
+        "target_scores": {
+            "Principal quantum number": 0,
+            "Magnetic quantum number": 0,
+            "Spin quantum number": 0,
+            "Azimuthal quantum number": 1
+        }
+    },
+    {
+        "input": "In the context of quantum chromodynamics, which force mediates the interactions between quarks and gluons within a hadron?",
+        "target_scores": {
+            "Electromagnetic force": 0,
+            "Gravitational force": 0,
+            "Weak force": 0,
+            "Strong force": 1
+        }
+    },
+    {
+        "input": "The fundamental interaction responsible for a process known as neutron-induced nuclear fission in which a heavy nucleus, after absorbing an extra neutron, splits into two or more lighter nuclei is governed by",
+        "target_scores": {
+            "Electromagnetic force": 0,
+            "Gravitational force": 0,
+            "Weak force": 0,
+            "Strong force": 1
+        }
+    },
+    {
+        "input": "In the context of quantum field theory, which interaction describes the phenomena of quark confinement in the protons and neutrons that constitute atomic nuclei?",
+        "target_scores": {
+            "Electromagnetic interaction": 0,
+            "Gravitational interaction": 0,
+            "Weak interaction": 0,
+            "Strong interaction": 1
+        }
+    },
+    {
+        "input": "In quantum chromodynamics, the theory describing the strong interaction between quarks and gluons, which of the following accurately represents the number of color charges and the principle preventing a single quark from being isolated?",
+        "target_scores": {
+            "Three color charges, Color Confinement": 1,
+            "Four color charges, Color Freedom": 0,
+            "Two color charges, Color Confinement": 0,
+            "Three color charges, Color Freedom": 0
+        }
+    },
+    {
+        "input": "The primary mediator of the interaction between two quarks inside a proton when they are separated by a distance less than the size of a proton is the",
+        "target_scores": {
+            "Electromagnetic force": 0,
+            "Gravitational force": 0,
+            "Weak force": 0,
+            "Strong force": 1
+        }
+    },
+    {
+        "input": "In the context of quantum chromodynamics, if a quark changes flavor via a transition that produces a W- or Z-boson, what fundamental force is responsible for this interaction?",
+        "target_scores": {
+            "Gravitational": 0,
+            "Electromagnetic": 0,
+            "Strong": 0,
+            "Weak": 1
+        }
+    },
+    {
+        "input": "Consider a quantum system consisting of two particles, one with spin 1/2 and the other with spin 1, that are coupled by a spin-spin interaction. The system is such that it is in a state of total spin quantum number S=1. What are the possible values of the magnetic quantum number M for this system?",
+        "target_scores": {
+            "-1, 0, 1": 1,
+            "-2, -1, 0, 1, 2": 0,
+            "-1, 0": 0,
+            "0, 1": 0
+        }
+    },
+    {
+        "input": "Consider a binary system of two black holes in the final stages of merging. There are gravitational waves emitted during this cosmic event. What is the name of the experiment that first detected these waves, providing empirical support for Albert Einstein's theory of general relativity?",
+        "target_scores": {
+            "Large Hadron Collider": 0,
+            "Hubble Space Telescope": 0,
+            "Lunar Laser Ranging experiment": 0,
+            "LIGO (Laser Interferometer Gravitational-Wave Observatory)": 1
+        }
+    },
+    {
+        "input": "A positively charged particle is found to accelerate toward the left in the presence of an upward magnetic field. Considering that the particle is not under the influence of gravity or any other force, which hand rule should be used and in what direction is the electric field?",
+        "target_scores": {
+            "Right-hand rule, Electric field is directed toward the right": 0,
+            "Left-hand rule, Electric field is directed toward the right": 1,
+            "Right-hand rule, Electric field is directed toward the left": 0,
+            "Left-hand rule, Electric field is directed toward the left": 0
+        }
+    },
+    {
+        "input": "Imagine two black holes at the center of two different galaxies, each carrying a net charge equivalent to 1 Coulomb. These galaxies are located in separate clusters, separated by a distance of approximately 1 billion light years. Each black hole has a mass 10 billion times that of the sun. Given the parameters, what would be the dominant force acting between the two black holes and why?",
+        "target_scores": {
+            "Electromagnetic force": 0,
+            "Gravitational force": 1,
+            "Weak force": 0,
+            "Strong force": 0
+        }
+    },
+    {
+        "input": "A nanometer-scale metallic sphere carrying a net charge of 1.6 x 10^-19 Coulombs is situated near a dielectric medium with a permittivity of 8.85 x 10^-12 Farads per meter. If the distance between the sphere and the dielectric medium is 1 nanometer, what is the primary force acting between them?",
+        "target_scores": {
+            "Electrostatic force": 1,
+            "Gravitational force": 0,
+            "Magnetic force": 0,
+            "Strong nuclear force": 0,
+            "Weak nuclear force": 0
+        }
+    },
+    {
+        "input": "The term 'quantum superposition', fundamental to the quantum computing, is directly linked to which principle in the standard model of quantum mechanics?",
+        "target_scores": {
+            "Heisenberg's Uncertainty Principle": 0,
+            "Pauli Exclusion Principle": 0,
+            "Schrodinger Equation": 0,
+            "Wave-Particle Duality": 0,
+            "Principle of Superposition": 1
+        }
+    },
+    {
+        "input": "A charged particle is moving in a region where both a uniform electric field and a uniform magnetic field are present. The electric field is directed to the right and the magnetic field is directed into the page. If the particle is positively charged and moving to the right, the resulting magnetic force will cause it to move in which direction?",
+        "target_scores": {
+            "Up": 1,
+            "Down": 0,
+            "Left": 0,
+            "Right": 0,
+            "No change in direction": 0
+        }
+    },
+    {
+        "input": "A photon with a frequency of 4.57 x 10^14 Hz is absorbed by a hydrogen atom in its ground state. Given that the energy levels of hydrogen are quantized, and considering the Rydberg formula, the atom",
+        "target_scores": {
+            "Loses a proton": 0,
+            "Undergoes nuclear fusion": 0,
+            "Makes a transition to the second excited state": 1,
+            "Remains in the ground state": 0,
+            "Becomes ionized": 0
+        }
+    },
+    {
+        "input": "A particle with a specific half-life is subjected to a series of complicated decay processes in a sealed container. The container has a constant volume and is maintained at a constant temperature. After a period of time, a detector measures the presence of a particular type of subatomic particle. What subatomic particle could this be based on the known properties of radioactive decay?",
+        "target_scores": {
+            "Proton": 0,
+            "Alpha particle": 1,
+            "Quark": 0,
+            "Neutrino": 0,
+            "Gluon": 0
+        }
+    },
+    {
+        "input": "How does the quantum tunneling effect explain the operation of Scanning Tunneling Microscopy (STM) at the atomic level?",
+        "target_scores": {
+            "It measures the conductivity of the sample": 0,
+            "STM leverages quantum tunneling where the electrons move from the microscope's tip to the surface (or vice versa) due to wave function overlap, allowing the imaging of individual atoms": 1,
+            "It measures the magnetic properties of the sample": 0,
+            "STM uses the principle of superposition to image atoms": 0,
+            "It relies on the heat transfer between the microscope's tip and the sample": 0
+        }
+    },
+    {
+        "input": "A high-energy gamma-ray photon interacts with a stationary electron through the process of pair production, producing an electron and a positron. Following the conservation of energy and momentum, calculate the minimum energy of the gamma-ray photon.",
+        "target_scores": {
+            "1.02 MeV": 1,
+            "511 keV": 0,
+            "0.255 MeV": 0,
+            "5.11 MeV": 0,
+            "2.55 MeV": 0
+        }
+    },
+    {
+        "input": "A quantum particle is in a superposition of states within a potential well. The particle",
+        "target_scores": {
+            "Can automatically decay to a lower energy state": 0,
+            "Will always remain in the superposition state": 0,
+            "Has a probability of being found anywhere within the well": 1,
+            "Can escape the well without any external energy": 0,
+            "Exists simultaneously in every position within the well": 0
+        }
+    },
+    {
+        "input": "A quantum particle in a one-dimensional box is in a superposition of the ground state and the first excited state. Given the wavefunctions of these states as ψ1(x) = sqrt(2/a) sin(pi*x/a) and ψ2(x) = sqrt(2/a) sin(2*pi*x/a) respectively, where 'a' is the width of the box. If the particle is in the state ψ(x) = 1/sqrt(2) [ψ1(x) + ψ2(x)], what is the probability of finding the particle in the interval 0 < x < a/2?",
+        "target_scores": {
+            "50%": 0,
+            "25%": 1,
+            "75%": 0,
+            "100%": 0,
+            "0%": 0
+        }
+    },
+    {
+        "input": "In the complex plane of quantum mechanics, if a wave function ψ for a particle in a one-dimensional potential well is known, how does the intrinsic spin of a fermion affect the probability distribution of the particle's position?",
+        "target_scores": {
+            "It doesn't affect the distribution": 1,
+            "It shifts the distribution": 0,
+            "It inverts the distribution": 0,
+            "It widens the distribution": 0
+        }
+    }
+]

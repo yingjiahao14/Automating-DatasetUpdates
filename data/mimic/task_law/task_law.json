@@ -1,0 +1,938 @@
+[
+    {
+        "question": "Who typically has jurisdiction over offenses committed on airplanes?",
+        "A": "The flag carrier",
+        "B": "All countries have such jurisdiction",
+        "C": "The country of departure",
+        "D": "The International Civil Aviation Organization",
+        "answer": "A"
+    },
+    {
+        "question": "What is the definition of reciprocity?",
+        "A": "Reciprocity refers to the act of giving in a charitable manner",
+        "B": "Reciprocity refers to the mutual exchange of benefits or favors",
+        "C": "Reciprocity refers to the act of receiving without giving",
+        "D": "Reciprocity refers to the expectation of receiving something in return for a favor",
+        "answer": "B"
+    },
+    {
+        "question": "How does the concept of Responsibility to Protect (R2P) contrast with the idea of humanitarian intervention?",
+        "A": "R2P invariably involves military force, while humanitarian intervention may not",
+        "B": "R2P always necessitates the distressed State's request for assistance",
+        "C": "R2P is more structured as it demands input from the UNSC and its main goal is to prevent a humanitarian disaster",
+        "D": "R2P and humanitarian intervention are essentially identical",
+        "answer": "C"
+    },
+    {
+        "question": "What does the 'Monroe Doctrine' signify?",
+        "A": "The Monroe Doctrine states that 'restrictions upon the independence of States cannot therefore be presumed' in international law",
+        "B": "The Monroe Doctrine asserts that efforts by European countries to colonize land or interfere with states in the Americas will be viewed as acts of aggression, requiring U.S. intervention",
+        "C": "The Monroe Doctrine signifies that States have the right to choose the Court that they will submit their disputes",
+        "D": "The Monroe Doctrine states that States can assert their enforcement jurisdiction on the high seas",
+        "answer": "B"
+    },
+    {
+        "question": "What is the most accurate depiction of the UK Constitution?",
+        "A": "The UK Constitution is founded on a Rights Charter",
+        "B": "The UK Constitution is not codified and is derived from various sources",
+        "C": "The UK Constitution is solely made up of written documents",
+        "D": "The UK Constitution provides judicial supremacy over all parliamentary acts",
+        "answer": "B"
+    },
+    {
+        "question": "What characterizes the principle of non-intervention in the internal affairs of other countries?",
+        "A": "It is a peremptory norm of international law, which means any state has the right to intervene in the internal affairs of other countries",
+        "B": "It is a principle of customary international law, which stipulates that states should not interfere in the internal issues of other countries",
+        "C": "It is a principle stating that States should intervene in every internal conflict of other countries to maintain global peace",
+        "D": "It is a principle that applies strictly to non-governmental organizations and does not concern States",
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following statements is incorrect?",
+        "A": "Protocol 14 introduced a new admissibility criterion related to the applicant's significant disadvantage",
+        "B": "Protocol 14 allowed the European Court of Human Rights to deal with clearly inadmissible applications more efficiently",
+        "C": "Protocol 14 created a new right of individual petition",
+        "D": "Protocol 14 reduced the number of judges needed to decide on the admissibility of applications",
+        "answer": "C"
+    },
+    {
+        "question": "What does the UN Convention of the Law of the Sea (UNCLOS) define as a 'rock'?",
+        "A": "Rocks are islands that lack any form of economic activity",
+        "B": "Rocks are tiny islands inhabited by humans",
+        "C": "Rocks are islands with no human population",
+        "D": "Rocks are islands incapable of supporting human habitation or economic life on their own and as per article 121 (3), do not have an Exclusive Economic Zone or continental shelf.",
+        "answer": "D"
+    },
+    {
+        "question": "What does the term 'Sovereignty' signify in international law?",
+        "A": "It hints at the restriction of states' rights under international law",
+        "B": "It refers to the supreme, absolute, and uncontrollable power by which an independent state is governed",
+        "C": "It implies that states cannot form treaties with other states",
+        "D": "It means that states are subject to the authority of other states",
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following is a charter-based human rights body?",
+        "A": "The UN Human Rights Committee",
+        "B": "The UN special mandates",
+        "C": "The UN Human Rights Council",
+        "D": "The UN Universal Periodic Review",
+        "answer": "C"
+    },
+    {
+        "question": "The UN Universal Declaration of Human Rights 1948 asserted that",
+        "A": "Economic rights are paramount",
+        "B": "Social rights can't be implemented",
+        "C": "All human rights are universal, inalienable and indivisible",
+        "D": "Only first generation rights are essential",
+        "answer": "C"
+    },
+    {
+        "question": "What is the main source of diplomatic immunity in international relations?",
+        "A": "The main source of diplomatic immunity is the Vienna Convention on Diplomatic Relations",
+        "B": "The main sources of diplomatic immunity are bilateral treaties and agreements",
+        "C": "The main source of diplomatic immunity is customary law",
+        "D": "The main source of diplomatic immunity is the UN Charter",
+        "answer": "A"
+    },
+    {
+        "question": "Does international law uphold a ranking system between the nations?",
+        "A": "Yes, the Permanent Five Members of the UN Security Council (UK, USA, France, Russia, China) are ranked higher than the other nations",
+        "B": "The ranking between nations is determined by each international organization separately",
+        "C": "No, every nation is viewed as equal in terms of sovereignty (the principle of sovereign equality, as stated in article 2, para 1 of the UN Charter)",
+        "D": "Yes, the nations who first established the United Nations hold more powers and rights",
+        "answer": "C"
+    },
+    {
+        "question": "What does the constitutive theory of recognition imply?",
+        "A": "Recognition is merely an expression of interest by the recognizing state",
+        "B": "Recognition makes a state existent in international law",
+        "C": "Recognition is simply a declaration of statehood",
+        "D": "Recognition requires the declaration by the new state",
+        "answer": "B"
+    },
+    {
+        "question": "What does 'standard-setting' signify in the context of environmental diplomacy?",
+        "A": "Standard-setting implies establishing voluntary ecological specifications",
+        "B": "Standard-setting implies establishing mandatory ecological specifications",
+        "C": "Standard-setting means setting certain ecological standards in environmental treaties",
+        "D": "Standard-setting implies suggesting mandatory ecological specifications",
+        "answer": "C"
+    },
+    {
+        "question": "What principle did the Kadi judgment establish concerning the interpretation of UN Security Council resolutions?",
+        "A": "The Kadi judgment alleged that UNSC resolutions are not obligatory if they infringe human rights",
+        "B": "The Kadi judgment dictated that crucial UNSC resolutions ought to be transformed and not only incorporated",
+        "C": "The Kadi judgment stated that UNSC resolutions should be perceived in line with human rights",
+        "D": "The Kadi judgment insisted that every UNSC resolution should be incorporated without additional implementing laws",
+        "answer": "C"
+    },
+    {
+        "question": "The Emancipation Proclamation was",
+        "A": "A constitutional amendment in 1920 that granted women the right to vote",
+        "B": "An agreement in the late 19th century that set labor laws and working conditions",
+        "C": "A declaration in 1863 by President Lincoln that all slaves in Confederate territory were to be set free",
+        "D": "A document in 1776 that declared the United States' independence from Great Britain",
+        "answer": "C"
+    },
+    {
+        "question": "Do individuals (physical) persons have the same broad scope as international organizations and states in terms of international legal personality?",
+        "A": "Individuals possess a restricted scope of international legal personality",
+        "B": "Individuals have an equal scope of international legal personality as states and organizations",
+        "C": "Individuals are only able to present disputes in international tribunals",
+        "D": "Individuals don't possess any international legal personality",
+        "answer": "A"
+    },
+    {
+        "question": "Is there a particular order or preference among the various peaceful resolution strategies for conflicts?",
+        "A": "There is no order or preference among these strategies, the selection is up to the nations in conflict",
+        "B": "It is up to an unbiased third party to determine which strategy will take precedence over the others",
+        "C": "Judicial approaches are superior to diplomatic solutions, as they are legally binding for the parties involved",
+        "D": "Yes, all the diplomatic approaches (like dialogue, mediation, examination, pacification) must be utilized before turning to legal approaches",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following statements is not accurate?",
+        "A": "In the 1970's, the need for reform in the United Nations Security Council was acknowledged due to escalating workload",
+        "B": "In the 1970's, the demand to revamp the United Nations Security Council arose due to its part-time status and inability to manage the rising number of conflicts",
+        "C": "In the 1970's, the need for reform in the United Nations Security Council became evident due to its inability to handle the increasing number of disputes",
+        "D": "In the 1970's, the United Nations Security Council reform was necessary due to the expansion in the number of individuals who could use the Council following the increase in the number of member nations",
+        "answer": "B"
+    },
+    {
+        "question": "What does proportionality signify in the context of action taken by the victimized nation?",
+        "A": "The victimized nation can only employ such methods and force needed to overcome the aggressor",
+        "B": "The victimized nation can't take any steps without Security Council's consent",
+        "C": "The victimized nation can utilize any method to overpower and incapacitate the aggressor",
+        "D": "The victimized nation can retaliate with the same level and type of force as the aggressor",
+        "answer": "A"
+    },
+    {
+        "question": "What is the usual aspect of jurisdiction in terms of geographical range?",
+        "A": "Jurisdiction generally applies in international waters",
+        "B": "Jurisdiction usually extends beyond borders",
+        "C": "Jurisdiction usually applies within a certain territory",
+        "D": "Jurisdiction depends on the offender's location.",
+        "answer": "C"
+    },
+    {
+        "question": "What are the primary sources of international law as recognized by the International Court of Justice?",
+        "A": "Treaties, international declarations and legal precedents",
+        "B": "Treaties, international customs and general principles of law",
+        "C": "Legislation, executive orders and international agreements",
+        "D": "International customs, General Assembly resolutions and treaties",
+        "answer": "B"
+    },
+    {
+        "question": "Why are baselines significant in the context of maritime law?",
+        "A": "Baselines are only established during maritime boundary disputes between rival States before an international court or tribunal",
+        "B": "Baselines are crucial in the demarcation of a coastal State's internal waters",
+        "C": "Baselines are critical for the safe travel of ships in international waters",
+        "D": "Baselines are vital for the delineation of all sea zones as they serve as the initial measure for the extent of each zone",
+        "answer": "D"
+    },
+    {
+        "question": "What distinguishes arbitration from negotiation in conflict resolution?",
+        "A": "Arbitration involves a third-party ruling that is binding, while negotiation relies on the parties involved reaching a mutual agreement",
+        "B": "Negotiation is a formal process, while arbitration is an informal one",
+        "C": "Arbitration can only resolve personal disputes, while negotiation can tackle broader issues",
+        "D": "Arbitration is framed by international law, while negotiation is purely based on domestic law",
+        "answer": "A"
+    },
+    {
+        "question": "Who has the authority to seek an advisory opinion from the International Court of Justice?",
+        "A": "Only the main bodies of the United Nations, such as the Security Council, General Assembly, and Secretariat, have the power to seek an advisory opinion",
+        "B": "The main organs of the UN along with any State that has been permitted by the General Assembly can seek an advisory opinion",
+        "C": "All international organizations have the ability to request an advisory opinion",
+        "D": "The General Assembly and the Security Council have the prerogative to request advisory opinions on any legal issue. Additionally, other bodies of the United Nations and specialized agencies can also seek advisory opinions from the Court on legal issues pertinent to their work if they have been authorized by the General Assembly",
+        "answer": "D"
+    },
+    {
+        "question": "What is the objective of collective security?",
+        "A": "Its objective is to establish common defense policies for all nations",
+        "B": "Its objective is to deter the commission of international crimes",
+        "C": "Its objective is to ensure the security of all its member states",
+        "D": "Its objective is to provide shared responsibility for all nations in respect of all internal conflicts",
+        "answer": "C"
+    },
+    {
+        "question": "Under international law, is every action of a State agency considered an action of the State?",
+        "A": "The activities of any State agency are deemed to be the acts of that State, as long as they are within their authority",
+        "B": "Only the activities of the State's upper government level are attributable to it",
+        "C": "Only the activities of the State's executive branch are deemed to be the acts of that State",
+        "D": "All activities of any State agency are deemed to be the acts of that State, even if those activities were unauthorized or exceeded their authority",
+        "answer": "D"
+    },
+    {
+        "question": "How does the Vienna Convention on the Law of Treaties (VCLT) define a 'treaty'?",
+        "A": "A treaty is a formal agreement among States in written form, controlled either by international or national law",
+        "B": "A treaty encompasses both verbal and written commitments made between States",
+        "C": "A treaty is any accord negotiated between international organizations and non-governmental entities",
+        "D": "A treaty is a formal agreement between States, put down in writing, and regulated by international law",
+        "answer": "D"
+    },
+    {
+        "question": "Is the illegal fraud committed by the Ambassador of Country Y overseas a jure imperii or jure gestionis act?",
+        "A": "This action is a jure gestionis (private) act",
+        "B": "This action is a public act but is covered by immunity",
+        "C": "This action is a jure imperii (public) act",
+        "D": "This action does not come with immunity",
+        "answer": "D"
+    },
+    {
+        "question": "What was the verdict of the European Court of Human Rights in the Kalogeropoulou case?",
+        "A": "The Court decided that the right to a fair trial outshined the privilege of immunity",
+        "B": "The Court ruled that immunity overshadowed the right to a fair trial",
+        "C": "The Court decided that immunity was not in opposition to the right to a fair trial",
+        "D": "The Court ruled that the human rights considerations were above all other conflicting rules of international law, including most immunities",
+        "answer": "C"
+    },
+    {
+        "question": "What additional conditions were set by the Badinter Commission for the ex-Yugoslav republics?",
+        "A": "The Commission required a pledge to bring disputes to the ICJ",
+        "B": "The Commission required a swap of ethnic populations",
+        "C": "The Commission required a pledge to uphold human rights and democracy",
+        "D": "The Commission required a modification in borders",
+        "answer": "C"
+    },
+    {
+        "question": "What is the proper method for interpreting treaties?",
+        "A": "The proper method for interpreting treaties is solely dependent on its purpose and objectives",
+        "B": "The proper method for interpreting treaties is to do so in good faith, according to the standard meaning of the terms used, considering the context and the treaty's purpose and objectives",
+        "C": "The proper method for interpreting treaties relies on the intent of the parties as seen through the treaty's preparatory works",
+        "D": "The proper method for interpreting treaties is solely based on the literal meaning of their words",
+        "answer": "B"
+    },
+    {
+        "question": "Under what conditions do coastal nations typically exercise their criminal jurisdiction over foreign ships in their harbors?",
+        "A": "Coastal nations exercise their jurisdiction solely for extremely grave crimes like drug smuggling",
+        "B": "Coastal nations usually do not exercise their criminal jurisdiction unless the crimes violate their customs laws or disturb peace and public order.",
+        "C": "Coastal nations exercise their jurisdiction in all instances with offending ships",
+        "D": "Coastal nations have no right to exercise their jurisdiction over any foreign ship",
+        "answer": "B"
+    },
+    {
+        "question": "What is the status of the United Nations General Assembly Resolutions in relation to international law?",
+        "A": "UNGA Resolutions are considered treaties in international law",
+        "B": "UNGA Resolutions are always viewed as customary international law",
+        "C": "UNGA Resolutions are seen as an additional source of international law and thus binding on nations",
+        "D": "UNGA Resolutions serve as material sources, meaning they can declare principles of customary international law",
+        "answer": "D"
+    },
+    {
+        "question": "Can conventions impose requirements on non-member nations, or countries not part of the convention?",
+        "A": "Conventions do not impose any duties or establish privileges for non-member nations, even with their agreement",
+        "B": "Conventions can only establish privileges for non-member nations",
+        "C": "Conventions impose both duties and privileges for non-member nations",
+        "D": "Conventions do not impose duties or establish privileges for non-member nations without their agreement",
+        "answer": "D"
+    },
+    {
+        "question": "Which of these provisions does not fall under the framework of limited rights?",
+        "A": "Article 12",
+        "B": "Article 4",
+        "C": "Article 7",
+        "D": "Article 10",
+        "answer": "B"
+    },
+    {
+        "question": "What does jure imperii pertain to?",
+        "A": "Jure imperii pertains to the acts performed by a State-owned corporation",
+        "B": "Jure imperii pertains to the acts performed by a State in its sovereign capacity",
+        "C": "Jure imperii pertains to the activities of international organisations",
+        "D": "Jure imperii pertains to all actions performed by State officials",
+        "answer": "B"
+    },
+    {
+        "question": "How do the established sources of international law interact with each other?",
+        "A": "There is no preset dominance of one source over the other in international law",
+        "B": "General principles of law overrule both treaties and customary law",
+        "C": "Customary law always takes precedence over treaties",
+        "D": "Treaties are always superior to the general principles of law",
+        "answer": "A"
+    },
+    {
+        "question": "What was the specific benefit of UNSC Resolution 1973 over invoking the collective defense provision under Article 51 during the Libyan Civil War?",
+        "A": "Resolution 1973 is narrower than the inherent right of self-defense under Article 51 UN Charter",
+        "B": "Resolution 1973 had a broader scope as it authorized the use of force to protect civilians and civilian-populated areas.",
+        "C": "Resolution 1973 allowed NATO forces to use nuclear and chemical weapons against Libya",
+        "D": "Resolution 1973 was faster to adopt and negotiate.",
+        "answer": "B"
+    },
+    {
+        "question": "How can treaty rules intersect with customary international law?",
+        "A": "Treaty rules can only be formulated from a small number of customary laws",
+        "B": "Treaty rules can 1) consolidate customary international law, 2) facilitate the formation of customary international law, 3) potentially give birth to new customary international laws",
+        "C": "Only ratified treaties can influence customary international law",
+        "D": "Customary international law is always separate from treaty rules",
+        "answer": "B"
+    },
+    {
+        "question": "What does it mean for a country to have autonomy?",
+        "A": "Autonomy means being recognized by other countries",
+        "B": "Autonomy means having a seat at the UN",
+        "C": "Autonomy means having the ability to defend oneself",
+        "D": "Autonomy means being independent in one's internal affairs without foreign intervention",
+        "answer": "D"
+    },
+    {
+        "question": "What does the term legal capacity signify?",
+        "A": "Legal capacity is a term used to describe the legal status of a corporation",
+        "B": "Legal capacity refers to a person's ability to be sued",
+        "C": "Legal capacity only applies to individuals over the age of 18",
+        "D": "Legal capacity refers to the ability of a person to enter into agreements that will be enforced by law",
+        "answer": "D"
+    },
+    {
+        "question": "What does the principle of \"sovereign immunity\" signify?",
+        "A": "The principle of sovereign immunity signifies that all State acts attract immunity",
+        "B": "The principle of sovereign immunity is a legal mechanism that allows the courts to provide immunity to public acts of foreign States",
+        "C": "The principle of sovereign immunity signifies that the courts are well placed to assess the existence of an alleged tort committed by a State",
+        "D": "The principle of sovereign immunity signifies that a nation is immune from lawsuits in foreign courts",
+        "answer": "D"
+    },
+    {
+        "question": "What displays the structure of global society?",
+        "A": "Global society is anarchic and has no authority hierarchy, neither vertical nor horizontal",
+        "B": "Global society's structure mirrors the structure of the most influential countries",
+        "C": "Global society is made up of a group of sovereign nations and other international organizations, which are spread in a mainly horizontal authority hierarchy",
+        "D": "Global society's structure mirrors the hierarchical framework of domestic legal systems",
+        "answer": "C"
+    },
+    {
+        "question": "Are there restrictions on adopting international human rights laws into English legislation?",
+        "A": "English courts can easily adopt international human rights laws without any requirements",
+        "B": "The process isn't straightforward and an act of parliament is likely necessary",
+        "C": "There are no restrictions on adopting international human rights laws",
+        "D": "International human rights laws must be ratified by the United Nations to be adopted",
+        "answer": "B"
+    },
+    {
+        "question": "What is the role of the exclusive economic zone?",
+        "A": "The exclusive economic zone is an area where the coastal State can enforce law and order",
+        "B": "The exclusive economic zone is a zone in which the coastal State can regulate tourism",
+        "C": "The exclusive economic zone is a region where the coastal State has special rights to explore and use marine resources",
+        "D": "The exclusive economic zone is a zone which protects the coastal State's historical and archaeological objects",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following scenarios is not identified by the European Court of Human Rights as a case where the state holds an explicit duty to safeguard?",
+        "A": "To ensure employment for all unemployed individuals within a state",
+        "B": "Establishment of a judicial system to safeguard citizens within the state",
+        "C": "When an individual is under the state's jurisdiction",
+        "D": "When there are allegations against the state that require examination",
+        "answer": "A"
+    },
+    {
+        "question": "Which case was the first to set the standard for the principle of 'proportionality' as applied by the European Court of Human Rights?",
+        "A": "Sunday Times v UK (1979)",
+        "B": "Soering v UK (1989)",
+        "C": "Dudgeon v UK (1981)",
+        "D": "Marckx v Belgium (1979)",
+        "answer": "A"
+    },
+    {
+        "question": "How are the jurors for a trial selected?",
+        "A": "All the jurors are selected by the involved parties",
+        "B": "Jurors are selected through a process involving both the judge and the attorneys from a pool of potential jurors",
+        "C": "All the jurors are selected by an unbiased third party",
+        "D": "All the jurors are selected by the judge",
+        "answer": "B"
+    },
+    {
+        "question": "Are the jus cogens principles the only source of obligations under international law?",
+        "A": "Yes",
+        "B": "No, resolutions from international entities can also impose obligations",
+        "C": "No, rulings from international courts can also establish obligations",
+        "D": "No, besides jus cogens principles, obligations may also arise from treaties governing objective regimes or unilateral acts",
+        "answer": "D"
+    },
+    {
+        "question": "What does the declaratory theory of statehood stipulate?",
+        "A": "Statehood demands a democratic form of government",
+        "B": "Statehood is independent of recognition by other states",
+        "C": "Statehood requires a formal declaration by the United Nations",
+        "D": "Statehood necessitates recognition by all existing states",
+        "answer": "B"
+    },
+    {
+        "question": "What does the enforcement system of the Convention against Torture and Other Cruel, Inhuman, or Degrading Treatment or Punishment entail?",
+        "A": "Only the privilege of individual petition",
+        "B": "Solely a system of global judgment",
+        "C": "Only a reporting system",
+        "D": "Both the privilege of individual petition and a reporting system",
+        "answer": "D"
+    },
+    {
+        "question": "Under international law, does the crime of genocide fall under universal jurisdiction?",
+        "A": "Genocide is subject to nationality-based jurisdiction",
+        "B": "Genocide is subject to universal jurisdiction",
+        "C": "Genocide is subject to port State jurisdiction",
+        "D": "Genocide is subject to flag State jurisdiction",
+        "answer": "B"
+    },
+    {
+        "question": "What defines a non-self-executing treaty?",
+        "A": "Non-self-executing treaties are binding without the need for implementing measures",
+        "B": "Non-self-executing treaties require legislative action to be fully enforceable",
+        "C": "These treaties are automatically enforced without any additional legislation",
+        "D": "Non-self-executing treaties are managed solely by the executive branch",
+        "answer": "B"
+    },
+    {
+        "question": "Does the ICJ oppose the belief that an act of aggression can culminate from several smaller, less intense instances of armed force?",
+        "A": "The ICJ has no objection to the theory of accumulation",
+        "B": "The concept of an act of aggression refers to one large attack, not several smaller instances of armed force",
+        "C": "The ICJ has never considered this issue",
+        "D": "In the Nicaragua case, the ICJ rejected the theory of accumulation",
+        "answer": "A"
+    },
+    {
+        "question": "Does any hierarchy exist among international arbitration tribunals?",
+        "A": "Given that there is no lis pendens rule in international law and it all relies on the agreement of the parties involved in a dispute, there is no hierarchy or priority among international arbitration tribunals",
+        "B": "The Permanent Court of Arbitration naturally has priority over all other tribunals",
+        "C": "Specialized or regional arbitration tribunals always supersede all others due to the principle of lex specialis",
+        "D": "The tribunal that first gets the dispute has authority over it as per the lis pendens rule",
+        "answer": "A"
+    },
+    {
+        "question": "Can foreign countries perform any mineral extraction within another nation's Exclusive Economic Zone?",
+        "A": "Foreign countries can only extract minerals in areas of the EEZ not claimed by the coastal state",
+        "B": "No foreign countries are allowed to extract minerals within another's EEZ without express permission from the coastal state",
+        "C": "All states have equal rights to extract minerals in any EEZ",
+        "D": "Foreign countries can extract minerals within another's EEZ if they share a maritime boundary",
+        "answer": "B"
+    },
+    {
+        "question": "What is the main function of diplomatic immunity?",
+        "A": "It is primarily designed to protect diplomats from getting invaded by another country",
+        "B": "Diplomatic immunity primarily safeguards diplomats from the jurisdiction of the host country",
+        "C": "The main function of diplomatic immunity is to exempt diplomats from paying taxes",
+        "D": "Diplomatic immunity is a way to exempt diplomats from all laws",
+        "answer": "B"
+    },
+    {
+        "question": "What does the principle of protective jurisdiction entail?",
+        "A": "It is jurisdiction based on the interest of the state",
+        "B": "It is jurisdiction based on where the crime took place",
+        "C": "It is jurisdiction based on the location of the legal entity",
+        "D": "It is jurisdiction based on the nationality of the individuals involved",
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following categories of rights are known as second generation rights?",
+        "A": "Civil and political rights",
+        "B": "People's rights",
+        "C": "Social and economic rights",
+        "D": "Cultural rights",
+        "answer": "C"
+    },
+    {
+        "question": "What does the 'concept of fragmentation' in international law refer to?",
+        "A": "It refers to the idea that different legal systems follow their own interpretations of international law.",
+        "B": "Fragmentation signifies that nations have differing interpretations of the same international law rule.",
+        "C": "The concept of fragmentation means that various legal systems (like environmental law and trade law) can independently develop, leading to inconsistent rules of international law.",
+        "D": "Fragmentation happens when nations refuse to follow a particular rule of international law.",
+        "answer": "C"
+    },
+    {
+        "question": "What does personal (ratione personae) immunity entail?",
+        "A": "Personal immunity only protects the state, not the person or their acts",
+        "B": "Personal immunity only protects the person, not the acts they commit",
+        "C": "Personal immunity only covers acts performed in an official capacity",
+        "D": "Personal immunity covers the individual and all acts committed while in office",
+        "answer": "D"
+    },
+    {
+        "question": "What is the definition of tacit consent?",
+        "A": "Assumption that every illegal assault will be met with military force by a UN Security Council resolution",
+        "B": "Explicit approval by the number of votes from the members of the UN Security Council",
+        "C": "In situations of serial illegal assaults, the UN Security Council gives the neighboring countries the authority to take necessary actions to correct the situation",
+        "D": "Unspoken agreement by the UN Security Council to use military force when a country has been repeatedly warned",
+        "answer": "D"
+    },
+    {
+        "question": "Who is the philosopher that coined the term 'tabula rasa' in relation to human mind?",
+        "A": "David Hume",
+        "B": "Plato",
+        "C": "Immanuel Kant",
+        "D": "John Locke",
+        "answer": "D"
+    },
+    {
+        "question": "Who is considered to have the power to negotiate and finalize international agreements on behalf of nations?",
+        "A": "International agreements are negotiated and signed only by individuals who possess the necessary 'full powers', with no individual automatically assumed to carry such authority",
+        "B": "International agreements can only be negotiated and concluded by the presidents and foreign ministers",
+        "C": "International agreements are negotiated and finalized by the authorized representatives of nations. Presidents, prime ministers, foreign ministers, and ambassadors are typically assumed to possess such authority",
+        "D": "International agreements are finalized only by members of the nations' diplomatic delegations",
+        "answer": "C"
+    },
+    {
+        "question": "What is the 'precautionary principle' in environmental law?",
+        "A": "The principle which states that individuals should not disturb the environment",
+        "B": "The principle which states that all natural resources should be equally distributed",
+        "C": "The principle which states that if an action or policy has the potential to harm the environment, in the absence of scientific consensus, the burden of proof falls on those advocating for the action or policy",
+        "D": "The principle which states that resources should not be depleted",
+        "answer": "C"
+    },
+    {
+        "question": "What is the definition of international peacekeeping?",
+        "A": "A process to prevent conflict between countries",
+        "B": "The deployment of international personnel to help maintain peace and security in a region",
+        "C": "A military intervention by a single nation",
+        "D": "A humanitarian relief effort by NGOs",
+        "answer": "B"
+    },
+    {
+        "question": "Do the rules of procedure for international courts mirror exactly those of national courts?",
+        "A": "The rules of procedure for all international courts are governed by the UN General Assembly",
+        "B": "International courts adopt the exact same rules of procedure as national courts",
+        "C": "International courts share some, but not all, procedural rules with national courts",
+        "D": "The rules of procedure for international courts are defined primarily by their founding statutes",
+        "answer": "D"
+    },
+    {
+        "question": "What defines individual rights?",
+        "A": "Individual rights are defined by the society one belongs to",
+        "B": "Individual rights are exclusively for the leading members of a group",
+        "C": "Individual rights apply to groups rather than individuals",
+        "D": "Individual rights are the civil liberties each person possesses",
+        "answer": "D"
+    },
+    {
+        "question": "Do countries have any responsibilities when they engage in diplomatic dialogues?",
+        "A": "Countries have a responsibility to notify the UN Secretary-General about the developments of their diplomatic dialogues",
+        "B": "Countries have no responsibility regarding their diplomatic dialogue approach",
+        "C": "Countries have a responsibility to ensure that their diplomatic dialogues are substantial and meaningful",
+        "D": "Countries have a responsibility to resolve any conflict whenever they engage in diplomatic dialogues",
+        "answer": "C"
+    },
+    {
+        "question": "How does constructivism differ from positivism in international relations?",
+        "A": "Constructivism is a Western theory, while positivism is an Eastern theory",
+        "B": "Constructivism emphasizes on the role of societal norms and values in shaping state behavior, whereas positivism focuses on the role of individual states and their interests",
+        "C": "Constructivism is generally concerned with the actions of non-state actors while positivism focuses only on state actors",
+        "D": "Constructivism is mainly based on the study of international law and positivism is majorly concerned with global economics",
+        "answer": "B"
+    },
+    {
+        "question": "What is 'state responsibility' in international law?",
+        "A": "State responsibility is the liability of a state for the actions of its citizens",
+        "B": "State responsibility in international law is the principle where states are accountable for their actions that breach the rules of international law",
+        "C": "State responsibility is the obligation of a state to protect its citizens from harm",
+        "D": "State responsibility refers to the obligations of a state to comply with its international agreements",
+        "answer": "B"
+    },
+    {
+        "question": "What does the doctrine of hot pursuit entail in international law?",
+        "A": "It permits a country to chase a criminal across land borders without the neighboring country's consent",
+        "B": "It allows a country to pursue a vessel into international waters if it violated their laws in territorial waters",
+        "C": "It grants unrestricted rights to pursue a suspect across any borders without regard to international law",
+        "D": "It allows for the immediate arrest of a suspect in international waters without jurisdictional authority",
+        "answer": "B"
+    },
+    {
+        "question": "Who are regarded as 'de facto' agents of the State under international responsibility law?",
+        "A": "'De facto agents' are the individuals who, essentially, operate under the orders of, or under the supervision or control of, that State in executing the behavior attributable to the State",
+        "B": "'De facto agents' are the de jure agents of the State who act outside their authority or beyond their powers",
+        "C": "'De facto agents' are the people who are legally given the power to execute aspects of state authority",
+        "D": "'De facto agents' are the agents, whose actions or inaction can't be attributed to the State",
+        "answer": "A"
+    },
+    {
+        "question": "What is the fundamental condition for the integration of tradition into English law?",
+        "A": "Tradition is integrated through the enactment of corresponding laws",
+        "B": "Tradition is integrated if it doesn't contradict with existing statutes",
+        "C": "Tradition must first be acknowledged by Parliament before it can be included in domestic law",
+        "D": "Tradition is superior to English law and is always integrated",
+        "answer": "B"
+    },
+    {
+        "question": "Before the establishment of the Geneva Conventions, was the treatment of war prisoners regulated?",
+        "A": "Treatment of war prisoners was partially regulated",
+        "B": "Treatment of war prisoners was completely unrestricted",
+        "C": "Treatment of war prisoners was strictly regulated",
+        "D": "There was no international law concerning the treatment of war prisoners prior to the Geneva Conventions",
+        "answer": "A"
+    },
+    {
+        "question": "What does the principle of nationality jurisdiction entail?",
+        "A": "It is jurisdiction in order to protect one's nationals abroad",
+        "B": "It is jurisdiction based on the harm to national interests by conduct committed abroad",
+        "C": "It is jurisdiction based on the nationality of the offender",
+        "D": "It is jurisdiction in order to protect international human rights",
+        "answer": "C"
+    },
+    {
+        "question": "What does the 'equitable principle' imply in the process of maritime boundary determination?",
+        "A": "It refers to the discretionary decision of a judge or arbitrator based on what they consider just and fair in a boundary dispute",
+        "B": "It is an outdated method of boundary determination no longer in use",
+        "C": "It signifies the exclusive technique used by international courts for boundary determination",
+        "D": "It is the ultimate goal of all maritime boundary determinations involving continental shelf and EEZ, beginning with a tentative 'equidistance line' and modifying the area considering the relevant factors and the proportionality principle.",
+        "answer": "D"
+    },
+    {
+        "question": "What does the term 'amnesty' refer to?",
+        "A": "Amnesty refers to the government's ability to seize property in violation of human rights",
+        "B": "Amnesty refers to the punishment for violation of human rights",
+        "C": "Amnesty is a type of insurance for the protection of human rights",
+        "D": "Amnesty is a type of governmental act which forgives certain past offenses, usually political offenses",
+        "answer": "D"
+    },
+    {
+        "question": "What does jure gestionis refer to?",
+        "A": "The activities of a state's corporations",
+        "B": "The private acts carried out by a state",
+        "C": "The personal activities of government officials",
+        "D": "The official actions of a state",
+        "answer": "B"
+    },
+    {
+        "question": "What is the concept of moral relativism?",
+        "A": "Moral relativism posits that morality is determined by the laws of each country",
+        "B": "Moral relativism posits that ethical standards and morality are universally applicable",
+        "C": "Moral relativism posits that morality is inherent in human nature",
+        "D": "Moral relativism posits that ethical standards and morality are culturally determined",
+        "answer": "D"
+    },
+    {
+        "question": "How is the recognition of state sovereignty handled in current international relations?",
+        "A": "Recognition of state sovereignty is now mostly informal and based on practical engagement",
+        "B": "State sovereignty recognition is primarily for non-state actors or insurgent groups",
+        "C": "Only states with democratic governance are recognized for their sovereignty in current international relations",
+        "D": "State sovereignty recognition is a standard practice in current international relations",
+        "answer": "D"
+    },
+    {
+        "question": "What is the legal status of the International Covenant on Civil and Political Rights (ICCPR)?",
+        "A": "The ICCPR is a declaration adopted by several States at an international conference",
+        "B": "The ICCPR is a global peace pact",
+        "C": "The ICCPR is a UN Security Council resolution",
+        "D": "The ICCPR is a multilateral treaty",
+        "answer": "D"
+    },
+    {
+        "question": "When can the actions of ICC member countries outside their national borders fall under the jurisdiction of the International Criminal Court (ICC)?",
+        "A": "ICC jurisdiction applies to crimes committed in former colonies of member states",
+        "B": "ICC jurisdiction applies outside the country if a member state has effective control over the territory",
+        "C": "ICC jurisdiction applies globally if a crime is committed by a citizen of a member country",
+        "D": "ICC jurisdiction applies if a member State has dispatched forces for a UN peacekeeping mission",
+        "answer": "C"
+    },
+    {
+        "question": "What does the term 'ubi jus ibi remedium' translate to?",
+        "A": "Where there's a wrong, there's a punishment",
+        "B": "Where there's a right, there's a remedy",
+        "C": "Where there's a crime, there's a victim",
+        "D": "Where there's a law, there's a dispute",
+        "answer": "B"
+    },
+    {
+        "question": "What was the impact of not having implementing legislation in the International Maritime Organization case?",
+        "A": "The foundational treaties of international organizations are subject to the doctrine of incorporation",
+        "B": "The International Maritime Organization is based in London, so the lack of implementing legislation was irrelevant",
+        "C": "Not having implementing legislation for the Organization's founding treaty meant that individuals did not have rights and obligations from it in the English legal system",
+        "D": "The lack of implementing legislation in England for an international organization is inconsequential under international law",
+        "answer": "C"
+    },
+    {
+        "question": "What is correct about the First Amendment of the United States Constitution?",
+        "A": "The First Amendment protects the freedom of assembly",
+        "B": "The First Amendment allows a court to invalidate primary legislation",
+        "C": "The First Amendment incorporates the EU charter of fundamental rights into US law",
+        "D": "The First Amendment permits any person with a reasonable case to bring a case before a court",
+        "answer": "A"
+    },
+    {
+        "question": "What are the components of redress in international law?",
+        "A": "The form of redress is solely determined by the offending country",
+        "B": "Redress only refers to the physical restoration of damage",
+        "C": "Redress can consist of restitution, indemnification, and satisfaction, either individually or combined with other forms of redress",
+        "D": "Redress only includes forms of monetary compensation",
+        "answer": "C"
+    },
+    {
+        "question": "What does the term 'habeas corpus' denote?",
+        "A": "It is the term used for the laws that guide the legislative decisions in a country",
+        "B": "It refers to the decisions made by the Supreme Court",
+        "C": "It is a principle of international law which states that a country can't ignore the laws of another country",
+        "D": "It refers to a legal action through which a person can seek relief from unlawful detention of themselves or another person",
+        "answer": "D"
+    },
+    {
+        "question": "What is 'jus cogens'?",
+        "A": "It is a fundamental principle of law that is accepted by the international community of states as a norm from which no derogation is permitted",
+        "B": "It represents the unwritten rules of international law",
+        "C": "It is a law that governs the relations between states and international organizations",
+        "D": "It is a type of law that is applicable only in times of war",
+        "answer": "A"
+    },
+    {
+        "question": "Does the act of illegal extradition constitute a basis for dismissal of otherwise lawful jurisdiction by U.S. courts?",
+        "A": "The courts can, but rarely do, dismiss cases involving illegal extradition",
+        "B": "Illegal extradition is considered a due process violation and could result in dismissal of the case",
+        "C": "Illegal extradition could lead to the person's liability, but does not result in dismissal of the case",
+        "D": "Dismissal of the case under such circumstances would hinder the pursuit of justice against international criminals",
+        "answer": "B"
+    },
+    {
+        "question": "What is the meaning of 'jus cogens' in the context of international law?",
+        "A": "Jus cogens refers to the right of a State to exercise jurisdiction in its territory",
+        "B": "Jus cogens refers to the discretionary power of a State to disregard international law",
+        "C": "Jus cogens refers to the legal rules that are considered fundamental to the international community and which cannot be overridden by treaty",
+        "D": "Jus cogens refers to the right of individuals to bring a claim before an international court",
+        "answer": "C"
+    },
+    {
+        "question": "What does the principle of transformation imply regarding international treaties?",
+        "A": "The principle of transformation implies that treaties are superior to domestic law",
+        "B": "The principle of transformation implies that treaties must be passed through a legislative process to become domestic law",
+        "C": "The principle of transformation implies that treaties don't require any additional steps at the domestic level",
+        "D": "The principle of transformation implies that treaties are automatically considered as part of domestic law",
+        "answer": "B"
+    },
+    {
+        "question": "Does the ICJ's advisory opinions have binding effect on the member states?",
+        "A": "No, the advisory opinions of the ICJ do not have binding force",
+        "B": "The advisory opinions are binding if the matter is of grave importance",
+        "C": "It depends on the specific circumstance and the member state",
+        "D": "Yes, the advisory opinions are always binding",
+        "answer": "A"
+    },
+    {
+        "question": "When are sanctions considered unlawful?",
+        "A": "Sanctions are unlawful when they breach bi-lateral agreements",
+        "B": "Sanctions are unlawful when they are imposed during times of war",
+        "C": "Sanctions are unlawful when the affected nation doesn't agree to them",
+        "D": "Sanctions are unlawful when they infringe basic human rights or are excessively harsh",
+        "answer": "D"
+    },
+    {
+        "question": "What distinguishes diplomatic from judicial mechanisms of resolving conflicts?",
+        "A": "Diplomatic methods always result in a permanent resolution of the conflict, unlike judicial mechanisms",
+        "B": "Judicial methods, such as court trials or arbitration, produce a final decision that is enforceable and binding on all involved parties, while diplomatic methods do not",
+        "C": "Diplomatic mechanisms are only applied when the parties involved in the conflict give their consent, while judicial mechanisms do not need this consent",
+        "D": "Judicial mechanisms of conflict resolution are used only for major conflicts, while diplomatic methods are utilized for all types of conflicts",
+        "answer": "B"
+    },
+    {
+        "question": "Why is the principle of subsidiarity important in international human rights law?",
+        "A": "The principle of subsidiarity ensures that global courts don't interfere in local cases",
+        "B": "The principle of subsidiarity, on one hand, limits the number of cases reaching international courts and on the other hand, strengthens the capacity of national courts",
+        "C": "The principle of subsidiarity discourages unnecessary applications by limiting access to international courts",
+        "D": "The principle of subsidiarity establishes that national courts are always superior to international courts",
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following examples best demonstrates the 'margin of appreciation doctrine' applied by the European Court of Human Rights?",
+        "A": "Dudgeon v UK (1981)",
+        "B": "Handyside v UK (1976)",
+        "C": "Sunday Times v UK (1979)",
+        "D": "Marckx v Belgium (1979)",
+        "answer": "B"
+    },
+    {
+        "question": "Does the enforcement of international arbitration awards follow the same regulations as the enactment and modification of global accords?",
+        "A": "International arbitration awards are applied by adhering to the principle of incorporation",
+        "B": "The judicial system retains flexibility in the application of international arbitration awards by utilizing the rule of comity",
+        "C": "The enforcement of international arbitration awards relies on the presence of suitable bilateral or multilateral accords",
+        "D": "International arbitration awards are applied by following the principle of transformation",
+        "answer": "A"
+    },
+    {
+        "question": "What was the significant ruling in the Pinochet case by the House of Lords?",
+        "A": "The Pinochet case stated that there's no distinction in immunities between a current and a former head of State",
+        "B": "The Pinochet case established that personal immunity of former heads of State ends after leaving office",
+        "C": "The Pinochet case showed that former heads of State retain complete immunity",
+        "D": "The Pinochet case demonstrated that all public acts are protected by immunity",
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the statements below is not true?",
+        "A": "The Scopes Trial was a legal case in 1925 where biology teacher John Scopes was accused of teaching human evolution in a public school",
+        "B": "The Scopes Trial was a public relations victory for the science of evolution",
+        "C": "The Scopes Trial resulted in a law forbidding the teaching of evolution in all American schools",
+        "D": "The Scopes Trial is sometimes called the 'Monkey Trial'",
+        "answer": "C"
+    },
+    {
+        "question": "Which State has authority over aircraft in international airspace?",
+        "A": "All States may exercise authority over foreign aircraft in international airspace",
+        "B": "The State of registry is to exercise exclusive authority over its aircraft in international airspace, with the exception of specific cases, such as hijacking",
+        "C": "States may exercise authority over foreign aircraft in international airspace only in cases of criminal activity that concerns them",
+        "D": "The State of registry is the only State to exercise exclusive authority over its aircraft in international airspace with no exception",
+        "answer": "B"
+    },
+    {
+        "question": "Do contracts need to have a specific format?",
+        "A": "Contracts do not need to have a specific format or be labeled as such",
+        "B": "Contracts must be labeled as such, no matter what format they have",
+        "C": "Contracts always need a specific format, regardless of how they are labeled",
+        "D": "Contracts must always be labeled as such and have a specific format",
+        "answer": "A"
+    },
+    {
+        "question": "What is the basic concept of dualist theory in law?",
+        "A": "Dualism posits that international and domestic law are part of the same legal order",
+        "B": "Dualism posits that international law is superior to domestic laws",
+        "C": "Dualism posits that domestic laws are superior to international law",
+        "D": "Dualism posits that domestic and international law are distinct and separate",
+        "answer": "D"
+    },
+    {
+        "question": "Where are the 'basic rules of law acknowledged by all civilized nations' (article 38 ICJ Statute) found?",
+        "A": "We search for universal law principles recognized only by the most advanced nations",
+        "B": "We search for basic rules of international law recognized by global courts and tribunals",
+        "C": "We search for basic rules of law recognized by every nation",
+        "D": "We search for basic rules of law that are accepted by all primary legal systems",
+        "answer": "D"
+    },
+    {
+        "question": "In what scenario does an unlawful act of violence in international waters fail to meet the criteria for piracy?",
+        "A": "When it is perpetrated by a military ship, even if its crew has staged a mutiny and seized the ship",
+        "B": "When it is committed for personal gains",
+        "C": "When it is carried out against a foreign government vessel",
+        "D": "When it is not aimed at another vessel and when it is not committed for personal objectives",
+        "answer": "D"
+    },
+    {
+        "question": "What does the term \"self-defense\" signify in Article 51 UN Charter?",
+        "A": "Self-defense refers to any aggressive action taken to protect oneself",
+        "B": "Self-defense incorporates the right to initiate an armed attack",
+        "C": "Self-defense is the right to invade the aggressor State",
+        "D": "Self-defense refers to the right to respond with force to an armed attack",
+        "answer": "D"
+    },
+    {
+        "question": "What is an 'aggrieved party' in international law context?",
+        "A": "A party is 'aggrieved' if the broken obligation was specifically or collectively owed to it, and it was particularly impacted",
+        "B": "A party is 'aggrieved' if it has received benefits from the wrongful act",
+        "C": "A party is 'aggrieved' should it deny the existence of the wrongful act",
+        "D": "A party is 'aggrieved' when there has been a compliance with a mandatory norm of global law",
+        "answer": "A"
+    },
+    {
+        "question": "What is diplomatic (ratione materiae) immunity?",
+        "A": "Diplomatic immunity is afforded to all citizens",
+        "B": "Diplomatic immunity is afforded only to certain diplomats irrespective of their conduct being private or public",
+        "C": "Diplomatic immunity is afforded to State officials for conduct undertaken in a public capacity",
+        "D": "Diplomatic immunity is that which is afforded in a professional capacity and hence does not cover conduct of the State as such",
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following properly characterizes the function of the World Health Organization (WHO)?",
+        "A": "The WHO consists of 85 member states",
+        "B": "The WHO has the authority to enforce health policies in any member country",
+        "C": "The WHO was established to replace the United Nations Development Programme",
+        "D": "The WHO is tasked with providing leadership on global health matters, shaping the health research agenda, and providing technical support to countries",
+        "answer": "D"
+    },
+    {
+        "question": "Under the law of treaties, when is a reservation deemed unlawful?",
+        "A": "A reservation is unlawful when more than half of the State parties reject it",
+        "B": "A reservation is unlawful when it contradicts the intent and goal of the treaty",
+        "C": "A reservation is unlawful only when an international court declares it so",
+        "D": "A reservation is unlawful only when it conflicts with a fundamental principle of international law (jus cogens)",
+        "answer": "B"
+    },
+    {
+        "question": "What type of authority do coastal States have over their exclusive economic zone?",
+        "A": "Coastal States maintain rights over their exclusive economic zone only after declaration",
+        "B": "Coastal States have special rights regarding the exploration and use of marine resources, including energy production from water and wind",
+        "C": "Coastal States maintain limited rights over the exploration and use of marine resources, only granted after approval from neighboring States",
+        "D": "Coastal States have rights over their exclusive economic zone for the purpose of exploiting its fishing resources only",
+        "answer": "B"
+    },
+    {
+        "question": "Does article 103 of the UN Charter have any restrictions to its application?",
+        "A": "Yes, Multilateral treaties are immune to Article 103",
+        "B": "Yes, Article 103 is ineffective when a case is brought to the ICJ",
+        "C": "Yes, article 103 can't overrule the principles of jus cogens",
+        "D": "No, there are no restrictions to article 103",
+        "answer": "C"
+    },
+    {
+        "question": "Is it permissible for states to use their national legislation as a justification for breaching their duties under global law?",
+        "A": "Only global common law is superior to national law",
+        "B": "National legislation is always superior to global law",
+        "C": "Duties under global law are superior to national law",
+        "D": "Constitutional duties always override duties under global law",
+        "answer": "C"
+    },
+    {
+        "question": "What does it mean by a multinational corporation's inherent authority?",
+        "A": "Inherent authority refers to the powers whose interpretation relies on a broad understanding of the corporation's constitution",
+        "B": "Inherent authority refers to the necessary powers a corporation has to perform the duties assigned to it, even if these are not explicitly stated in its constitution",
+        "C": "It refers to the power acquired independently by the corporation",
+        "D": "It refers to authority granted to the corporation by the international business community",
+        "answer": "B"
+    },
+    {
+        "question": "What are the prerequisites for achieving sovereignty according to the Montevideo Convention of 1933?",
+        "A": "It necessitates the presence of unchanging, recognized borders",
+        "B": "It necessitates the existence of a sustained population, established territory, functioning government, and the ability to form foreign relationships",
+        "C": "It necessitates recognition by more than half of the world's countries",
+        "D": "It necessitates a peaceful existence and non-aggressive behavior",
+        "answer": "B"
+    }
+]
